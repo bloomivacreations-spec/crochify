@@ -1,7 +1,8 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Filter, Sparkles, ChevronRight } from 'lucide-react';
-import { CategoryInfo, DifficultyLevel, Pattern } from '../../types';
+import { Search, Filter, Sparkles, ChevronRight, BookOpen, FileText, ArrowRight, Heart } from 'lucide-react';
+import { CategoryInfo, DifficultyLevel, Pattern, Tutorial } from '../../types';
 import { PatternCard } from '../patterns/PatternCard';
+import { TUTORIALS } from '../../data/tutorials';
 
 interface CategoryViewProps {
   category: CategoryInfo;
@@ -11,6 +12,7 @@ interface CategoryViewProps {
   onToggleFavorite: (id: string, e: React.MouseEvent) => void;
   onSelectPattern: (pattern: Pattern) => void;
   onSelectCategory: (catId: string) => void;
+  onSelectTutorial?: (tutorial: Tutorial) => void;
 }
 
 export const CategoryView: React.FC<CategoryViewProps> = ({
@@ -21,6 +23,7 @@ export const CategoryView: React.FC<CategoryViewProps> = ({
   onToggleFavorite,
   onSelectPattern,
   onSelectCategory,
+  onSelectTutorial,
 }) => {
   const [selectedSubcategory, setSelectedSubcategory] = useState<string>('All');
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('All');
@@ -176,6 +179,81 @@ export const CategoryView: React.FC<CategoryViewProps> = ({
             </div>
           </div>
         </div>
+
+        {/* Featured Editorial Article & Pattern Banner (Baby Crochet) */}
+        {category.id === 'baby-crochet' && !searchQuery && (selectedSubcategory === 'All' || selectedSubcategory === 'Baby Blankets') && (
+          <div className="mb-10 bg-linear-to-br from-white via-[#FFF9F7] to-[#F8E7E9]/50 rounded-2xl border border-[#E8BFC5]/60 p-6 sm:p-8 shadow-xs relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-[#E8BFC5]/20 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none" />
+            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
+              <div className="lg:col-span-4 rounded-xl overflow-hidden border border-[#E8BFC5]/50 aspect-4/3 shadow-2xs group relative">
+                <img
+                  src="/images/be_my_baby_blanket.jpg"
+                  alt="Be My Baby Striped Heirloom Blanket"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute top-3 left-3 bg-[#587261] text-white text-[10px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded-md shadow-xs">
+                  Free Heirloom Pattern
+                </div>
+              </div>
+
+              <div className="lg:col-span-8 space-y-3">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-[#EFF4F0] text-[#587261] border border-[#CCD8CF]">
+                    <Sparkles className="w-3.5 h-3.5" /> Featured Nursery Project
+                  </span>
+                  <span className="text-xs text-[#8E747E]">Easy Level · 36½" × 38½" · 100% Cotton Worsted</span>
+                </div>
+
+                <h2 className="font-serif text-2xl sm:text-3xl font-semibold text-[#3E2F35] leading-snug">
+                  Be My Baby Striped Heirloom Blanket
+                </h2>
+
+                <p className="text-sm text-[#6E535C] leading-relaxed max-w-2xl">
+                  A beloved nursery blanket featuring rhythmic texture rows of 4-dc clusters, delicate lace V-stitches, fan shells, and a tailored scalloped framing border in four timeless pastel shades: Dark Linen, Orchid Pink, Crisp White, and Pale Pink.
+                </p>
+
+                {/* Yarn palette indicators */}
+                <div className="flex items-center gap-3 pt-1">
+                  <span className="text-xs text-[#8E747E] font-medium">Colorway:</span>
+                  <div className="flex items-center gap-1.5">
+                    <span className="w-4 h-4 rounded-full border border-gray-300 shadow-2xs" style={{ backgroundColor: '#B89F88' }} title="Dark Linen (A)" />
+                    <span className="w-4 h-4 rounded-full border border-gray-300 shadow-2xs" style={{ backgroundColor: '#D89BAA' }} title="Orchid Pink (B)" />
+                    <span className="w-4 h-4 rounded-full border border-gray-300 shadow-2xs" style={{ backgroundColor: '#FFFFFF' }} title="White (C)" />
+                    <span className="w-4 h-4 rounded-full border border-gray-300 shadow-2xs" style={{ backgroundColor: '#F2C1CE' }} title="Pale Pink (D)" />
+                  </div>
+                  <span className="text-xs text-[#8E747E] italic">Continuous 8-Row Stripe Pattern</span>
+                </div>
+
+                <div className="pt-2 flex flex-wrap items-center gap-3">
+                  {patterns.find((p) => p.id === 'pat-be-my-baby-blanket') && (
+                    <button
+                      onClick={() => {
+                        const pat = patterns.find((p) => p.id === 'pat-be-my-baby-blanket');
+                        if (pat) onSelectPattern(pat);
+                      }}
+                      className="px-5 py-2.5 rounded-xl bg-[#A65F73] text-white hover:bg-[#8D4B5E] text-xs font-medium tracking-wide transition-colors flex items-center gap-2 shadow-xs cursor-pointer"
+                    >
+                      <span>Open Full Step-by-Step Pattern</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  )}
+                  {onSelectTutorial && TUTORIALS.find((t) => t.id === 'tut-be-my-baby-blanket-guide') && (
+                    <button
+                      onClick={() => {
+                        const tut = TUTORIALS.find((t) => t.id === 'tut-be-my-baby-blanket-guide');
+                        if (tut) onSelectTutorial(tut);
+                      }}
+                      className="px-4 py-2.5 rounded-xl bg-white border border-[#CCD8CF] hover:bg-[#EFF4F0] text-[#3E2F35] text-xs font-medium transition-colors flex items-center gap-2 shadow-2xs cursor-pointer"
+                    >
+                      <BookOpen className="w-3.5 h-3.5 text-[#587261]" />
+                      <span>Read Stitch Masterclass Article</span>
+                    </button>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Results Counter */}
         <div className="flex items-center justify-between text-xs text-[#6E535C] mb-6">

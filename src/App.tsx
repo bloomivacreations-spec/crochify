@@ -199,6 +199,7 @@ export default function App() {
             onToggleFavorite={handleToggleFavorite}
             onSelectPattern={handleSelectPattern}
             onSelectCategory={(id) => handleNavigate('category', id)}
+            onSelectTutorial={handleSelectTutorial}
           />
         )}
 

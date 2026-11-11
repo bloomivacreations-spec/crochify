@@ -2,6 +2,202 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-be-my-baby-blanket',
+    slug: 'be-my-baby-crochet-blanket',
+    title: 'Be My Baby Striped Heirloom Blanket',
+    category: 'baby-crochet',
+    subcategory: 'Baby Blankets',
+    description: 'A romantic pastel striped baby blanket featuring rhythmic texture rows of 4-dc clusters, delicate V-stitches, soft shells, and a tailored scalloped border.',
+    fullDescription: 'Designed with timeless nursery elegance and soothing stitch rhythm, the Be My Baby Blanket features an enchanting harmony of four soft hues: Dark Linen, Orchid Pink, Crisp White, and Pale Pink. Worked in an 8-row sequence of cluster stitches, openwork V-stitches, and fan shells, this pattern stays captivating to crochet from the first chain to the final picot scallop. Sized at 36½ x 38½ inches [92.5 x 98 cm], it is ideal for cribs, nursery rocking chairs, and milestone baby photography.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '12 - 16 hours',
+    hookSize: '5.0 mm (US H/8)',
+    yarnWeight: 'Medium / Worsted Cotton (#4)',
+    yarnDetails: 'Red Heart® Crème de la Creme™ (100% Cotton; 2.5 oz/71g; 126 yds/115m): 3 balls Dark Linen (A), 3 balls Orchid Pink (B), 2 balls White (C), 3 balls Pale Pink (D)',
+    gauge: '14 dc and 8 rows = 4" [10 cm] with 5.0 mm hook',
+    finishedSize: 'Approx. 36½ x 38½” [92.5 x 98 cm]',
+    materials: [
+      'Red Heart Crème de la Creme (or equivalent worsted cotton): Contrast A Dark Linen (3 balls)',
+      'Contrast B Orchid Pink (3 balls)',
+      'Contrast C White (2 balls)',
+      'Contrast D Pale Pink (3 balls)',
+      'Size U.S. H/8 [5.0 mm] crochet hook or size needed to obtain gauge',
+      'Yarn needle for weaving in tails',
+      'Locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'Approx', name: 'Approximately', meaning: 'Approximate measurement' },
+      { abbr: 'Beg dc2tog', name: 'Beginning Double Crochet 2 Together', meaning: 'Ch 2, 1 dc in next stitch (counts as first dc2tog)' },
+      { abbr: 'Beg V-st', name: 'Beginning V-Stitch', meaning: 'Ch 4 (counts as first dc and ch 1), 1 dc in first stitch' },
+      { abbr: '4-dc Cl', name: '4 Double Crochet Cluster', meaning: '(Yoh and draw up loop, yoh and draw through 2 loops on hook) 4 times in indicated st. Yoh and draw through all 5 loops on hook' },
+      { abbr: 'Dc2tog', name: 'Double Crochet 2 Together', meaning: '(Yoh and draw up loop in next st, yoh and draw through 2 loops on hook) twice. Yoh and draw through all 3 loops on hook' },
+      { abbr: 'Hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yarn over and pull through all 3 loops' },
+      { abbr: 'Hdcbl', name: 'Half Double Crochet Back Loop', meaning: 'Work hdc into the back loop only of indicated stitch' },
+      { abbr: 'Shell', name: 'Lace Shell', meaning: '(2 dc, ch 2, 2 dc) in indicated stitch or chain space' },
+      { abbr: 'V-st', name: 'V-Stitch', meaning: '(1 dc, ch 1, 1 dc) in indicated stitch or space' },
+      { abbr: 'Yoh', name: 'Yarn Over Hook', meaning: 'Wrap yarn over hook from back to front' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Stripe Sequence & Setup Note',
+        notes: 'Stripe Pattern: 2 rows with A (Dark Linen), 2 rows with B (Orchid Pink), 2 rows with C (White), 2 rows with D (Pale Pink). These 8 rows form Stripe Pat. To change color, work to last 2 loops on hook and draw new color through last 2 loops. Do not cut yarn; carry unused colors loosely along side edge of blanket.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Foundation Chain',
+            instruction: 'With Contrast A (Dark Linen), chain 120 with relaxed tension.',
+            stitchCount: '120 chains'
+          },
+          {
+            stepNumber: 2,
+            label: 'Row 1 (RS - Baseline Dc)',
+            instruction: '1 dc in 4th ch from hook (counts as 2 dc). Work 1 dc in each chain to the end of chain. Turn.',
+            stitchCount: '118 dc'
+          },
+          {
+            stepNumber: 3,
+            label: 'Row 2 (Back Loop Ridge)',
+            instruction: 'Ch 1. Work 1 hdcbl (half double crochet in back loops only) in each stitch to end of row. Join Contrast B on the final yarn over. Turn.',
+            stitchCount: '118 hdc'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Texture Rows: Eyelets, Clusters & V-Stitches',
+        notes: 'Rows 3 to 6 build the dimensional lace windows and puff texture.',
+        steps: [
+          {
+            stepNumber: 4,
+            label: 'Row 3 (Contrast B - Eyelet Base)',
+            instruction: 'Ch 1. 1 sc in each of first 2 hdc. *Ch 2, skip next 2 hdc, 1 sc in each of next 2 hdc. Repeat from * to end of row. Turn.',
+            stitchCount: '60 sc and 29 ch-2 spaces'
+          },
+          {
+            stepNumber: 5,
+            label: 'Row 4 (Contrast B - 4-dc Clusters)',
+            instruction: 'Beg dc2tog. *Ch 1, 4-dc Cl in next ch-2 space, ch 1, dc2tog over next 2 sc. Repeat from * to end of row. Join Contrast C on final yarn over. Turn.',
+            stitchCount: '30 dc2tog and 29 4-dc Cls'
+          },
+          {
+            stepNumber: 6,
+            label: 'Row 5 (Contrast C - Chain Lattice)',
+            instruction: 'Ch 1. 1 sc in first dc2tog. *Ch 1, 1 sc in next 4-dc Cl, ch 1, 1 sc in next dc2tog. Repeat from * to end of row. Turn.',
+            stitchCount: '59 sc and 58 ch-1 spaces'
+          },
+          {
+            stepNumber: 7,
+            label: 'Row 6 (Contrast C - V-Stitch Horizon)',
+            instruction: 'Beg V-st in first sc. Work V-st (1 dc, ch 1, 1 dc) in each sc to end of row. Join Contrast D on final yarn over. Turn.',
+            stitchCount: '59 V-sts'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Fan Lace & Scalloped Shell Rows',
+        notes: 'Rows 7 to 10 form the airy scalloped fan bands.',
+        steps: [
+          {
+            stepNumber: 8,
+            label: 'Row 7 (Contrast D - 2-dc Pairs)',
+            instruction: 'Sl st in ch-1 sp of first V-st. Ch 3 (counts as dc). 1 dc in same space as sl st. *Ch 2, 1 sc in ch-1 sp of next V-st, ch 2, 2 dc in ch-1 sp of next V-st. Repeat from * to end of row. Turn.',
+            stitchCount: '30 groups of 2-dc and 29 sc'
+          },
+          {
+            stepNumber: 9,
+            label: 'Row 8 (Contrast D - Chain Arches)',
+            instruction: 'Ch 1. 1 sc in first dc. *Ch 4, 1 sc in first dc of next 2-dc group. Repeat from * to last 2-dc group. Ch 4, 1 sc in top of beg ch-3. Join Contrast A on final yarn over. Turn.',
+            stitchCount: '30 sc and 29 ch-4 spaces'
+          },
+          {
+            stepNumber: 10,
+            label: 'Row 9 (Contrast A - Shell Row)',
+            instruction: 'Ch 3. Work Shell (2 dc, ch 2, 2 dc) in each ch-4 space across to last sc. 1 dc in last sc. Turn.',
+            stitchCount: '29 shells'
+          },
+          {
+            stepNumber: 11,
+            label: 'Row 10 (Contrast A - Shell Flattening)',
+            instruction: 'Ch 1. 1 sc in first dc, ch 2, 1 sc in ch-2 sp of first shell. *Ch 2, 1 sc in first dc of next shell, ch 2, 1 sc in ch-2 sp of same shell. Repeat from * across to end. 1 sc in top of ch-3. Join Contrast B on final yarn over. Turn.',
+            stitchCount: '59 sc'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Blanket Body Repeats (Rows 11 to 72)',
+        notes: 'Return rows restore the solid stitch count of 118 before repeating the sequence.',
+        steps: [
+          {
+            stepNumber: 12,
+            label: 'Row 11 (Contrast B - V-Stitches)',
+            instruction: 'Beg V-st in first sc. V-st in each sc to end of row. Turn.',
+            stitchCount: '59 V-sts'
+          },
+          {
+            stepNumber: 13,
+            label: 'Row 12 (Contrast B - Solid Dc Return)',
+            instruction: 'Ch 3. 1 dc in ch-1 sp of first V-st. 2 dc in ch-1 sp of each V-st to last V-st. 1 dc in ch-1 sp of last V-st. 1 dc in 3rd ch of ch-4 of beg V-st. Join Contrast C on final yarn over. Turn.',
+            stitchCount: '118 sts'
+          },
+          {
+            stepNumber: 14,
+            label: 'Row 13 (Contrast C - Back Loop Dc)',
+            instruction: 'Ch 3. Working in back loops only (dcbl), 1 dc in each st to end of row. Turn.',
+            stitchCount: '118 dc'
+          },
+          {
+            stepNumber: 15,
+            label: 'Row 14 (Contrast C - Back Loop Hdc)',
+            instruction: 'As Row 2: Ch 1, 1 hdcbl in each st to end of row. Join Contrast D on final yarn over. Turn.',
+            stitchCount: '118 hdc'
+          },
+          {
+            stepNumber: 16,
+            label: 'Rows 15 to 72 (Body Stripe Rhythm)',
+            instruction: 'Keeping continuity of the 8-row Stripe Pattern (2 rows each of A, B, C, D), repeat Rows 3 to 14 four times more, then Rows 3 to 12 once. Fasten off Contrast C.',
+            stitchCount: '72 rows total'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Heirloom Scalloped Framing Border',
+        notes: 'The border encases all carried yarn tails along the edges and finishes with delicate shell scallops.',
+        steps: [
+          {
+            stepNumber: 17,
+            label: 'Round 1 (Contrast A - Base Border)',
+            instruction: 'With RS facing, join Contrast A with sl st in last st. Ch 1, 3 hdc in same space (corner made). Work 153 hdc spaced evenly down the left side edge of blanket (encasing carried yarn strands). Work 3 hdc in corner. Work 1 hdc in each foundation chain across the bottom to next corner. Work 3 hdc in corner. Work 153 hdc spaced evenly up the right side edge. Work 3 hdc in corner. Work 1 hdc in each hdc across the top to end. Join with sl st in first hdc. Fasten off.',
+            stitchCount: 'Complete perimeter base'
+          },
+          {
+            stepNumber: 18,
+            label: 'Round 2 (Contrast D - Scalloped Finish)',
+            instruction: 'Join Contrast D with sl st in center hdc of any corner. Ch 3, 1 dc in same space as sl st. *Ch 2, skip next hdc, 1 sc in next hdc, ch 2, sl st in next hdc, 2 dc in next hdc. Repeat from * evenly around the perimeter of the blanket. Skip last hdc, ch 2, join with sl st to top of starting ch-3. Fasten off.',
+            stitchCount: 'Framed blanket complete'
+          },
+          {
+            stepNumber: 19,
+            label: 'Finishing & Wet Blocking',
+            instruction: 'Weave in all yarn tails on the wrong side using your tapestry needle. Immerse the blanket in lukewarm water with gentle wool/cotton wash for 15 minutes. Gently press out excess water in a rolled towel, pin to 36½ x 38½" [92.5 x 98 cm] dimensions on blocking mats, and allow to air dry completely for crisp stitch definition.',
+            stitchCount: 'Heirloom ready'
+          }
+        ]
+      }
+    ],
+    image: '/images/be_my_baby_blanket.jpg',
+    galleryImages: [
+      '/images/be_my_baby_blanket.jpg',
+      '/images/be_my_baby_blanket_swatch.jpg',
+      '/images/cat_baby_crochet.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 384,
+    pdfPageCount: 8,
+    dateAdded: '2026-11-10'
+  },
+  {
     id: 'pat-1',
     slug: 'vintage-rosebud-baby-booties',
     title: 'Vintage Rosebud Baby Booties',

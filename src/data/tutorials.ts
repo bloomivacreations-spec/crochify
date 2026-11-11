@@ -184,5 +184,55 @@ export const TUTORIALS: Tutorial[] = [
         tip: 'Allow 24 to 36 hours to dry thoroughly before unpinning.'
       }
     ]
+  },
+  {
+    id: 'tut-be-my-baby-blanket-guide',
+    slug: 'be-my-baby-blanket-masterclass',
+    title: 'The Be My Baby Blanket: Complete Stitch Masterclass & Colorwork Guide',
+    subcategory: 'Step-by-Step Projects',
+    readTime: '8 min read',
+    difficulty: 'Easy',
+    description: 'A comprehensive guide to mastering the 4-dc cluster, airy V-stitches, continuous color carrying, and the delicate scalloped border.',
+    summary: 'The iconic Be My Baby Blanket combines four pastel cotton tones across an 8-row textured sequence. Learn how to carry color along the selvedge without cutting yarn, maintain consistent stitch tension across lace rows, and wet-block the finished heirloom to perfection.',
+    image: '/images/be_my_baby_blanket.jpg',
+    toolsNeeded: [
+      '5.0 mm (US H/8) crochet hook (ergonomic handle recommended)',
+      'Worsted weight combed cotton in 4 shades (Dark Linen, Orchid Pink, White, Pale Pink)',
+      'Tapestry yarn needle',
+      '4 locking stitch markers',
+      'Tape measure'
+    ],
+    keyTips: [
+      'Do not cut your yarn when changing colors every 2 rows. Carry the unused strands loosely along the side edge; the Round 1 border will encase them completely.',
+      'Always switch yarn colors on the final yarn over of the previous row for a crisp, invisible transition line.',
+      'When working Row 4 (4-dc Clusters), draw each loop up to the full height of a double crochet to give your clusters a plump, three-dimensional pop.',
+      'Check your width after Row 2: you should have 118 stitches measuring approximately 36 inches across.'
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: 'Mastering the 4-dc Cluster (4 dc Cl)',
+        description: 'Yarn over, insert your hook into the indicated ch-2 space, yarn over and draw up a loop to the height of a double crochet. Yarn over and pull through 2 loops on your hook (2 loops remain). Repeat this process 3 more times in the exact same chain space until you have 5 loops resting on your hook. Finally, yarn over and pull smoothly through all 5 loops at once.',
+        tip: 'Keep your hook parallel to the working edge when pulling through all 5 loops to prevent snagging.'
+      },
+      {
+        stepNumber: 2,
+        title: 'Carrying Yarn Seamlessly Along the Edge',
+        description: 'Because color changes occur every 2 rows, cutting and weaving in 72 sets of yarn tails would be exhausting. Instead, carry the inactive colors up along the side edge. When you complete a 2-row color block, simply drop the working strand and pick up the next color from below on the final turning yarn over.',
+        tip: 'Do not pull carried strands too tight; leave a relaxed slight slack so the side edge does not pucker.'
+      },
+      {
+        stepNumber: 3,
+        title: 'Airy V-Stitch & Shell Geometry',
+        description: 'Rows 6 through 10 transition from dense clusters into openwork lace. The V-stitch (dc, ch 1, dc) creates anchor points for the subsequent 2-dc groups, which then bloom into full shells (2 dc, ch 2, 2 dc) in Row 9. In Row 10, chain-2 bridges flatten the scallops in preparation for the back-loop return rows.',
+        tip: 'Ensure your chain-1 spaces are distinct; count your 59 V-stitches before proceeding to Row 7.'
+      },
+      {
+        stepNumber: 4,
+        title: 'Working the 2-Round Framing Border',
+        description: 'The two-round border is the crown of this blanket. Round 1 in Dark Linen uses 153 evenly spaced half double crochets down each side, neatly encasing all carried yarn floats inside the stitches. Round 2 in Pale Pink introduces a rhythmic scalloped picot edge: [2 dc in next st, ch 2, skip st, sc, ch 2, sl st].',
+        tip: 'Work 3 hdc in each corner in Round 1 to ensure the corners lie flat and never curl inward.'
+      }
+    ]
   }
 ];
