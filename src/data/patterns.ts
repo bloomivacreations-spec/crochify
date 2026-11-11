@@ -2,6 +2,154 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-pastel-carousel-blanket',
+    slug: 'patons-pastel-circles-squares-baby-blanket',
+    title: 'Pastel Circles & Squares Carousel Baby Blanket',
+    category: 'baby-crochet',
+    subcategory: 'Baby Blankets',
+    description: 'A whimsical retro-modern baby blanket featuring 99 modular circle-in-a-square motifs in candy pastels, framed with crisp white borders.',
+    fullDescription: 'Craft a cherished nursery centerpiece with the Pastel Circles & Squares Carousel Blanket. Featuring 99 modular motifs worked in an uplifting palette of Aqua, Sky Blue, Baby Pink, Lavender, and Buttercup Yellow set within crisp white frames. The genius circle-to-square construction combines the graphic charm of polka dots with the easy assembly of traditional granny squares. Sized at 34 x 41½ inches [86.5 x 105.5 cm], it is warm, lightweight, and perfect for cribs, strollers, and playtime tummy time.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '15 - 20 hours',
+    hookSize: '5.0 mm (US H/8)',
+    yarnWeight: 'DK / Light Worsted (#3)',
+    yarnDetails: 'Patons Astra (50g / 1.75 oz; 161 yds/147m) or equivalent DK cotton/acrylic: 7 balls White (MC), 2 balls Blue Aqua (A), 2 balls Sky Blue (B), 1 ball Baby Pink (C), 1 ball Pale Lavender (D), 1 ball Baby Yellow (E)',
+    gauge: 'One motif = 3¾" [9.5 cm] square with 5.0 mm hook',
+    finishedSize: 'Approx. 34 x 41½” [86.5 x 105.5 cm]',
+    materials: [
+      'Patons Astra DK (50g balls): 7 balls White (MC)',
+      '2 balls Contrast A Blue Aqua (02755)',
+      '2 balls Contrast B Sky Blue (02753)',
+      '1 ball Contrast C Baby Pink (02752)',
+      '1 ball Contrast D Pale Lavender (02936)',
+      '1 ball Contrast E Baby Yellow (02759)',
+      'Size U.S. H/8 [5.0 mm] crochet hook or size needed to obtain gauge',
+      'Yarn tapestry needle for sewing motifs and weaving ends',
+      'Locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'MC', name: 'Main Color', meaning: 'White yarn used for squaring frames and joining' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yarn over, pull through all 3 loops' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'scbl', name: 'Single Crochet Back Loop', meaning: 'Work single crochet into the back loop only of indicated stitch' },
+      { abbr: 'ch-sp', name: 'Chain Space', meaning: 'Space formed by chains in previous round' },
+      { abbr: 'rep', name: 'Repeat', meaning: 'Repeat instructions between asterisks' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Motif Breakdown & Quantity',
+        notes: 'Total: 99 motifs. Make 20 with Contrast A (Blue Aqua), 19 with Contrast B (Sky Blue), 20 with Contrast C (Baby Pink), 20 with Contrast D (Pale Lavender), and 20 with Contrast E (Baby Yellow). All motifs are finished with White (MC) to square them.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Foundation Ring',
+            instruction: 'With color (A, B, C, D, or E), ch 4. Join with sl st to first ch to form a center ring.',
+            stitchCount: 'Ring made'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 1 (Center Hub)',
+            instruction: 'Ch 1. Work 10 sc in center ring. Join with sl st to first sc.',
+            stitchCount: '10 sc'
+          },
+          {
+            stepNumber: 3,
+            label: 'Round 2 (Circle Expansion)',
+            instruction: 'Ch 1. 2 sc in same sc as last sl st. Work 2 sc in each sc around. Join with sl st to first sc.',
+            stitchCount: '20 sc'
+          },
+          {
+            stepNumber: 4,
+            label: 'Round 3 (Circle Growth)',
+            instruction: 'Ch 1. 2 sc in same sc as last sl st, 1 sc in next sc. *2 sc in next sc, 1 sc in next sc. Repeat from * around. Join with sl st to first sc.',
+            stitchCount: '30 sc'
+          },
+          {
+            stepNumber: 5,
+            label: 'Round 4 (Finished Pastel Circle)',
+            instruction: 'Ch 1. 2 sc in same sc as last sl st, 1 sc in each of next 2 sc. *2 sc in next sc, 1 sc in each of next 2 sc. Repeat from * around. Join with sl st to first sc. Fasten off pastel color.',
+            stitchCount: '40 sc'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Squaring the Circle with White Frame',
+        notes: 'Round 5 creates a neat back-loop ridge framing the circle, and Round 6 uses graduated stitch heights to turn the round medallion into a crisp square.',
+        steps: [
+          {
+            stepNumber: 6,
+            label: 'Round 5 (Back Loop Transition)',
+            instruction: 'Join MC (White) with sl st in back loop of any sc. Ch 1, 1 sc in same space as last sl st. Working in back loop only (scbl) of each sc, work 1 sc in each sc around. Join with sl st to first sc.',
+            stitchCount: '40 sc (back loop)'
+          },
+          {
+            stepNumber: 7,
+            label: 'Round 6 (Squaring Corners & Edges)',
+            instruction: 'Ch 4 (counts as hdc and ch 2 corner). 1 hdc in same space as last sl st (corner made). *1 hdc in each of next 3 sc, 1 sc in each of next 3 sc, 1 hdc in each of next 3 sc.** (1 hdc, ch 2, 1 hdc) in next sc (corner). Repeat from * twice more, then from * to ** once. Join with sl st in 2nd ch of starting ch 4. Fasten off MC leaving a 15 cm tail for joining.',
+            stitchCount: 'Square completed (approx. 3¾" [9.5 cm])'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Blanket Assembly & Layout Grid',
+        notes: 'Arrange 99 motifs into 9 columns by 11 rows following the diagonal pastel sequence for an effortless rainbow gradient effect.',
+        steps: [
+          {
+            stepNumber: 8,
+            label: 'Layout Grid (9 columns x 11 rows)',
+            instruction: 'Lay out all 99 motifs following the diagonal repeat: Row 1: A, E, D, C, B, A, E, D, C; Row 2: B, A, E, D, C, B, A, E, D; Row 3: C, B, A, E, D, C, B, A, E; Row 4: D, C, B, A, E, D, C, B, A; Row 5: E, D, C, B, A, E, D, C, B; Row 6: A, E, D, C, B, A, E, D, C; Row 7: B, A, E, D, C, B, A, E, D; Row 8: C, B, A, E, D, C, B, A, E; Row 9: D, C, B, A, E, D, C, B, A; Row 10: E, D, C, B, A, E, D, C, B; Row 11: A, E, D, C, B, A, E, D, C.',
+            stitchCount: '99 motifs staged'
+          },
+          {
+            stepNumber: 9,
+            label: 'Sewing Motifs Together',
+            instruction: 'Using White yarn and your tapestry needle, join motifs together with right sides facing using a whipstitch or invisible mattress stitch through back loops only. Sew all vertical strips first, then join horizontal seams for flat, neat intersections.',
+            stitchCount: 'Blanket body joined'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Two-Round Pastel Framing Edging',
+        notes: 'A double-tone border in Blue Aqua and Sky Blue neatly frames the white borders.',
+        steps: [
+          {
+            stepNumber: 10,
+            label: 'Edging Round 1 (Contrast A - Blue Aqua)',
+            instruction: 'With RS of blanket facing, join Contrast A (Blue Aqua) with sl st in top right corner ch-2 sp. Ch 1, 1 sc in same space. *(Work in sc evenly across edge to next corner ch-2 sp, 3 sc in next corner ch-2 sp); repeat from * 3 times. Work in sc evenly across final edge, 2 sc in starting corner ch-2 sp. Join with sl st to first sc. Fasten off A.',
+            stitchCount: 'First perimeter round'
+          },
+          {
+            stepNumber: 11,
+            label: 'Edging Round 2 (Contrast B - Sky Blue Back Loop)',
+            instruction: 'Join Contrast B (Sky Blue) with sl st to back loop of same sc as last sl st. Working in back loop only (scbl) of each sc, work 1 sc in each sc around perimeter, working 3 sc in each corner sc. Join with sl st to first sc. Fasten off B.',
+            stitchCount: 'Finished framing edge'
+          },
+          {
+            stepNumber: 12,
+            label: 'Blocking & Final Keepsake Finish',
+            instruction: 'Weave in all remaining yarn tails on the wrong side. Pin the blanket out flat on blocking mats to 34 x 41½ inches [86.5 x 105.5 cm]. Steam block lightly or mist with water and allow to dry completely to set all motif squares perfectly straight.',
+            stitchCount: 'Heirloom ready'
+          }
+        ]
+      }
+    ],
+    image: '/images/patons_polka_dot_blanket.jpg',
+    galleryImages: [
+      '/images/patons_polka_dot_blanket.jpg',
+      '/images/cat_baby_crochet.jpg',
+      '/images/hero_crochet_lifestyle.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.97,
+    reviewCount: 268,
+    pdfPageCount: 6,
+    dateAdded: '2026-11-11'
+  },
+  {
     id: 'pat-be-my-baby-blanket',
     slug: 'be-my-baby-crochet-blanket',
     title: 'Be My Baby Striped Heirloom Blanket',

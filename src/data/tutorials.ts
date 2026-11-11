@@ -234,5 +234,54 @@ export const TUTORIALS: Tutorial[] = [
         tip: 'Work 3 hdc in each corner in Round 1 to ensure the corners lie flat and never curl inward.'
       }
     ]
+  },
+  {
+    id: 'tut-circle-to-square-blanket',
+    slug: 'circle-to-square-crochet-masterclass',
+    title: 'The Circle-to-Square Technique: Crocheting Pastel Polka Dot Baby Blankets',
+    subcategory: 'Step-by-Step Projects',
+    readTime: '7 min read',
+    difficulty: 'Easy',
+    description: 'Learn the geometric trick to turning flat circular discs into crisp 90-degree square motifs with back-loop relief borders.',
+    summary: 'The iconic polka-dot carousel baby blanket achieves its graphic appeal by taking colorful circular centers and boxing them into neat squares. In this project guide, we explore maintaining a completely flat circle, establishing the back-loop framed edge, and sewing 99 motifs together with invisible seams.',
+    image: '/images/patons_polka_dot_blanket.jpg',
+    toolsNeeded: [
+      '5.0 mm (US H/8) crochet hook',
+      'DK weight pastel yarn in 5 rainbow shades + crisp white framing yarn',
+      'Tapestry yarn needle with large eye',
+      'Blocking board and rust-proof T-pins'
+    ],
+    keyTips: [
+      'In Round 1, ensure your initial 10 single crochets into the ring are not overly tight, otherwise Round 2 will bowl upward.',
+      'Round 5 must be worked strictly into the back loop only (scbl). This leaves the front loop unworked on the surface, creating a distinct framed border around each pastel dot.',
+      'In Round 6, the corner consists of (1 hdc, ch 2, 1 hdc) worked into a single stitch, while the side edges use alternating stitch heights: 3 hdc, 3 sc, 3 hdc.',
+      'Weave your ends on each motif as you complete them rather than waiting until all 99 squares are finished!'
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: 'Forming Flat, Balanced Circular Centers',
+        description: 'Start with ch 4 joined with a sl st to form a ring. Work 10 sc in round 1, then expand methodically: 20 sc in round 2 (increase every stitch), 30 sc in round 3 (increase every 2nd stitch), and 40 sc in round 4 (increase every 3rd stitch). This constant 10-stitch increase per round keeps the circle mathematically flat without ruffling or cupping.',
+        tip: 'Fasten off your pastel color cleanly on round 4 with an invisible needle join if desired.'
+      },
+      {
+        stepNumber: 2,
+        title: 'The Back-Loop Relief Ridge',
+        description: 'Join White (MC) with a slip stitch into the back loop of any single crochet. Ch 1, and work 1 sc into the back loop only of all 40 stitches around. This creates a sharp, tailored relief ridge that frames the colored circle like a picture frame.',
+        tip: 'Keep your working tension uniform on this round so the diameter matches exactly across all 99 motifs.'
+      },
+      {
+        stepNumber: 3,
+        title: 'Squaring the Circle with Graduated Heights',
+        description: 'A circle curves inward towards the center along the sides and outward at the diagonals. To create flat straight edges, we use shorter single crochets in the center of each side, taller half double crochets near the corners, and (hdc, ch 2, hdc) at the apex corner. This fills in the geometry into a precise 3¾" [9.5 cm] square.',
+        tip: 'Measure your first square with a ruler to confirm gauge before crocheting all 99.'
+      },
+      {
+        stepNumber: 4,
+        title: 'Invisible Mattress Stitch Assembly',
+        description: 'Lay out your motifs in the 9-by-11 diagonal grid layout. Pin motif pairs right sides together and sew through the back loops using White yarn. Work in long continuous vertical channels first, then horizontal channels for smooth, bulk-free cross intersections.',
+        tip: 'Finish with the 2-round edging in Aqua and Sky Blue to tie the pastel palette together beautifully.'
+      }
+    ]
   }
 ];
