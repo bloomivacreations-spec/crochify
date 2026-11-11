@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               onClick={() => handleNav('home')}
               className="flex items-center gap-2.5 text-left focus:outline-none group"
             >
-              <div className="w-8 h-8 rounded-full bg-[#F8E7E9] border border-[#E8BFC5] flex items-center justify-center text-[#A65F73]">
+              <div className="w-8 h-8 rounded-full bg-[#EFF4F0] border border-[#CCD8CF] flex items-center justify-center text-[#587261]">
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -49,11 +49,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   <circle cx="16" cy="7" r="1" fill="currentColor" />
                 </svg>
               </div>
-              <span className="font-serif text-2xl font-semibold tracking-tight text-[#49343B] group-hover:text-[#A65F73] transition-colors">
+              <span className="font-serif text-2xl font-semibold tracking-tight text-[#3E2F35] group-hover:text-[#587261] transition-colors">
                 MyCrochify
               </span>
             </button>
-            <p className="text-sm text-[#6E535C] leading-relaxed max-w-sm">
+            <p className="text-sm text-[#655158] leading-relaxed max-w-sm">
               Your Creative World of Crochet. Dedicated to crafting heirloom baby garments, charming amigurumi friends, and festive holiday decor with detailed PDF patterns and masterclass tutorials.
             </p>
             {/* Social Icons (Pinterest & Instagram) */}
@@ -62,7 +62,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 href="https://pinterest.com"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-full bg-[#F8E7E9] hover:bg-[#E8BFC5] text-[#A65F73] hover:text-[#49343B] flex items-center justify-center transition-colors"
+                className="w-9 h-9 rounded-full bg-[#EFF4F0] border border-[#CCD8CF] hover:bg-[#587261] text-[#587261] hover:text-white flex items-center justify-center transition-colors"
                 aria-label="Pinterest"
               >
                 {/* Clean Pinterest SVG */}
@@ -74,7 +74,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-full bg-[#F8E7E9] hover:bg-[#E8BFC5] text-[#A65F73] hover:text-[#49343B] flex items-center justify-center transition-colors"
+                className="w-9 h-9 rounded-full bg-[#EFF4F0] border border-[#CCD8CF] hover:bg-[#587261] text-[#587261] hover:text-white flex items-center justify-center transition-colors"
                 aria-label="Instagram"
               >
                 {/* Clean Instagram SVG */}

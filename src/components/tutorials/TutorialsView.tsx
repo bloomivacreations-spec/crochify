@@ -31,16 +31,16 @@ export const TutorialsView: React.FC<TutorialsViewProps> = ({
   return (
     <div className="bg-[#FFF9F7] min-h-screen pb-20">
       {/* Banner */}
-      <div className="bg-[#F8E7E9]/70 border-b border-[#E8BFC5]/40 py-12 lg:py-16">
+      <div className="bg-[#EFF4F0] border-b border-[#CCD8CF] py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <span className="text-xs uppercase tracking-widest font-semibold text-[#A65F73] mb-2 block">
+            <span className="inline-block px-3 py-1 rounded-full text-xs uppercase tracking-widest font-semibold text-[#587261] bg-white border border-[#CCD8CF] mb-3 shadow-2xs">
               Skill Masterclasses
             </span>
-            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#49343B] leading-tight mb-4">
+            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#3E2F35] leading-tight mb-4">
               Crochet Tutorials &amp; Techniques
             </h1>
-            <p className="text-base text-[#6E535C] leading-relaxed">
+            <p className="text-base text-[#5A6F62] leading-relaxed">
               Step-by-step photographic guides, stitch encyclopedia, and professional finishing secrets. Master everything from your very first chain to intricate lace edging.
             </p>
           </div>
@@ -56,8 +56,8 @@ export const TutorialsView: React.FC<TutorialsViewProps> = ({
               onClick={() => setSelectedSubcategory(cat)}
               className={`px-4 py-2 text-xs font-medium rounded-xl whitespace-nowrap transition-colors ${
                 selectedSubcategory === cat
-                  ? 'bg-[#A65F73] text-white shadow-xs'
-                  : 'bg-white border border-[#E8BFC5]/50 text-[#49343B] hover:bg-[#F8E7E9]'
+                  ? 'bg-[#587261] text-white shadow-xs'
+                  : 'bg-white border border-[#CCD8CF] text-[#3E2F35] hover:bg-[#EFF4F0]'
               }`}
             >
               {cat}
@@ -112,18 +112,18 @@ export const TutorialsView: React.FC<TutorialsViewProps> = ({
         </div>
 
         {/* Essential Beginner Toolkit Banner */}
-        <div className="bg-[#F8E7E9] rounded-2xl border border-[#E8BFC5] p-8 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="bg-[#EFF4F0] rounded-2xl border border-[#CCD8CF] p-8 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 text-center md:text-left">
-            <h3 className="font-serif text-2xl font-semibold text-[#49343B]">
+            <h3 className="font-serif text-2xl font-semibold text-[#3E2F35]">
               New to Crochet?
             </h3>
-            <p className="text-sm text-[#6E535C] max-w-xl">
+            <p className="text-sm text-[#5A6F62] max-w-xl">
               Start with our foundational beginner curriculum covering ergonomic hooks, yarn weight codes, and how to hold tension without cramp.
             </p>
           </div>
           <button
             onClick={onExploreBeginner}
-            className="py-3 px-6 bg-[#A65F73] hover:bg-[#87495B] text-white text-sm font-semibold rounded-xl transition-colors whitespace-nowrap shadow-xs"
+            className="py-3 px-6 bg-[#587261] hover:bg-[#43594B] text-white text-sm font-semibold rounded-xl transition-colors whitespace-nowrap shadow-xs"
           >
             Learn Crochet Basics
           </button>

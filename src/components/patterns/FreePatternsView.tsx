@@ -48,17 +48,17 @@ export const FreePatternsView: React.FC<FreePatternsViewProps> = ({
   return (
     <div className="bg-[#FFF9F7] min-h-screen pb-20">
       {/* Header Banner */}
-      <div className="bg-[#F8E7E9]/70 border-b border-[#E8BFC5]/40 py-12 lg:py-16">
+      <div className="bg-[#EFF4F0] border-b border-[#CCD8CF] py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/80 border border-[#E8BFC5] text-xs font-semibold text-[#A65F73]">
-              <Gift className="w-3.5 h-3.5 text-[#C98796]" />
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-[#CCD8CF] text-xs font-semibold text-[#587261] shadow-2xs">
+              <Gift className="w-3.5 h-3.5 text-[#587261]" />
               <span>Complimentary Patterns</span>
             </div>
-            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#49343B] leading-tight">
+            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#3E2F35] leading-tight">
               Free Crochet Patterns
             </h1>
-            <p className="text-base text-[#6E535C] leading-relaxed">
+            <p className="text-base text-[#5A6F62] leading-relaxed">
               Discover our ever-growing library of complimentary crochet patterns. Every design includes complete row-by-row instructions, stitch glossaries, and printable PDF downloads with zero paywalls.
             </p>
           </div>

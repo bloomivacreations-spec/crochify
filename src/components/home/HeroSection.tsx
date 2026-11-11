@@ -16,17 +16,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
           {/* Typography & CTAs (7 cols) */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#F8E7E9] border border-[#E8BFC5]/60 text-xs font-medium text-[#A65F73]">
-              <Sparkles className="w-3.5 h-3.5 text-[#C98796]" />
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#EFF4F0] border border-[#C6D6CA] text-xs font-medium text-[#587261] shadow-2xs">
+              <Sparkles className="w-3.5 h-3.5 text-[#789480]" />
               <span>Your Creative World of Crochet</span>
             </div>
 
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-semibold text-[#49343B] leading-[1.15] tracking-tight">
+            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-semibold text-[#3E2F35] leading-[1.15] tracking-tight">
               Little Stitches, <br className="hidden sm:inline" />
               <span className="italic font-normal text-[#A65F73]">Beautiful Creations.</span>
             </h1>
 
-            <p className="text-base sm:text-lg text-[#6E535C] leading-relaxed max-w-xl mx-auto lg:mx-0">
+            <p className="text-base sm:text-lg text-[#655158] leading-relaxed max-w-xl mx-auto lg:mx-0">
               Discover beautiful crochet patterns, learn new techniques, and bring your creative ideas to life, one stitch at a time.
             </p>
 
@@ -41,14 +41,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
               <button
                 onClick={onStartCreating}
-                className="w-full sm:w-auto py-3.5 px-8 bg-[#F8E7E9] hover:bg-[#E8BFC5] text-[#49343B] text-sm font-semibold rounded-xl border border-[#E8BFC5] transition-all flex items-center justify-center"
+                className="w-full sm:w-auto py-3.5 px-8 bg-[#EFF4F0] hover:bg-[#DCE7DF] text-[#3E2F35] text-sm font-semibold rounded-xl border border-[#C6D6CA] transition-all flex items-center justify-center"
               >
                 Start Creating
               </button>
             </div>
 
             {/* Quiet trust markers */}
-            <div className="pt-6 border-t border-[#E8BFC5]/30 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs text-[#8E747E]">
+            <div className="pt-6 border-t border-[#E8DDD9]/60 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs text-[#6B7E70]">
               <span>✓ Instant PDF Downloads</span>
               <span aria-hidden="true">·</span>
               <span>✓ US &amp; UK Crochet Terms</span>

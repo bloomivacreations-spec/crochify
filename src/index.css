@@ -5,14 +5,22 @@
   --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   --color-ivory: #FFF9F7;
-  --color-blush: #F8E7E9;
-  --color-dusty: #E8BFC5;
+  --color-oat: #FAF7F2;
+  --color-blush: #F9EBEA;
+  --color-dusty: #E5C3C8;
   --color-vintage: #C98796;
   --color-rosewood: #A65F73;
   --color-rosewood-dark: #87495B;
-  --color-plum: #49343B;
-  --color-plum-light: #6E535C;
-  --color-plum-muted: #8E747E;
+  --color-plum: #3E2F35;
+  --color-plum-light: #655158;
+  --color-plum-muted: #857279;
+
+  /* Botanical Sage & Eucalyptus palette: calming organic counter-weight to rose */
+  --color-sage: #587261;
+  --color-sage-dark: #43594B;
+  --color-sage-light: #EFF4F0;
+  --color-sage-muted: #D3E0D6;
+  --color-sage-border: #C6D6CA;
 }
 
 body {

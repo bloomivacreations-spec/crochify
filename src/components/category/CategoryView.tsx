@@ -66,23 +66,23 @@ export const CategoryView: React.FC<CategoryViewProps> = ({
   return (
     <div className="bg-[#FFF9F7] min-h-screen pb-20">
       {/* Category Hero Banner */}
-      <div className="relative bg-[#F8E7E9]/60 border-b border-[#E8BFC5]/40 py-12 lg:py-16">
+      <div className="relative bg-[#EFF4F0] border-b border-[#CCD8CF] py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-7 space-y-4">
-              <span className="text-xs uppercase tracking-widest font-semibold text-[#A65F73]">
+              <span className="inline-block px-2.5 py-0.5 rounded-md text-xs uppercase tracking-widest font-semibold text-[#587261] bg-white border border-[#CCD8CF]">
                 Collection
               </span>
-              <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#49343B] leading-tight">
+              <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#3E2F35] leading-tight">
                 {category.title}
               </h1>
-              <p className="text-base text-[#6E535C] leading-relaxed max-w-2xl">
+              <p className="text-base text-[#5A6F62] leading-relaxed max-w-2xl">
                 {category.longDescription}
               </p>
             </div>
 
             <div className="lg:col-span-5">
-              <div className="rounded-2xl overflow-hidden border border-[#E8BFC5]/50 aspect-4/3 shadow-xs">
+              <div className="rounded-2xl overflow-hidden border border-[#CCD8CF] aspect-4/3 shadow-xs">
                 <img
                   src={category.image}
                   alt={category.title}
@@ -102,8 +102,8 @@ export const CategoryView: React.FC<CategoryViewProps> = ({
             onClick={() => setSelectedSubcategory('All')}
             className={`px-4 py-2 text-xs font-medium rounded-xl whitespace-nowrap transition-colors ${
               selectedSubcategory === 'All'
-                ? 'bg-[#A65F73] text-white shadow-xs'
-                : 'bg-white border border-[#E8BFC5]/50 text-[#49343B] hover:bg-[#F8E7E9]'
+                ? 'bg-[#587261] text-white shadow-xs'
+                : 'bg-white border border-[#CCD8CF] text-[#3E2F35] hover:bg-[#EFF4F0]'
             }`}
           >
             All {category.title}
@@ -114,8 +114,8 @@ export const CategoryView: React.FC<CategoryViewProps> = ({
               onClick={() => setSelectedSubcategory(sub)}
               className={`px-4 py-2 text-xs font-medium rounded-xl whitespace-nowrap transition-colors ${
                 selectedSubcategory === sub
-                  ? 'bg-[#A65F73] text-white shadow-xs'
-                  : 'bg-white border border-[#E8BFC5]/50 text-[#49343B] hover:bg-[#F8E7E9]'
+                  ? 'bg-[#587261] text-white shadow-xs'
+                  : 'bg-white border border-[#CCD8CF] text-[#3E2F35] hover:bg-[#EFF4F0]'
               }`}
             >
               {sub}

@@ -55,7 +55,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             onClick={() => handleLinkClick('home')}
             className="flex items-center gap-2.5 text-left group focus:outline-none"
           >
-            <div className="w-9 h-9 rounded-full bg-[#F8E7E9] border border-[#E8BFC5] flex items-center justify-center text-[#A65F73] group-hover:scale-105 transition-transform">
+            <div className="w-9 h-9 rounded-full bg-[#EFF4F0] border border-[#C6D6CA] flex items-center justify-center text-[#587261] group-hover:scale-105 transition-transform shadow-2xs">
               {/* Refined crochet hook & yarn loop SVG motif */}
               <svg
                 viewBox="0 0 24 24"
@@ -72,10 +72,10 @@ export const Navbar: React.FC<NavbarProps> = ({
               </svg>
             </div>
             <div>
-              <span className="font-serif text-2xl sm:text-3xl font-semibold tracking-tight text-[#49343B] group-hover:text-[#A65F73] transition-colors">
+              <span className="font-serif text-2xl sm:text-3xl font-semibold tracking-tight text-[#3E2F35] group-hover:text-[#587261] transition-colors">
                 MyCrochify
               </span>
-              <span className="hidden lg:block text-[10px] tracking-widest uppercase font-medium text-[#A65F73]">
+              <span className="hidden lg:block text-[10px] tracking-widest uppercase font-medium text-[#587261]">
                 Your Creative World of Crochet
               </span>
             </div>
@@ -91,13 +91,13 @@ export const Navbar: React.FC<NavbarProps> = ({
                   onClick={() => handleLinkClick(item.view, item.categoryId)}
                   className={`px-3 py-2 text-sm font-medium transition-all relative rounded-md ${
                     active
-                      ? 'text-[#A65F73] font-semibold'
-                      : 'text-[#49343B] hover:text-[#A65F73]'
+                      ? 'text-[#587261] font-semibold'
+                      : 'text-[#3E2F35] hover:text-[#587261]'
                   }`}
                 >
                   {item.label}
                   {active && (
-                    <span className="absolute bottom-0 left-3 right-3 h-0.5 bg-[#A65F73] rounded-full" />
+                    <span className="absolute bottom-0 left-3 right-3 h-0.5 bg-[#587261] rounded-full" />
                   )}
                 </button>
               );
@@ -109,7 +109,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Search Trigger */}
             <button
               onClick={onOpenSearch}
-              className="p-2.5 text-[#49343B] hover:text-[#A65F73] hover:bg-[#F8E7E9]/70 rounded-full transition-colors relative"
+              className="p-2.5 text-[#3E2F35] hover:text-[#587261] hover:bg-[#EFF4F0] rounded-full transition-colors relative"
               title="Search patterns & tutorials (⌘K)"
               aria-label="Search patterns"
             >
@@ -119,13 +119,13 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Favorites Trigger */}
             <button
               onClick={onOpenFavorites}
-              className="p-2.5 text-[#49343B] hover:text-[#A65F73] hover:bg-[#F8E7E9]/70 rounded-full transition-colors relative"
+              className="p-2.5 text-[#3E2F35] hover:text-[#587261] hover:bg-[#EFF4F0] rounded-full transition-colors relative"
               title="Saved Favorites"
               aria-label="Saved Favorites"
             >
               <Heart className="w-5 h-5" />
               {favoritesCount > 0 && (
-                <span className="absolute top-1 right-1 w-4 h-4 bg-[#A65F73] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+                <span className="absolute top-1 right-1 w-4 h-4 bg-[#587261] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
                   {favoritesCount}
                 </span>
               )}
@@ -134,13 +134,13 @@ export const Navbar: React.FC<NavbarProps> = ({
             {/* Cart Trigger */}
             <button
               onClick={onOpenCart}
-              className="p-2.5 text-[#49343B] hover:text-[#A65F73] hover:bg-[#F8E7E9]/70 rounded-full transition-colors relative"
+              className="p-2.5 text-[#3E2F35] hover:text-[#587261] hover:bg-[#EFF4F0] rounded-full transition-colors relative"
               title="Digital Pattern Bag"
               aria-label="Shopping Cart"
             >
               <ShoppingBag className="w-5 h-5" />
               {cartCount > 0 && (
-                <span className="absolute top-1 right-1 w-4 h-4 bg-[#A65F73] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+                <span className="absolute top-1 right-1 w-4 h-4 bg-[#587261] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
                   {cartCount}
                 </span>
               )}

@@ -30,7 +30,7 @@ export const CollectionsSection: React.FC<CollectionsSectionProps> = ({
         {/* 4 Category Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {CATEGORIES.map((cat, index) => {
-            const isBlush = index % 2 === 1;
+            const isSage = index % 2 === 1;
             return (
               <div
                 key={cat.id}
@@ -41,13 +41,15 @@ export const CollectionsSection: React.FC<CollectionsSectionProps> = ({
                     onSelectCategory(cat.id);
                   }
                 }}
-                className={`group rounded-2xl border border-[#E8BFC5]/50 overflow-hidden shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between cursor-pointer hover:-translate-y-1.5 ${
-                  isBlush ? 'bg-[#F8E7E9]/70' : 'bg-white'
+                className={`group rounded-2xl border overflow-hidden shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between cursor-pointer hover:-translate-y-1.5 ${
+                  isSage
+                    ? 'bg-[#EFF4F0] border-[#CCD8CF]'
+                    : 'bg-white border-[#E8DDD9]'
                 }`}
               >
                 <div>
                   {/* Category Image */}
-                  <div className="aspect-4/3 overflow-hidden bg-[#E8BFC5]/20">
+                  <div className="aspect-4/3 overflow-hidden bg-[#EFF4F0]">
                     <img
                       src={cat.image}
                       alt={cat.title}
@@ -57,22 +59,26 @@ export const CollectionsSection: React.FC<CollectionsSectionProps> = ({
 
                   {/* Body Content */}
                   <div className="p-6">
-                    <h3 className="font-serif text-2xl font-semibold text-[#49343B] group-hover:text-[#A65F73] transition-colors mb-2">
+                    <h3 className="font-serif text-2xl font-semibold text-[#3E2F35] group-hover:text-[#587261] transition-colors mb-2">
                       {cat.title}
                     </h3>
-                    <p className="text-xs text-[#6E535C] leading-relaxed mb-4">
+                    <p className="text-xs text-[#655158] leading-relaxed mb-4">
                       {cat.shortDescription}
                     </p>
 
                     {/* Subcategories preview tags */}
                     <div className="space-y-1 mb-6">
-                      <p className="text-[11px] font-semibold uppercase tracking-wider text-[#8E747E]">
+                      <p className="text-[11px] font-semibold uppercase tracking-wider text-[#857279]">
                         Includes:
                       </p>
-                      <ul className="text-xs text-[#6E535C] space-y-1">
+                      <ul className="text-xs text-[#655158] space-y-1">
                         {cat.subcategories.slice(0, 5).map((sub, sIdx) => (
                           <li key={sIdx} className="flex items-center gap-1.5">
-                            <span className="w-1 h-1 rounded-full bg-[#A65F73]" />
+                            <span
+                              className={`w-1 h-1 rounded-full ${
+                                isSage ? 'bg-[#587261]' : 'bg-[#A65F73]'
+                              }`}
+                            />
                             <span>{sub}</span>
                           </li>
                         ))}
@@ -85,7 +91,11 @@ export const CollectionsSection: React.FC<CollectionsSectionProps> = ({
                 <div className="p-6 pt-0">
                   <button
                     type="button"
-                    className="w-full py-2.5 px-4 bg-[#A65F73] group-hover:bg-[#87495B] text-white text-xs font-semibold rounded-xl transition-colors flex items-center justify-center gap-1.5 shadow-xs"
+                    className={`w-full py-2.5 px-4 text-white text-xs font-semibold rounded-xl transition-colors flex items-center justify-center gap-1.5 shadow-xs ${
+                      isSage
+                        ? 'bg-[#587261] group-hover:bg-[#43594B]'
+                        : 'bg-[#A65F73] group-hover:bg-[#87495B]'
+                    }`}
                   >
                     <span>Explore Collection</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />

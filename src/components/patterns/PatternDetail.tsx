@@ -166,34 +166,34 @@ export const PatternDetail: React.FC<PatternDetailProps> = ({
             )}
 
             {/* Quick Specs Card */}
-            <div className="bg-[#F8E7E9]/70 rounded-2xl p-5 border border-[#E8BFC5]/40 space-y-3">
-              <h4 className="font-serif text-sm font-semibold text-[#49343B] flex items-center gap-2">
-                <Layers className="w-4 h-4 text-[#A65F73]" /> Project Specifications
+            <div className="bg-[#EFF4F0] rounded-2xl p-5 border border-[#CCD8CF] space-y-3">
+              <h4 className="font-serif text-sm font-semibold text-[#3E2F35] flex items-center gap-2">
+                <Layers className="w-4 h-4 text-[#587261]" /> Project Specifications
               </h4>
               <div className="grid grid-cols-2 gap-3 text-xs">
                 <div>
-                  <span className="text-[#8E747E] block">Difficulty</span>
-                  <span className="font-semibold text-[#49343B]">{pattern.difficulty}</span>
+                  <span className="text-[#857279] block">Difficulty</span>
+                  <span className="font-semibold text-[#587261]">{pattern.difficulty}</span>
                 </div>
                 <div>
-                  <span className="text-[#8E747E] block">Est. Time</span>
-                  <span className="font-semibold text-[#49343B]">{pattern.estimatedTime}</span>
+                  <span className="text-[#857279] block">Est. Time</span>
+                  <span className="font-semibold text-[#3E2F35]">{pattern.estimatedTime}</span>
                 </div>
                 <div>
-                  <span className="text-[#8E747E] block">Hook Size</span>
-                  <span className="font-semibold text-[#49343B]">{pattern.hookSize}</span>
+                  <span className="text-[#857279] block">Hook Size</span>
+                  <span className="font-semibold text-[#3E2F35]">{pattern.hookSize}</span>
                 </div>
                 <div>
-                  <span className="text-[#8E747E] block">Yarn Weight</span>
-                  <span className="font-semibold text-[#49343B]">{pattern.yarnWeight}</span>
+                  <span className="text-[#857279] block">Yarn Weight</span>
+                  <span className="font-semibold text-[#3E2F35]">{pattern.yarnWeight}</span>
                 </div>
                 <div className="col-span-2">
-                  <span className="text-[#8E747E] block">Finished Size</span>
-                  <span className="font-semibold text-[#49343B]">{pattern.finishedSize}</span>
+                  <span className="text-[#857279] block">Finished Size</span>
+                  <span className="font-semibold text-[#3E2F35]">{pattern.finishedSize}</span>
                 </div>
                 <div className="col-span-2">
-                  <span className="text-[#8E747E] block">Gauge</span>
-                  <span className="font-medium text-[#49343B]">{pattern.gauge}</span>
+                  <span className="text-[#857279] block">Gauge</span>
+                  <span className="font-medium text-[#3E2F35]">{pattern.gauge}</span>
                 </div>
               </div>
             </div>
@@ -203,57 +203,57 @@ export const PatternDetail: React.FC<PatternDetailProps> = ({
           <div className="lg:col-span-7 flex flex-col justify-between">
             <div>
               {/* Category & Status */}
-              <div className="flex items-center gap-3 text-xs text-[#6E535C] font-medium mb-3">
-                <span className="text-[#A65F73] font-semibold">{pattern.subcategory}</span>
+              <div className="flex items-center gap-3 text-xs text-[#655158] font-medium mb-3">
+                <span className="text-[#587261] font-semibold">{pattern.subcategory}</span>
                 <span aria-hidden="true">·</span>
                 <span>{pattern.isPremium ? 'Premium Digital Pattern' : 'Free Pattern & Tutorial'}</span>
                 <span aria-hidden="true">·</span>
-                <span className="flex items-center gap-1 text-[#8E747E]">
-                  <Sparkles className="w-3.5 h-3.5 text-[#C98796]" /> ★ {pattern.rating} ({pattern.reviewCount} reviews)
+                <span className="flex items-center gap-1 text-[#857279]">
+                  <Sparkles className="w-3.5 h-3.5 text-[#789480]" /> ★ {pattern.rating} ({pattern.reviewCount} reviews)
                 </span>
               </div>
 
               {/* Headline */}
-              <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#49343B] leading-tight mb-4">
+              <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#3E2F35] leading-tight mb-4">
                 {pattern.title}
               </h1>
 
               {/* Full Description */}
-              <p className="text-sm sm:text-base text-[#6E535C] leading-relaxed mb-6">
+              <p className="text-sm sm:text-base text-[#655158] leading-relaxed mb-6">
                 {pattern.fullDescription}
               </p>
 
               {/* Free vs Premium Action Box */}
-              <div className="bg-white rounded-2xl border border-[#E8BFC5]/60 p-6 shadow-xs mb-8">
+              <div className="bg-white rounded-2xl border border-[#E5DDD9] p-6 shadow-xs mb-8">
                 {pattern.isPremium ? (
                   <div>
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-5 pb-5 border-b border-[#E8BFC5]/30">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-5 pb-5 border-b border-[#E5DDD9]/60">
                       <div>
-                        <div className="text-xs uppercase tracking-wider text-[#8E747E] font-medium">Digital PDF Pattern</div>
+                        <div className="text-xs uppercase tracking-wider text-[#857279] font-medium">Digital PDF Pattern</div>
                         <div className="flex items-baseline gap-2">
-                          <span className="font-serif text-3xl font-bold text-[#49343B]">
+                          <span className="font-serif text-3xl font-bold text-[#3E2F35]">
                             ${pattern.price?.toFixed(2)}
                           </span>
-                          <span className="text-xs text-[#6E535C]">USD · Instant digital download</span>
+                          <span className="text-xs text-[#655158]">USD · Instant digital download</span>
                         </div>
                       </div>
-                      <div className="flex items-center gap-2 text-xs text-[#6E535C]">
-                        <CheckCircle2 className="w-4 h-4 text-[#A65F73]" />
+                      <div className="flex items-center gap-2 text-xs text-[#587261] font-medium">
+                        <CheckCircle2 className="w-4 h-4 text-[#587261]" />
                         <span>{pattern.pdfPageCount}-Page High-Res PDF Included</span>
                       </div>
                     </div>
 
                     <div className="space-y-3 mb-6">
-                      <div className="flex items-start gap-2.5 text-xs text-[#6E535C]">
-                        <Check className="w-4 h-4 text-[#A65F73] shrink-0 mt-0.5" />
+                      <div className="flex items-start gap-2.5 text-xs text-[#655158]">
+                        <Check className="w-4 h-4 text-[#587261] shrink-0 mt-0.5" />
                         <span>Ad-free printable PDF format with full-color tutorial photos and printer-friendly text.</span>
                       </div>
-                      <div className="flex items-start gap-2.5 text-xs text-[#6E535C]">
-                        <Check className="w-4 h-4 text-[#A65F73] shrink-0 mt-0.5" />
+                      <div className="flex items-start gap-2.5 text-xs text-[#655158]">
+                        <Check className="w-4 h-4 text-[#587261] shrink-0 mt-0.5" />
                         <span>Both US and UK crochet terminology versions included in separate clean files.</span>
                       </div>
-                      <div className="flex items-start gap-2.5 text-xs text-[#6E535C]">
-                        <Check className="w-4 h-4 text-[#A65F73] shrink-0 mt-0.5" />
+                      <div className="flex items-start gap-2.5 text-xs text-[#655158]">
+                        <Check className="w-4 h-4 text-[#587261] shrink-0 mt-0.5" />
                         <span>Lifetime updates and access to future pattern clarifications & size expansions.</span>
                       </div>
                     </div>
@@ -272,42 +272,42 @@ export const PatternDetail: React.FC<PatternDetailProps> = ({
                       </button>
                       <button
                         onClick={() => onOpenPrintModal(pattern)}
-                        className="py-3.5 px-6 bg-[#F8E7E9] hover:bg-[#E8BFC5] text-[#49343B] text-sm font-semibold rounded-xl transition-colors flex items-center justify-center gap-2"
+                        className="py-3.5 px-6 bg-[#EFF4F0] hover:bg-[#DCE7DF] text-[#3E2F35] text-sm font-semibold rounded-xl border border-[#CCD8CF] transition-colors flex items-center justify-center gap-2"
                       >
-                        <Eye className="w-4 h-4 text-[#A65F73]" /> Preview PDF Spec
+                        <Eye className="w-4 h-4 text-[#587261]" /> Preview PDF Spec
                       </button>
                     </div>
                   </div>
                 ) : (
                   <div>
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4 pb-4 border-b border-[#E8BFC5]/30">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4 pb-4 border-b border-[#E5DDD9]/60">
                       <div>
-                        <span className="inline-block text-xs uppercase tracking-wider font-semibold text-[#A65F73] bg-[#F8E7E9] px-2.5 py-1 rounded-md mb-1">
+                        <span className="inline-block text-xs uppercase tracking-wider font-semibold text-[#587261] bg-[#EFF4F0] border border-[#CCD8CF] px-2.5 py-1 rounded-md mb-1 shadow-2xs">
                           Free Pattern
                         </span>
-                        <h4 className="font-serif text-lg font-semibold text-[#49343B]">
+                        <h4 className="font-serif text-lg font-semibold text-[#3E2F35]">
                           Complimentary Pattern & Instructions
                         </h4>
                       </div>
-                      <span className="text-xs text-[#6E535C]">Available free online & printable</span>
+                      <span className="text-xs text-[#655158]">Available free online & printable</span>
                     </div>
 
-                    <p className="text-xs text-[#6E535C] leading-relaxed mb-5">
+                    <p className="text-xs text-[#655158] leading-relaxed mb-5">
                       You can read the entire written pattern below for free, track your stitch progress with our interactive row counter, or download a clean printable PDF copy for your craft basket.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-3">
                       <button
                         onClick={() => onOpenPrintModal(pattern)}
-                        className="py-3 px-6 bg-[#A65F73] hover:bg-[#87495B] text-white text-sm font-semibold rounded-xl transition-colors flex items-center justify-center gap-2 shadow-xs"
+                        className="py-3 px-6 bg-[#587261] hover:bg-[#43594B] text-white text-sm font-semibold rounded-xl transition-colors flex items-center justify-center gap-2 shadow-xs"
                       >
                         <FileDown className="w-4 h-4" /> Download / Print Free PDF
                       </button>
                       <button
                         onClick={() => setActiveTab('instructions')}
-                        className="py-3 px-6 bg-[#F8E7E9] hover:bg-[#E8BFC5] text-[#49343B] text-sm font-semibold rounded-xl transition-colors flex items-center justify-center gap-2"
+                        className="py-3 px-6 bg-[#EFF4F0] hover:bg-[#DCE7DF] text-[#3E2F35] text-sm font-semibold rounded-xl border border-[#CCD8CF] transition-colors flex items-center justify-center gap-2"
                       >
-                        <BookmarkCheck className="w-4 h-4 text-[#A65F73]" /> Jump to Written Pattern
+                        <BookmarkCheck className="w-4 h-4 text-[#587261]" /> Jump to Written Pattern
                       </button>
                     </div>
                   </div>
@@ -316,16 +316,16 @@ export const PatternDetail: React.FC<PatternDetailProps> = ({
             </div>
 
             {/* Interactive Progress Bar */}
-            <div className="bg-[#FFF9F7] rounded-xl border border-[#E8BFC5]/40 p-4">
-              <div className="flex items-center justify-between text-xs font-medium text-[#49343B] mb-2">
+            <div className="bg-[#FAF7F2] rounded-xl border border-[#CCD8CF] p-4">
+              <div className="flex items-center justify-between text-xs font-medium text-[#3E2F35] mb-2">
                 <span className="flex items-center gap-1.5">
-                  <BookmarkCheck className="w-4 h-4 text-[#A65F73]" /> Interactive Maker Progress Tracker
+                  <BookmarkCheck className="w-4 h-4 text-[#587261]" /> Interactive Maker Progress Tracker
                 </span>
-                <span className="text-[#A65F73] font-semibold">{finishedCount} of {allStepKeys.length} steps checked ({progressPercent}%)</span>
+                <span className="text-[#587261] font-semibold">{finishedCount} of {allStepKeys.length} steps checked ({progressPercent}%)</span>
               </div>
-              <div className="w-full bg-[#F8E7E9] h-2 rounded-full overflow-hidden">
+              <div className="w-full bg-[#EFF4F0] h-2 rounded-full overflow-hidden">
                 <div
-                  className="bg-[#A65F73] h-full transition-all duration-300"
+                  className="bg-[#587261] h-full transition-all duration-300"
                   style={{ width: `${progressPercent}%` }}
                 />
               </div>

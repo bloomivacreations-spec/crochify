@@ -25,18 +25,18 @@ export const TrendingSection: React.FC<TrendingSectionProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
           <div>
-            <div className="flex items-center gap-1.5 text-xs uppercase tracking-widest font-semibold text-[#A65F73] mb-2">
-              <Sparkles className="w-3.5 h-3.5 text-[#C98796]" />
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#EFF4F0] border border-[#CCD8CF] text-xs uppercase tracking-widest font-semibold text-[#587261] mb-2 shadow-2xs">
+              <Sparkles className="w-3.5 h-3.5 text-[#587261]" />
               <span>Trending Now</span>
             </div>
-            <h2 className="font-serif text-3xl sm:text-4xl font-semibold text-[#49343B]">
+            <h2 className="font-serif text-3xl sm:text-4xl font-semibold text-[#3E2F35]">
               Popular Patterns You&apos;ll Love
             </h2>
           </div>
 
           <button
             onClick={onViewAllPatterns}
-            className="text-xs font-semibold text-[#A65F73] hover:text-[#87495B] flex items-center gap-1 group self-start md:self-auto"
+            className="text-xs font-semibold text-[#587261] hover:text-[#43594B] flex items-center gap-1 group self-start md:self-auto"
           >
             <span>Browse Complete Library</span>
             <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />

@@ -33,40 +33,40 @@ export const NewsletterSection: React.FC = () => {
   };
 
   return (
-    <section className="py-20 bg-[#F8E7E9] border-t border-[#E8BFC5]/50 relative overflow-hidden">
-      {/* Subtle decorative circles */}
-      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-[#E8BFC5]/20 pointer-events-none blur-2xl" />
-      <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-[#E8BFC5]/20 pointer-events-none blur-2xl" />
+    <section className="py-20 bg-[#FAF7F2] border-t border-[#E5DDD9] relative overflow-hidden">
+      {/* Subtle decorative circles in gentle eucalyptus */}
+      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-[#CCD8CF]/25 pointer-events-none blur-2xl" />
+      <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-[#E5DDD9]/30 pointer-events-none blur-2xl" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/70 border border-[#E8BFC5] text-xs font-medium text-[#A65F73] mb-4">
-          <Sparkles className="w-3.5 h-3.5 text-[#C98796]" />
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#EFF4F0] border border-[#CCD8CF] text-xs font-medium text-[#587261] mb-4 shadow-2xs">
+          <Sparkles className="w-3.5 h-3.5 text-[#789480]" />
           <span>The MyCrochify Club</span>
         </div>
 
-        <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#49343B] mb-4">
+        <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#3E2F35] mb-4">
           A Little Inspiration in Your Inbox
         </h2>
 
-        <p className="text-base text-[#6E535C] leading-relaxed max-w-xl mx-auto mb-8">
+        <p className="text-base text-[#655158] leading-relaxed max-w-xl mx-auto mb-8">
           Join our creative community and receive beautiful crochet patterns, tutorials, and fresh inspiration every Sunday.
         </p>
 
         {subscribed ? (
-          <div className="bg-white rounded-2xl border border-[#E8BFC5] p-8 max-w-lg mx-auto shadow-xs space-y-4">
-            <div className="w-12 h-12 rounded-full bg-[#F8E7E9] text-[#A65F73] mx-auto flex items-center justify-center">
+          <div className="bg-white rounded-2xl border border-[#CCD8CF] p-8 max-w-lg mx-auto shadow-xs space-y-4">
+            <div className="w-12 h-12 rounded-full bg-[#EFF4F0] text-[#587261] mx-auto flex items-center justify-center">
               <CheckCircle2 className="w-6 h-6" />
             </div>
-            <h3 className="font-serif text-xl font-semibold text-[#49343B]">
+            <h3 className="font-serif text-xl font-semibold text-[#3E2F35]">
               Welcome to the MyCrochify Circle!
             </h3>
-            <p className="text-xs text-[#6E535C]">
+            <p className="text-xs text-[#655158]">
               We have reserved your free beginner-to-heirloom starter guide. Download your instant copy below:
             </p>
             <button
               onClick={handleDownloadGift}
               disabled={downloading}
-              className="py-3 px-6 bg-[#A65F73] hover:bg-[#87495B] text-white text-xs font-semibold rounded-xl transition-colors inline-flex items-center gap-2 shadow-xs"
+              className="py-3 px-6 bg-[#587261] hover:bg-[#43594B] text-white text-xs font-semibold rounded-xl transition-colors inline-flex items-center gap-2 shadow-xs"
             >
               <Download className="w-4 h-4" />
               <span>{downloading ? 'Preparing File...' : 'Download Welcome Stitch Guide'}</span>
@@ -81,16 +81,16 @@ export const NewsletterSection: React.FC = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email address"
-                className="flex-1 px-4 py-3.5 bg-white border border-[#E8BFC5] rounded-xl text-xs sm:text-sm text-[#49343B] focus:outline-none focus:border-[#A65F73] shadow-2xs"
+                className="flex-1 px-4 py-3.5 bg-white border border-[#CCD8CF] rounded-xl text-xs sm:text-sm text-[#3E2F35] focus:outline-none focus:border-[#587261] shadow-2xs"
               />
               <button
                 type="submit"
-                className="py-3.5 px-8 bg-[#A65F73] hover:bg-[#87495B] text-white text-xs sm:text-sm font-semibold rounded-xl transition-all shadow-xs shrink-0 whitespace-nowrap"
+                className="py-3.5 px-8 bg-[#587261] hover:bg-[#43594B] text-white text-xs sm:text-sm font-semibold rounded-xl transition-all shadow-xs shrink-0 whitespace-nowrap"
               >
                 Subscribe
               </button>
             </div>
-            <p className="text-[11px] text-[#8E747E]">
+            <p className="text-[11px] text-[#857279]">
               We treat your inbox with gentle care. No spam, unsubscribe anytime.
             </p>
           </form>
