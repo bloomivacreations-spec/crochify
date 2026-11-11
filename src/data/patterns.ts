@@ -128,10 +128,10 @@ export const PATTERNS: Pattern[] = [
         ]
       }
     ],
-    image: '/src/assets/images/cat_baby_crochet_1794243901227.jpg',
+    image: '/images/cat_baby_crochet.jpg',
     galleryImages: [
-      '/src/assets/images/cat_baby_crochet_1794243901227.jpg',
-      '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg'
+      '/images/cat_baby_crochet.jpg',
+      '/images/hero_crochet_lifestyle.jpg'
     ],
     featured: true,
     trending: true,
@@ -236,10 +236,10 @@ export const PATTERNS: Pattern[] = [
         ]
       }
     ],
-    image: '/src/assets/images/cat_amigurumi_animals_1794243902181.jpg',
+    image: '/images/cat_amigurumi_animals.jpg',
     galleryImages: [
-      '/src/assets/images/cat_amigurumi_animals_1794243902181.jpg',
-      '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg'
+      '/images/cat_amigurumi_animals.jpg',
+      '/images/hero_crochet_lifestyle.jpg'
     ],
     featured: true,
     trending: true,
@@ -327,10 +327,10 @@ export const PATTERNS: Pattern[] = [
         ]
       }
     ],
-    image: '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg',
+    image: '/images/hero_crochet_lifestyle.jpg',
     galleryImages: [
-      '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg',
-      '/src/assets/images/cat_baby_crochet_1794243901227.jpg'
+      '/images/hero_crochet_lifestyle.jpg',
+      '/images/cat_baby_crochet.jpg'
     ],
     featured: true,
     trending: true,
@@ -400,10 +400,10 @@ export const PATTERNS: Pattern[] = [
         ]
       }
     ],
-    image: '/src/assets/images/cat_christmas_crochet_1794243901890.jpg',
+    image: '/images/cat_christmas_crochet.jpg',
     galleryImages: [
-      '/src/assets/images/cat_christmas_crochet_1794243901890.jpg',
-      '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg'
+      '/images/cat_christmas_crochet.jpg',
+      '/images/hero_crochet_lifestyle.jpg'
     ],
     featured: true,
     trending: true,
@@ -462,9 +462,9 @@ export const PATTERNS: Pattern[] = [
         ]
       }
     ],
-    image: '/src/assets/images/cat_christmas_crochet_1794243901890.jpg',
+    image: '/images/cat_christmas_crochet.jpg',
     galleryImages: [
-      '/src/assets/images/cat_christmas_crochet_1794243901890.jpg'
+      '/images/cat_christmas_crochet.jpg'
     ],
     featured: false,
     trending: true,
@@ -522,9 +522,9 @@ export const PATTERNS: Pattern[] = [
         ]
       }
     ],
-    image: '/src/assets/images/cat_amigurumi_animals_1794243902181.jpg',
+    image: '/images/cat_amigurumi_animals.jpg',
     galleryImages: [
-      '/src/assets/images/cat_amigurumi_animals_1794243902181.jpg'
+      '/images/cat_amigurumi_animals.jpg'
     ],
     featured: true,
     trending: false,
@@ -580,10 +580,10 @@ export const PATTERNS: Pattern[] = [
         ]
       }
     ],
-    image: '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg',
+    image: '/images/hero_crochet_lifestyle.jpg',
     galleryImages: [
-      '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg',
-      '/src/assets/images/cat_baby_crochet_1794243901227.jpg'
+      '/images/hero_crochet_lifestyle.jpg',
+      '/images/cat_baby_crochet.jpg'
     ],
     featured: false,
     trending: true,
@@ -633,9 +633,9 @@ export const PATTERNS: Pattern[] = [
         ]
       }
     ],
-    image: '/src/assets/images/cat_christmas_crochet_1794243901890.jpg',
+    image: '/images/cat_christmas_crochet.jpg',
     galleryImages: [
-      '/src/assets/images/cat_christmas_crochet_1794243901890.jpg'
+      '/images/cat_christmas_crochet.jpg'
     ],
     featured: false,
     trending: false,

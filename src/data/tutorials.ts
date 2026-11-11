@@ -10,7 +10,7 @@ export const TUTORIALS: Tutorial[] = [
     difficulty: 'Beginner',
     description: 'Learn the foundational technique for every amigurumi project and circular granny square with zero gaps in the center.',
     summary: 'The magic ring (or adjustable loop) is the single most important skill for clean amigurumi, circular hats, and center-out blankets. This masterclass breaks down the finger wrap, loop pull, and tension lock step-by-step.',
-    image: '/src/assets/images/cat_crochet_tutorial_1794243901825.jpg',
+    image: '/images/cat_crochet_tutorial.jpg',
     toolsNeeded: [
       'Medium worsted weight yarn (light color recommended for visibility)',
       '4.0 mm or 5.0 mm crochet hook',
@@ -64,7 +64,7 @@ export const TUTORIALS: Tutorial[] = [
     difficulty: 'Easy',
     description: 'Transform your crochet toys from bumpy to seamlessly smooth with the signature invisible decrease (inv dec).',
     summary: 'Standard single crochet decreases (sc2tog) often leave noticeable bumps, ridges, and loose stuffing gaps in 3D stuffed toys. The invisible decrease eliminates gaping holes and makes stitch shaping completely imperceptible.',
-    image: '/src/assets/images/cat_crochet_tutorial_1794243901825.jpg',
+    image: '/images/cat_crochet_tutorial.jpg',
     toolsNeeded: [
       'DK or Sport weight cotton yarn',
       '2.5 mm or 3.0 mm crochet hook'
@@ -110,7 +110,7 @@ export const TUTORIALS: Tutorial[] = [
     difficulty: 'Beginner',
     description: 'Demystify parentheses, brackets, asterisks, and repeat symbols so you can crochet any designer pattern with confidence.',
     summary: 'Crochet patterns can feel like a foreign language when you first start. This comprehensive breakdown teaches you US vs UK terminology, repeat notations, row math, and gauge checks.',
-    image: '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg',
+    image: '/images/hero_crochet_lifestyle.jpg',
     toolsNeeded: [
       'A printed or digital crochet pattern',
       'Highlighter or notes app',
@@ -151,7 +151,7 @@ export const TUTORIALS: Tutorial[] = [
     difficulty: 'Intermediate',
     description: 'Unlock crisp stitch definition, open up lace shell motifs, and give blankets straight edges with steam and wet blocking.',
     summary: 'Blocking is the magical transformative step that elevates handmade crochet from homemade to luxury heirloom quality. Learn the difference between wet blocking for wool, steam blocking for acrylics, and pin-blocking for lace blankets.',
-    image: '/src/assets/images/cat_baby_crochet_1794243901227.jpg',
+    image: '/images/cat_baby_crochet.jpg',
     toolsNeeded: [
       'Interlocking foam blocking tiles with grid markings',
       'Rust-proof stainless steel T-pins',

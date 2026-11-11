@@ -12,7 +12,7 @@ export const SeasonalSection: React.FC<SeasonalSectionProps> = ({ onSelectSeason
       title: 'Christmas & Holiday Magic',
       badge: 'Festive Season',
       tagline: 'Lace snowflakes, heirloom baubles, and miniature fir trees.',
-      image: '/src/assets/images/cat_christmas_crochet_1794243901890.jpg',
+      image: '/images/cat_christmas_crochet.jpg',
       aspect: 'col-span-1 md:col-span-2 lg:col-span-2',
     },
     {
@@ -20,7 +20,7 @@ export const SeasonalSection: React.FC<SeasonalSectionProps> = ({ onSelectSeason
       title: 'Spring Blossoms & Layettes',
       badge: 'Spring Renewal',
       tagline: 'Floral garlands, cotton layettes, and pastel bonnet sets.',
-      image: '/src/assets/images/cat_baby_crochet_1794243901227.jpg',
+      image: '/images/cat_baby_crochet.jpg',
       aspect: 'col-span-1 md:col-span-1 lg:col-span-1',
     },
     {
@@ -28,7 +28,7 @@ export const SeasonalSection: React.FC<SeasonalSectionProps> = ({ onSelectSeason
       title: 'Easter Companions',
       badge: 'Easter Keepsakes',
       tagline: 'Meadow bunnies, chick amigurumi, and miniature woven baskets.',
-      image: '/src/assets/images/cat_amigurumi_animals_1794243902181.jpg',
+      image: '/images/cat_amigurumi_animals.jpg',
       aspect: 'col-span-1 md:col-span-1 lg:col-span-1',
     },
     {
@@ -36,7 +36,7 @@ export const SeasonalSection: React.FC<SeasonalSectionProps> = ({ onSelectSeason
       title: 'Cozy Winter Accessories',
       badge: 'Chilly Days',
       tagline: 'Chunky rib scarves, cabled beanies, and wool slippers.',
-      image: '/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg',
+      image: '/images/hero_crochet_lifestyle.jpg',
       aspect: 'col-span-1 md:col-span-2 lg:col-span-2',
     },
   ];

@@ -62,7 +62,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="relative mx-auto max-w-md lg:max-w-none">
               <div className="rounded-3xl overflow-hidden border border-[#E8BFC5]/60 bg-white aspect-4/3 lg:aspect-square shadow-sm">
                 <img
-                  src="/src/assets/images/hero_crochet_lifestyle_1794243900429.jpg"
+                  src="/images/hero_crochet_lifestyle.jpg"
                   alt="Cozy crochet creations arranged in sunlit room"
                   className="w-full h-full object-cover"
                 />
