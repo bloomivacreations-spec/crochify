@@ -2,6 +2,147 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-bernat-gingham-blanket',
+    slug: 'bernat-gingham-crochet-baby-blanket',
+    title: 'Bernat Gingham Check Heirloom Baby Blanket',
+    category: 'baby-crochet',
+    subcategory: 'Baby Blankets',
+    description: 'A classic gingham check baby blanket created with 49 solid and openwork granny square motifs in Dark Blue, Light Blue, and White.',
+    fullDescription: 'Craft a timeless nursery classic with the Bernat Gingham Baby Blanket. Designed with an ingenious 3-value optical color layout—Dark Blue, Light Blue, and White—that forms an authentic gingham buffalo check plaid. Made from 49 five-inch solid and eyelet square motifs and bordered with an eyelet rib and 5-dc scallop trim, it measures 38 x 38 inches [96.5 x 96.5 cm].',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '14 - 18 hours',
+    hookSize: '4.0 mm (US G/6)',
+    yarnWeight: 'DK / Light Worsted (#3)',
+    yarnDetails: 'Bernat® Baby Coordinates™ (140g / 5 oz; 388 yds / 355m): 2 balls Contrast A (Dark Blue), 3 balls Contrast B (Light Blue), 1 ball Contrast C (White)',
+    gauge: 'One motif = 5" [12.5 cm] square with 4.0 mm hook',
+    finishedSize: 'Approx. 38" [96.5 cm] square',
+    materials: [
+      'Bernat Baby Coordinates (140g / 5 oz balls): Contrast A Dark Blue (2 balls)',
+      'Contrast B Light Blue (3 balls)',
+      'Contrast C White (1 ball)',
+      'Size U.S. G/6 [4.0 mm] crochet hook or size needed to obtain gauge',
+      'Yarn tapestry needle for sewing motifs and weaving ends',
+      'Locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sp(s)', name: 'Space(s)', meaning: 'Space formed by chains in previous round' },
+      { abbr: 'rep', name: 'Repeat', meaning: 'Repeat instructions between asterisks' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Motif Quantities & Foundation Ring',
+        notes: 'Make 16 motifs with Contrast A (Dark Blue), 24 motifs with Contrast B (Light Blue), and 9 motifs with Contrast C (White). Total: 49 motifs.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Foundation Ring',
+            instruction: 'With designated color (A, B, or C), ch 4. Join with sl st in first ch to form a ring.',
+            stitchCount: 'Ring made'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 1 (Center Cluster Core)',
+            instruction: 'Ch 3 (counts as dc). 3 dc in ring. [Ch 3, 4 dc in ring] 3 times. Ch 3. Join with sl st to top of starting ch 3.',
+            stitchCount: '16 dc, 4 corner ch-3 spaces'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Expanding the Eyelet Square Motifs (Rounds 2 to 5)',
+        notes: 'Rounds 2, 3, and 4 build the dimensional eyelet corners and side expansions.',
+        steps: [
+          {
+            stepNumber: 3,
+            label: 'Round 2',
+            instruction: 'Ch 5 (counts as dc and ch 2). *Skip next 2 dc, 1 dc in next dc. (2 dc, ch 3, 2 dc) in next ch-3 sp.** 1 dc in next dc, ch 2. Repeat from * twice more, then from * to ** once. Join with sl st in 3rd ch of ch 5.',
+            stitchCount: 'Round 2 complete'
+          },
+          {
+            stepNumber: 4,
+            label: 'Round 3',
+            instruction: 'Ch 5. *Skip next ch-2 sp, 1 dc in each of next 3 dc. (2 dc, ch 3, 2 dc) in next ch-3 sp.** 1 dc in each of next 3 dc, ch 2. Repeat from * twice more, then from * to ** once. 1 dc in each of last 2 dc. Join with sl st in 3rd ch of ch 5.',
+            stitchCount: 'Round 3 complete'
+          },
+          {
+            stepNumber: 5,
+            label: 'Round 4',
+            instruction: 'Ch 5. *Skip next ch-2 sp, 1 dc in each of next 5 dc. (2 dc, ch 3, 2 dc) in next ch-3 sp.** 1 dc in each of next 5 dc, ch 2. Repeat from * twice more, then from * to ** once. 1 dc in each of last 4 dc. Join with sl st in 3rd ch of ch 5.',
+            stitchCount: 'Round 4 complete'
+          },
+          {
+            stepNumber: 6,
+            label: 'Round 5 (Solid Framing Perimeter)',
+            instruction: 'Ch 1. 1 sc in same sp as last sl st. *2 sc in next ch-2 sp, 1 sc in each of next 7 dc, 5 sc in next ch-3 corner sp.** 1 sc in each of next 7 dc. Repeat from * twice more, then from * to ** once. 1 sc in each of last 6 dc. Join with sl st to first sc. Fasten off.',
+            stitchCount: 'Motif complete (5" [12.5 cm] square)'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Gingham Matrix Layout & Assembly',
+        notes: 'Arrange 49 motifs into a 7 x 7 grid following the optical gingham diagram.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Gingham Color Placement (7x7 Grid)',
+            instruction: 'Lay out 49 motifs into 7 rows of 7: Row 1: A, B, A, B, A, B, A; Row 2: B, C, B, C, B, C, B; Row 3: A, B, A, B, A, B, A; Row 4: B, C, B, C, B, C, B; Row 5: A, B, A, B, A, B, A; Row 6: B, C, B, C, B, C, B; Row 7: A, B, A, B, A, B, A.',
+            stitchCount: '49 motifs staged'
+          },
+          {
+            stepNumber: 8,
+            label: 'Joining Motifs with Light Blue',
+            instruction: 'Using Contrast B (Light Blue) and your crochet hook or tapestry needle, crochet or sew motifs together along right sides facing. Join all vertical columns first, then join horizontal rows.',
+            stitchCount: 'Blanket body assembled'
+          }
+        ]
+      },
+      {
+        sectionTitle: '4-Round Scallop & Eyelet Edging',
+        notes: 'Border frames the gingham body with White eyelets and delicate 5-dc scallop fans.',
+        steps: [
+          {
+            stepNumber: 9,
+            label: 'Edging Round 1 (Contrast C - White Base Frame)',
+            instruction: 'With RS facing, join Contrast C (White) with sl st in any corner sc. Ch 1, 3 sc in same sp. *(Work 21 sc along side of each motif) 7 times. 3 sc in next corner sc. Repeat from * twice more. (Work 21 sc along side of each motif) 7 times. Join with sl st to first sc.',
+            stitchCount: '600 sc around perimeter'
+          },
+          {
+            stepNumber: 10,
+            label: 'Edging Round 2 (Eyelet Lattice)',
+            instruction: 'Ch 3 (counts as dc). 1 dc in next sc. *Ch 1, skip next sc, 1 dc in each of next 2 sc. Repeat from * to last sc. Ch 1, skip last sc. Join with sl st to top of ch 3.',
+            stitchCount: 'Eyelet round complete'
+          },
+          {
+            stepNumber: 11,
+            label: 'Edging Round 3 (Arch Chain Spaces)',
+            instruction: 'Sl st in next dc, sl st in next ch-1 sp. Ch 1, 1 sc in same sp. *Ch 4, 1 sc in next ch-1 sp. Repeat from * around perimeter, ending with ch 4. Join with sl st to first sc.',
+            stitchCount: 'Chain arches established'
+          },
+          {
+            stepNumber: 12,
+            label: 'Edging Round 4 (5-dc Scallop Fans)',
+            instruction: 'Sl st in each of next 2 ch. Ch 1, 1 sc in same sp. *5 dc in next ch-4 sp, 1 sc in next ch-4 sp. Repeat from * around, ending with 5 dc in last ch-4 sp. Join with sl st to first sc. Fasten off and weave in all yarn ends.',
+            stitchCount: 'Finished heirloom blanket (38" x 38")'
+          }
+        ]
+      }
+    ],
+    image: '/images/bernat_gingham_baby_blanket.jpg',
+    galleryImages: [
+      '/images/bernat_gingham_baby_blanket.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.98,
+    reviewCount: 342,
+    pdfPageCount: 6,
+    dateAdded: '2026-11-11'
+  },
+  {
     id: 'pat-pastel-carousel-blanket',
     slug: 'patons-pastel-circles-squares-baby-blanket',
     title: 'Pastel Circles & Squares Carousel Baby Blanket',
@@ -138,9 +279,7 @@ export const PATTERNS: Pattern[] = [
     ],
     image: '/images/patons_polka_dot_blanket.jpg',
     galleryImages: [
-      '/images/patons_polka_dot_blanket.jpg',
-      '/images/be_my_baby_blanket_swatch.jpg',
-      '/images/hero_crochet_lifestyle.jpg'
+      '/images/patons_polka_dot_blanket.jpg'
     ],
     featured: true,
     trending: true,
@@ -335,8 +474,7 @@ export const PATTERNS: Pattern[] = [
     image: '/images/be_my_baby_blanket.jpg',
     galleryImages: [
       '/images/be_my_baby_blanket.jpg',
-      '/images/be_my_baby_blanket_swatch.jpg',
-      '/images/patons_polka_dot_blanket.jpg'
+      '/images/be_my_baby_blanket_swatch.jpg'
     ],
     featured: true,
     trending: true,
@@ -474,8 +612,7 @@ export const PATTERNS: Pattern[] = [
     ],
     image: '/images/cat_baby_crochet.jpg',
     galleryImages: [
-      '/images/cat_baby_crochet.jpg',
-      '/images/hero_crochet_lifestyle.jpg'
+      '/images/cat_baby_crochet.jpg'
     ],
     featured: true,
     trending: true,
@@ -582,8 +719,7 @@ export const PATTERNS: Pattern[] = [
     ],
     image: '/images/cat_amigurumi_animals.jpg',
     galleryImages: [
-      '/images/cat_amigurumi_animals.jpg',
-      '/images/hero_crochet_lifestyle.jpg'
+      '/images/cat_amigurumi_animals.jpg'
     ],
     featured: true,
     trending: true,
@@ -673,9 +809,7 @@ export const PATTERNS: Pattern[] = [
     ],
     image: '/images/hero_crochet_lifestyle.jpg',
     galleryImages: [
-      '/images/hero_crochet_lifestyle.jpg',
-      '/images/be_my_baby_blanket.jpg',
-      '/images/patons_polka_dot_blanket.jpg'
+      '/images/hero_crochet_lifestyle.jpg'
     ],
     featured: true,
     trending: true,
@@ -747,8 +881,7 @@ export const PATTERNS: Pattern[] = [
     ],
     image: '/images/cat_christmas_crochet.jpg',
     galleryImages: [
-      '/images/cat_christmas_crochet.jpg',
-      '/images/hero_crochet_lifestyle.jpg'
+      '/images/cat_christmas_crochet.jpg'
     ],
     featured: true,
     trending: true,

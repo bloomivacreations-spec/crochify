@@ -283,5 +283,54 @@ export const TUTORIALS: Tutorial[] = [
         tip: 'Finish with the 2-round edging in Aqua and Sky Blue to tie the pastel palette together beautifully.'
       }
     ]
+  },
+  {
+    id: 'tut-gingham-crochet-blanket',
+    slug: 'how-to-crochet-gingham-plaid-baby-blanket',
+    title: 'The Gingham Crochet Guide: Crafting Optical Plaid with 3 Yarn Values',
+    subcategory: 'Step-by-Step Projects',
+    readTime: '6 min read',
+    difficulty: 'Easy',
+    description: 'Learn how to create realistic gingham buffalo check plaid using 49 modular eyelet granny squares in Dark Blue, Light Blue, and White.',
+    summary: 'Gingham is an optical design phenomenon created when two solid colors (Dark Blue and White) intersect with a shared midtone blend (Light Blue). This masterclass breaks down crocheting identical 5-inch eyelet squares, the 7x7 gingham matrix assembly, and the delicate 4-round scalloped border.',
+    image: '/images/bernat_gingham_baby_blanket.jpg',
+    toolsNeeded: [
+      '4.0 mm (US G/6) crochet hook',
+      'DK weight soft baby yarn in Dark Blue (A), Light Blue (B), and White (C)',
+      'Tapestry yarn needle with large blunt eye',
+      'Blocking pins and foam grid tiles'
+    ],
+    keyTips: [
+      'The optical secret of gingham is maintaining the exact 3-value contrast: Dark Blue is your darkest value, White is your lightest value, and Light Blue acts as the optical blend where they overlap.',
+      'Count your stitches on Round 5: each side must have exactly 21 single crochets (including corner stitches) so that all 49 motifs line up stitch-for-stitch during seaming.',
+      'When sewing motifs together, always use Contrast B (Light Blue) thread. Because Light Blue borders every square on the blanket, it blends invisibly into both dark and light squares.',
+      'In Round 4 of the border, relax your tension on the 5 double crochet shells to give your scallops a rounded, ruffled drape.'
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        title: 'Crocheting the 5-Inch Eyelet Motif',
+        description: 'Start with a ch 4 ring. Round 1 creates 4 corner spaces separated by 4-dc groups. Rounds 2 through 4 systematically expand the square using (2 dc, ch 3, 2 dc) in each corner and ch-2 eyelet windows along each side. Round 5 finishes the square with solid single crochets, yielding a pristine 5" [12.5 cm] block.',
+        tip: 'Check your motif size after making your first square to ensure gauge before completing all 49.'
+      },
+      {
+        stepNumber: 2,
+        title: 'The 3-Value Quantity Breakdown',
+        description: 'For a balanced 7x7 grid (49 squares total), crochet exactly: 16 Dark Blue motifs (A), 24 Light Blue motifs (B), and 9 White motifs (C). Notice that Light Blue represents almost half of the total squares—this is what creates the continuous woven plaid illusion.',
+        tip: 'Stack each color separately and steam block in neat stacks before assembly.'
+      },
+      {
+        stepNumber: 3,
+        title: 'Assembling the 7x7 Gingham Matrix',
+        description: 'Staging your squares correctly is crucial: Odd rows (1, 3, 5, 7) alternate Dark Blue and Light Blue: [A, B, A, B, A, B, A]. Even rows (2, 4, 6) alternate Light Blue and White: [B, C, B, C, B, C, B]. Join using Light Blue yarn with right sides facing, working vertical columns first and horizontal rows second.',
+        tip: 'Work through back loops only for completely flat seams that lie comfortable and smooth against baby skin.'
+      },
+      {
+        stepNumber: 4,
+        title: 'The 4-Round Scalloped Border Frame',
+        description: 'Join White in any corner. Round 1 works 21 sc along each motif side (600 sc total). Round 2 establishes an eyelet grid [2 dc, ch 1, skip 1]. Round 3 forms chain-4 arches, and Round 4 crowns the blanket with 5-dc scallop fans worked into alternating arches.',
+        tip: 'Steam block the finished blanket to 38 x 38 inches [96.5 x 96.5 cm] for crisp heirloom presentation.'
+      }
+    ]
   }
 ];
