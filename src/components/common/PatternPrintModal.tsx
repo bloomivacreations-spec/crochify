@@ -1,6 +1,7 @@
-import React from 'react';
-import { X, Printer, Download, Sparkles, FileText } from 'lucide-react';
+import React, { useState } from 'react';
+import { X, Printer, Download, FileText, CheckCircle2, AlertCircle } from 'lucide-react';
 import { Pattern } from '../../types';
+import { generatePatternPdf } from '../../utils/pdfGenerator';
 
 interface PatternPrintModalProps {
   pattern: Pattern | null;
@@ -8,13 +9,30 @@ interface PatternPrintModalProps {
 }
 
 export const PatternPrintModal: React.FC<PatternPrintModalProps> = ({ pattern, onClose }) => {
+  const [downloadSuccess, setDownloadSuccess] = useState(false);
+  const [isGenerating, setIsGenerating] = useState(false);
+
   if (!pattern) return null;
 
   const handleNativePrint = () => {
+    // Triggers browser print dialog (Destination: Save as PDF or physical printer)
     window.print();
   };
 
-  const handleDownloadFile = () => {
+  const handleDirectPdfDownload = () => {
+    try {
+      setIsGenerating(true);
+      generatePatternPdf(pattern);
+      setDownloadSuccess(true);
+      setTimeout(() => setDownloadSuccess(false), 3500);
+    } catch (err) {
+      console.error('Failed to generate PDF:', err);
+    } finally {
+      setIsGenerating(false);
+    }
+  };
+
+  const handleDownloadTextFile = () => {
     // Generate clean text-formatted printable pattern file
     const content = `=====================================================
 MYCROCHIFY DIGITAL PATTERN LIBRARY
@@ -24,7 +42,7 @@ Difficulty: ${pattern.difficulty} · Est. Time: ${pattern.estimatedTime}
 =====================================================
 
 DESCRIPTION:
-${pattern.fullDescription}
+${pattern.fullDescription || pattern.description}
 
 SPECIFICATIONS:
 - Hook Size: ${pattern.hookSize}
@@ -71,43 +89,82 @@ For personal use only. Happy Crocheting!
   };
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-[#49343B]/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 print:p-0 print:bg-white">
-      <div className="w-full max-w-4xl bg-white rounded-3xl shadow-2xl border border-[#E8BFC5] overflow-hidden flex flex-col max-h-[90vh] print:max-h-none print:shadow-none print:border-none print:rounded-none">
-        {/* Modal Controls (Hidden in print) */}
-        <div className="no-print p-4 sm:p-6 bg-[#FFF9F7] border-b border-[#E8BFC5]/40 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <FileText className="w-5 h-5 text-[#A65F73]" />
-            <h3 className="font-serif text-lg font-semibold text-[#49343B]">
-              Printable PDF Pattern View
-            </h3>
+    <div className="printable-modal-overlay fixed inset-0 z-50 overflow-y-auto bg-[#49343B]/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 print:p-0 print:bg-white">
+      <div className="printable-modal-content w-full max-w-4xl bg-white rounded-3xl shadow-2xl border border-[#E8BFC5] overflow-hidden flex flex-col max-h-[90vh] print:max-h-none print:shadow-none print:border-none print:rounded-none">
+        
+        {/* Modal Controls Header (Hidden in physical print & browser PDF preview) */}
+        <div className="no-print p-4 sm:p-6 bg-[#FFF9F7] border-b border-[#E8BFC5]/40 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="flex items-center gap-2.5">
+            <div className="w-8 h-8 rounded-lg bg-[#F8E7E9] flex items-center justify-center text-[#A65F73]">
+              <FileText className="w-4 h-4" />
+            </div>
+            <div>
+              <h3 className="font-serif text-lg font-semibold text-[#49343B]">
+                Printable PDF Pattern
+              </h3>
+              <p className="text-[11px] text-[#8E747E]">
+                Download a clean offline PDF document or send directly to your printer.
+              </p>
+            </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+            {/* Primary Action: Direct PDF File Download */}
+            <button
+              onClick={handleDirectPdfDownload}
+              disabled={isGenerating}
+              className="py-2 px-3.5 bg-[#A65F73] hover:bg-[#87495B] text-white text-xs font-semibold rounded-xl transition-colors flex items-center gap-1.5 shadow-2xs cursor-pointer"
+            >
+              {downloadSuccess ? (
+                <>
+                  <CheckCircle2 className="w-4 h-4 text-emerald-200" />
+                  <span>PDF Saved!</span>
+                </>
+              ) : (
+                <>
+                  <Download className="w-4 h-4" />
+                  <span>{isGenerating ? 'Generating PDF...' : 'Download PDF File'}</span>
+                </>
+              )}
+            </button>
+
+            {/* Secondary Action: Browser Print Dialog */}
             <button
               onClick={handleNativePrint}
-              className="py-2 px-4 bg-[#A65F73] hover:bg-[#87495B] text-white text-xs font-semibold rounded-xl transition-colors flex items-center gap-1.5 shadow-2xs"
+              className="py-2 px-3.5 bg-[#F8E7E9] hover:bg-[#E8BFC5] text-[#49343B] text-xs font-semibold rounded-xl transition-colors flex items-center gap-1.5 cursor-pointer"
             >
-              <Printer className="w-4 h-4" /> Print / Save as PDF
+              <Printer className="w-4 h-4 text-[#A65F73]" />
+              <span>Print via Browser</span>
             </button>
-            <button
-              onClick={handleDownloadFile}
-              className="py-2 px-4 bg-[#F8E7E9] hover:bg-[#E8BFC5] text-[#49343B] text-xs font-semibold rounded-xl transition-colors flex items-center gap-1.5"
-            >
-              <Download className="w-4 h-4" /> Download Text Pattern
-            </button>
+
+            {/* Close Button */}
             <button
               onClick={onClose}
-              className="p-2 text-[#49343B] hover:text-[#A65F73] rounded-full hover:bg-[#F8E7E9] transition-colors ml-2"
+              className="p-2 text-[#49343B] hover:text-[#A65F73] rounded-full hover:bg-[#F8E7E9] transition-colors ml-auto sm:ml-2 cursor-pointer"
+              title="Close Preview"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
         </div>
 
-        {/* Printable Document Body */}
-        <div className="p-6 sm:p-10 overflow-y-auto space-y-8 bg-white print:p-4">
+        {/* Helpful Tip Banner for Users */}
+        <div className="no-print bg-[#EFF4F0] border-b border-[#CCD8CF] px-6 py-2.5 text-xs text-[#3E2F35] flex items-center justify-between">
+          <span>
+            💡 <strong>Two Ways to Save:</strong> Click <strong>"Download PDF File"</strong> to save the document directly to your downloads, or click <strong>"Print via Browser"</strong> and select <em>Destination: Save as PDF</em>.
+          </span>
+          <button
+            onClick={handleDownloadTextFile}
+            className="text-[11px] text-[#587261] hover:underline font-medium shrink-0 ml-4 cursor-pointer"
+          >
+            Download as Text (.txt)
+          </button>
+        </div>
+
+        {/* Printable Document Body (Becomes entire printed document) */}
+        <div className="p-6 sm:p-10 overflow-y-auto space-y-8 bg-white print:p-0 print:overflow-visible">
           {/* Document Header */}
-          <div className="border-b-2 border-[#A65F73] pb-6 flex items-start justify-between">
+          <div className="border-b-2 border-[#A65F73] pb-6 flex items-start justify-between print-avoid-break">
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <span className="font-serif text-2xl font-bold tracking-tight text-[#49343B]">
@@ -121,10 +178,10 @@ For personal use only. Happy Crocheting!
                 {pattern.title}
               </h1>
               <p className="text-xs text-[#6E535C] mt-1">
-                Designed by MyCrochify Atelier · {pattern.subcategory} · {pattern.difficulty}
+                Designed by MyCrochify Atelier · {pattern.subcategory} · Skill Level: {pattern.difficulty} · Est. Time: {pattern.estimatedTime}
               </p>
             </div>
-            <div className="text-right text-xs text-[#8E747E]">
+            <div className="text-right text-xs text-[#8E747E] shrink-0 ml-4">
               <span className="font-semibold text-[#A65F73] block">
                 {pattern.isPremium ? 'Premium Edition' : 'Free Pattern Edition'}
               </span>
@@ -133,7 +190,7 @@ For personal use only. Happy Crocheting!
           </div>
 
           {/* Quick Specifications Table */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 rounded-xl bg-[#FFF9F7] border border-[#E8BFC5]/50 text-xs">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 rounded-xl bg-[#FFF9F7] border border-[#E8BFC5]/50 text-xs print-avoid-break">
             <div>
               <span className="text-[#8E747E] block font-medium">Hook Size</span>
               <span className="font-semibold text-[#49343B]">{pattern.hookSize}</span>
@@ -153,7 +210,7 @@ For personal use only. Happy Crocheting!
           </div>
 
           {/* Materials Checklist */}
-          <div>
+          <div className="print-avoid-break">
             <h3 className="font-serif text-lg font-semibold text-[#49343B] mb-2">
               Materials Needed
             </h3>
@@ -167,8 +224,8 @@ For personal use only. Happy Crocheting!
             </ul>
           </div>
 
-          {/* Abbreviations */}
-          <div>
+          {/* Abbreviations & Stitches */}
+          <div className="print-avoid-break">
             <h3 className="font-serif text-lg font-semibold text-[#49343B] mb-2">
               Abbreviations &amp; Stitches (US Terms)
             </h3>
@@ -189,7 +246,7 @@ For personal use only. Happy Crocheting!
             </h3>
 
             {pattern.instructions.map((section, sIdx) => (
-              <div key={sIdx} className="space-y-3">
+              <div key={sIdx} className="space-y-3 print-avoid-break">
                 <h4 className="font-serif text-base font-semibold text-[#A65F73]">
                   {section.sectionTitle}
                 </h4>
@@ -201,7 +258,7 @@ For personal use only. Happy Crocheting!
 
                 <div className="space-y-2 text-xs text-[#49343B]">
                   {section.steps.map((step, stIdx) => (
-                    <div key={stIdx} className="p-2.5 rounded-lg bg-[#FFF9F7]/50 border border-[#E8BFC5]/30">
+                    <div key={stIdx} className="p-2.5 rounded-lg bg-[#FFF9F7]/50 border border-[#E8BFC5]/30 print:border-[#E8BFC5] print-avoid-break">
                       <div className="flex items-baseline justify-between mb-0.5">
                         <strong className="text-[#A65F73]">{step.label}</strong>
                         {step.stitchCount && (
@@ -219,7 +276,7 @@ For personal use only. Happy Crocheting!
           </div>
 
           {/* Footer note on printout */}
-          <div className="pt-6 border-t border-[#E8BFC5]/40 text-center text-[10px] text-[#8E747E]">
+          <div className="pt-6 border-t border-[#E8BFC5]/40 text-center text-[10px] text-[#8E747E] print-avoid-break">
             <p>MyCrochify.com — Your Creative World of Crochet. Pattern designed for personal non-commercial crafting.</p>
           </div>
         </div>
