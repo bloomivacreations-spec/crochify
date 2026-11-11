@@ -7,7 +7,7 @@ export const CATEGORIES: CategoryInfo[] = [
     shortDescription: "Sweet handmade creations for life's little moments.",
     longDescription:
       'Wrap your sweetest little treasures in pure comfort. Our baby crochet collection features soft merino blankets, delicate booties with satin ribbon details, classic cardigans, vintage bonnets, and nursery keepsakes designed to become cherished family heirlooms.',
-    image: '/images/cat_baby_crochet.jpg',
+    image: '/images/patons_polka_dot_blanket.jpg',
     subcategories: [
       'Baby Blankets',
       'Baby Clothes',

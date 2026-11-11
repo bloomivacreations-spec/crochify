@@ -151,7 +151,7 @@ export const TUTORIALS: Tutorial[] = [
     difficulty: 'Intermediate',
     description: 'Unlock crisp stitch definition, open up lace shell motifs, and give blankets straight edges with steam and wet blocking.',
     summary: 'Blocking is the magical transformative step that elevates handmade crochet from homemade to luxury heirloom quality. Learn the difference between wet blocking for wool, steam blocking for acrylics, and pin-blocking for lace blankets.',
-    image: '/images/cat_baby_crochet.jpg',
+    image: '/images/be_my_baby_blanket_swatch.jpg',
     toolsNeeded: [
       'Interlocking foam blocking tiles with grid markings',
       'Rust-proof stainless steel T-pins',

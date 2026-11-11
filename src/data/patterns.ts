@@ -139,7 +139,7 @@ export const PATTERNS: Pattern[] = [
     image: '/images/patons_polka_dot_blanket.jpg',
     galleryImages: [
       '/images/patons_polka_dot_blanket.jpg',
-      '/images/cat_baby_crochet.jpg',
+      '/images/be_my_baby_blanket_swatch.jpg',
       '/images/hero_crochet_lifestyle.jpg'
     ],
     featured: true,
@@ -336,7 +336,7 @@ export const PATTERNS: Pattern[] = [
     galleryImages: [
       '/images/be_my_baby_blanket.jpg',
       '/images/be_my_baby_blanket_swatch.jpg',
-      '/images/cat_baby_crochet.jpg'
+      '/images/patons_polka_dot_blanket.jpg'
     ],
     featured: true,
     trending: true,
@@ -674,7 +674,8 @@ export const PATTERNS: Pattern[] = [
     image: '/images/hero_crochet_lifestyle.jpg',
     galleryImages: [
       '/images/hero_crochet_lifestyle.jpg',
-      '/images/cat_baby_crochet.jpg'
+      '/images/be_my_baby_blanket.jpg',
+      '/images/patons_polka_dot_blanket.jpg'
     ],
     featured: true,
     trending: true,
@@ -926,8 +927,7 @@ export const PATTERNS: Pattern[] = [
     ],
     image: '/images/hero_crochet_lifestyle.jpg',
     galleryImages: [
-      '/images/hero_crochet_lifestyle.jpg',
-      '/images/cat_baby_crochet.jpg'
+      '/images/hero_crochet_lifestyle.jpg'
     ],
     featured: false,
     trending: true,
