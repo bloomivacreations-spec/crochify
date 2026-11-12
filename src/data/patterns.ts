@@ -129,6 +129,141 @@ export const PATTERNS: Pattern[] = [
     dateAdded: '2026-11-12'
   },
   {
+    id: 'pat-maisie-ruth-cozy-steps-booties',
+    slug: 'cozy-steps-fast-crochet-baby-booties',
+    title: 'Cozy Steps Fast Crochet Baby Booties',
+    category: 'baby-crochet',
+    subcategory: 'Baby Booties',
+    description: 'Super-fast and easy folded-cuff baby booties with a structured oval sole, seamless back-loop ridge transition, and snug stay-on ribbed cuffs.',
+    fullDescription: 'Keep tiny toes toasty and snug with the Cozy Steps Booties (designed by Amanda at Maisie and Ruth, also known as the Fast Crochet Baby Booties). Celebrated by crocheters worldwide for their speedy one-sitting construction and foolproof "stay-on" design, these booties feature a sturdy oval double-crochet sole, an architectural back-loop-only transition ridge, centered toe decreases that hug baby’s instep, and a stretchy folded-down ribbed cuff. Worked seamlessly in one piece from the sole upwards, they require zero seaming and just 40 to 80 yards of yarn. Written across 8 comprehensive sizes from Newborn all the way up to 2 Years (3" to 5.75" sole lengths), making them the perfect quick baby shower gift or hospital newborn set.',
+    isPremium: false,
+    difficulty: 'Beginner',
+    estimatedTime: '1 - 2 hours',
+    hookSize: '3.0 mm (Newborn), 3.5 mm (0–3m), 4.0 mm (3–6m), 5.0 mm (6–9m & 12m), 5.5 mm (9–12m & 18m), or 6.0 mm (2 yrs)',
+    yarnWeight: 'DK / Light (#3) for Newborn to 3–6 mos; Worsted / Aran (#4) for 6–9 mos to 2 yrs',
+    yarnDetails: 'Stylecraft Bambino DK (100% Premium Acrylic; 100g / 293 yds / 268m) or Caron Simply Soft / Paintbox Yarns Simply Aran (100% Acrylic; 170g / 315 yds / 288m): 1 ball (approx. 40 to 80 yds) in Mustard Yellow, Camel Beige, Mint Seafoam, or Soft White',
+    gauge: 'First 3 rounds of the sole should match the target sole length for your size: Newborn: 3" [8 cm]; 0–3 mos: 3.5" [9 cm]; 3–6 mos: 4" [10 cm]; 6–9 mos: 4.25" [11 cm]; 9–12 mos: 4.5" [11.5 cm]; 12 mos: 4.75" [12 cm]; 18 mos: 5.25" [13 cm]; 2 yrs: 5.75" [14.5 cm]',
+    finishedSize: 'Sole Length: Newborn (3" [8 cm]), 0–3 mos (3.5" [9 cm]), 3–6 mos (4" [10 cm]), 6–9 mos (4.25" [11 cm]), 9–12 mos (4.5" [11.5 cm]), 12 mos (4.75" [12 cm]), 18 mos (5.25" [13 cm]), 2 yrs (5.75" [14.5 cm])',
+    materials: [
+      'DK (#3) or Worsted (#4) soft baby yarn (approx. 40–80 yards depending on size): 1 ball Mustard Yellow (or color of choice)',
+      'Crochet Hook: 3.0 mm, 3.5 mm, 4.0 mm, 5.0 mm, 5.5 mm, or 6.0 mm (according to size chosen)',
+      'Yarn tapestry needle for weaving ends',
+      'Tape measure and 2 locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, yo, draw through all 3 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, [yo, pull through 2 loops] twice' },
+      { abbr: 'BLdc', name: 'Double Crochet Back Loop Only', meaning: 'Work double crochet inserting hook strictly into the back loop of the stitch to create an anchor ridge' },
+      { abbr: 'dc2tog', name: 'Double Crochet 2 Together', meaning: '[yo, insert hook in next st, yo, pull up loop, yo, pull through 2 loops] twice, yo, pull through all 3 loops (toe decrease)' },
+      { abbr: 'FPdc / BPdc', name: 'Front Post / Back Post Double Crochet', meaning: 'Work double crochet around the vertical post of the stitch to form elastic ribs' },
+      { abbr: 'st / sts', name: 'Stitch / Stitches', meaning: 'Standard stitch count units' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of bootie' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Sole Foundation (Make 2)',
+        notes: 'Sole is worked in continuous oval rounds around both sides of the foundation chain. Check sole length after round 3 to verify correct fit.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Foundation Chain & Round 1 (Oval Base)',
+            instruction: 'Ch 10 (11, 12, 13, 14, 15, 16, 17). Work 2 hdc in 3rd ch from hook, hdc in next 6 (7, 8, 9, 10, 11, 12, 13) chs. Work 6 hdc in the last chain stitch (turning around the curved toe corner). Working along opposite side of foundation chain: hdc in next 6 (7, 8, 9, 10, 11, 12, 13) chs, 3 hdc in the very first starting ch. Join with sl st to top of beg ch-2. Gently pull beginning tail to close center chain gap.',
+            stitchCount: 'Oval sole foundation'
+          },
+          {
+            stepNumber: 2,
+            label: 'Sole Round 2 (Heel & Toe Increases)',
+            instruction: 'Ch 2, 2 hdc in first 2 sts, hdc in next 6 sts, 2 hdc in each of next 6 corner sts around toe curve, hdc in next 6 sts, 2 hdc in each of last 3 sts. Join with sl st to top of beg ch-2.',
+            stitchCount: 'Widened oval curve'
+          },
+          {
+            stepNumber: 3,
+            label: 'Sole Round 3 (Final Oval Sole Perimeter)',
+            instruction: 'Ch 2, hdc in first st, 2 hdc in next st, hdc in next 6 sts, *2 hdc in next st, hdc in next st; rep from * 5 times around toe curve, hdc in next 6 sts, *2 hdc in next st, hdc in next st; rep around heel. Join with sl st to top of beg ch-2. Check sole length now against size chart.',
+            stitchCount: 'Target sole length: 3" to 5.75"'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Sole-to-Upper Ridge & Sides',
+        notes: 'Working into the back loops creates an architectural welt ridge that keeps the bottom flat.',
+        steps: [
+          {
+            stepNumber: 4,
+            label: 'Round 4: Back Loop Ridge (BLdc)',
+            instruction: 'Ch 2 (does not count as st), working strictly in Back Loop Only (BLO), work 1 dc in each stitch around entire sole perimeter. Join with sl st to first dc. (The unworked front loops form a crisp baseline border).',
+            stitchCount: 'Even circular wall'
+          },
+          {
+            stepNumber: 5,
+            label: 'Round 5: Bootie Lower Wall',
+            instruction: 'Ch 2, work 1 standard dc (through both loops) in each stitch around. Join with sl st to first dc.',
+            stitchCount: 'Straight side height'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Vamp & Toe Decreases (Instep Shaping)',
+        notes: 'Centered double crochet decreases pull in the fabric to form a snug, rounded toe box.',
+        steps: [
+          {
+            stepNumber: 6,
+            label: 'Round 6: First Toe Decrease Round',
+            instruction: 'Ch 2, dc in next 9 (10, 11, 12, 13, 14, 15, 16) sts to front toe area. Work dc2tog 8 (8, 9, 9, 10, 10, 11, 11) times across the front toe curve. Dc in remaining sts around heel. Join with sl st to first dc.',
+            stitchCount: 'Tapered instep curve'
+          },
+          {
+            stepNumber: 7,
+            label: 'Round 7: Second Toe Decrease Round',
+            instruction: 'Ch 2, dc in next 8 (9, 10, 11, 12, 13, 14, 15) sts. Work dc2tog 4 (4, 5, 5, 5, 5, 6, 6) times across center toe to sculpt the rounded toe box. Dc in remaining sts to end of round. Join with sl st to first dc.',
+            stitchCount: 'Snug fitted toe dome'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Ankle & Ribbed Fold-Down Cuff',
+        notes: 'The ribbed collar hugs the ankle gently so the booties stay on active baby feet.',
+        steps: [
+          {
+            stepNumber: 8,
+            label: 'Round 8: Ankle Collar Base',
+            instruction: 'Ch 2, work 1 dc in each remaining stitch around the ankle opening (establishing a stable collar that prevents slippage). Join with sl st to first dc.',
+            stitchCount: 'Snug ankle opening'
+          },
+          {
+            stepNumber: 9,
+            label: 'Rounds 9–12: Stretchy Ribbed Fold-Over Cuff',
+            instruction: 'Ch 2, *FPdc around next st, BPdc around next st; rep from * alternating front and back post stitches around (or work in back loops only for ribbed fold). Repeat for 3 to 4 rounds until cuff measures approx. 2" to 2.5" [5 to 6.5 cm] high. Join with sl st to first st.',
+            stitchCount: 'Plush ribbed cuff height'
+          },
+          {
+            stepNumber: 10,
+            label: 'Finishing & Folding',
+            instruction: 'Fasten off leaving a 6" tail. Weave in all yarn tails neatly on the inside with a tapestry needle. Fold the ribbed ankle cuff down halfway over the ankle wall to reveal the plush chunky cuff. Repeat entire process for the second bootie!',
+            stitchCount: 'Pair of stay-on baby booties'
+          }
+        ]
+      }
+    ],
+    image: '/images/cozy_steps_baby_booties.jpg',
+    galleryImages: [
+      '/images/cozy_steps_baby_booties.jpg',
+      '/images/cozy_steps_baby_booties_on_baby.jpg',
+      '/images/cozy_steps_baby_booties_sole_detail.jpg',
+      '/images/cozy_steps_baby_booties_cuff_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 534,
+    pdfPageCount: 4,
+    pdfUrl: '/patterns/cozy_steps_baby_booties.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-maisie-ruth-sunny-stitches-hat',
     slug: 'sunny-stitches-sunburst-crochet-bucket-hat',
     title: 'Sunny Stitches Sunburst Bucket Hat',
