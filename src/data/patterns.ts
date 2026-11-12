@@ -1187,6 +1187,146 @@ export const PATTERNS: Pattern[] = [
     dateAdded: '2026-11-12'
   },
   {
+    id: 'pat-maisie-ruth-teddy-bear-rattle-teether',
+    slug: 'teddy-bear-baby-rattle-wooden-teether',
+    title: 'Teddy Bear Baby Rattle & Wooden Teether',
+    category: 'baby-crochet',
+    subcategory: 'Baby Toys',
+    description: 'An heirloom amigurumi teddy bear rattle with sweet embroidered facial features, a ruffled cornflower blue collar, and a smooth natural beechwood teething ring.',
+    fullDescription: 'The Teddy Bear Baby Rattle & Teether (designed by Amanda at Maisie and Ruth) is a beloved, timeless heirloom nursery toy crafted for tiny hands and soothing sore gums. Crocheted in durable, hypoallergenic 100% cotton yarn (Sport / 4-ply weight), this design features an amigurumi teddy bear head with an enclosed jingle rattle insert, a round white muzzle, curved teddy ears, 100% baby-safe hand-embroidered sleepy eyes and nose, and a whimsical ruffled collar. The bear head mounts securely onto a crocheted sleeve that wraps around an untreated, organic natural beechwood teething ring (approx. 70 mm / 2.75" outer diameter). Quick to make in under 3 hours, it makes a cherished baby shower gift, newborn photo prop, or keepsake nursery accessory.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '2 - 3 hours',
+    hookSize: '2.5 mm (US B/1) or 3.0 mm (US C/2) for firm amigurumi tension',
+    yarnWeight: 'Sport (#2) or DK (#3) 100% Cotton',
+    yarnDetails: 'Hobbii Rainbow Cotton 8/4 or Paintbox Yarns Cotton 4-Ply / DK (100% Cotton; 50g / 186 yds / 170m): 1 ball Sand Beige (Color A - Head, ears, ring cover), 1 small ball Bright White (Color B - Muzzle), 1 small ball Cornflower Blue (Color C - Ruffled collar), and small length of Black (Color D - Embroidered eyes & nose)',
+    gauge: '24 sc x 26 rounds = 4" x 4" [10 x 10 cm] using 2.5 mm or 3.0 mm hook (tension should be tight so polyfill stuffing does not show through stitches)',
+    finishedSize: 'Approx. 5.5" to 6" [14 to 15 cm] total height including wooden ring; Head measures approx. 2.75" [7 cm] diameter; Wooden ring measures 70 mm [2.75"] outer diameter',
+    materials: [
+      '100% Cotton Sport / 4-ply weight yarn (approx. 50g per ball):',
+      '  - Sand Beige (Color A): approx. 25g (Bear head, curved ears, ring sleeve)',
+      '  - Soft White (Color B): approx. 5g (Snout / muzzle)',
+      '  - Cornflower Blue (Color C): approx. 8g (Ruffled collar)',
+      '  - Pure Black (Color D): approx. 1 yard (Baby-safe embroidered eyes & nose)',
+      'Crochet Hook: 2.5 mm or 3.0 mm (or size needed for firm, tight amigurumi tension)',
+      'Natural untreated smooth beechwood teething ring: 70 mm (2.75") outer diameter',
+      'Plastic safety rattle insert / rattle bell (approx. 24–28 mm diameter)',
+      'Hypoallergenic polyester polyfill stuffing',
+      'Yarn tapestry needle, dressmaker pins, and locking stitch marker'
+    ],
+    abbreviations: [
+      { abbr: 'mr / adj-ring', name: 'Magic Ring', meaning: 'Adjustable loop worked seamlessly in continuous spirals' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'inc', name: 'Single Crochet Increase', meaning: 'Work 2 single crochet stitches into the same stitch' },
+      { abbr: 'inv-dec', name: 'Invisible Decrease', meaning: 'Insert hook through front loops of next 2 stitches, yo, pull through, yo, pull through 2 loops' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, yo, draw through all 3 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, [yo, pull through 2 loops] twice' },
+      { abbr: 'st / sts', name: 'Stitch / Stitches', meaning: 'Standard stitch count units' },
+      { abbr: 'Rnd / Rnds', name: 'Round / Rounds', meaning: 'Spiral rounds worked without joining' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Amigurumi Bear Head (Color A)',
+        notes: 'Worked in continuous spiral rounds without joining. Use a stitch marker to indicate the first stitch of each round.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Rounds 1–6: Crown & Radial Increases',
+            instruction: 'With Sand Beige (Color A), make a magic ring. Rnd 1: 6 sc in ring (6). Rnd 2: 2 sc in each st around (12). Rnd 3: *sc in next st, inc in next st; rep from * around (18). Rnd 4: *sc in next 2 sts, inc in next st; rep around (24). Rnd 5: *sc in next 3 sts, inc in next st; rep around (30). Rnd 6: *sc in next 4 sts, inc in next st; rep around (36).',
+            stitchCount: '36 sc'
+          },
+          {
+            stepNumber: 2,
+            label: 'Rounds 7–15: Head Body & Rattle Insertion',
+            instruction: 'Rnds 7–14: Sc in each st around (36 sc per round). Insert plastic rattle disc/ball into the center of the head, and pack firmly all around with hypoallergenic polyfill stuffing. Rnd 15: *sc in next 4 sts, inv-dec in next 2 sts; rep from * around (30).',
+            stitchCount: '30 sc (rattle enclosed)'
+          },
+          {
+            stepNumber: 3,
+            label: 'Rounds 16–18: Head Closure & Taper',
+            instruction: 'Rnd 16: *sc in next 3 sts, inv-dec; rep around (24). Top up stuffing firmly around sides. Rnd 17: *sc in next 2 sts, inv-dec; rep around (18). Rnd 18: *sc in next st, inv-dec; rep around (12). Fasten off leaving a 12" tail. Weave tail through front loops of remaining 12 sts, cinch closed tightly, knot, and weave end.',
+            stitchCount: '12 sc (firm stuffed dome)'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Muzzle, Ears & Baby-Safe Facial Embroidery',
+        notes: 'All facial elements are securely hand-embroidered with cotton yarn to ensure complete infant safety (no plastic safety eyes).',
+        steps: [
+          {
+            stepNumber: 4,
+            label: 'White Snout / Muzzle (Color B)',
+            instruction: 'With Soft White (Color B), magic ring. Rnd 1: 6 sc in ring (6). Rnd 2: 2 sc in each st around (12). Rnd 3: *sc in next st, inc in next st; rep around (18). Rnd 4: Sc in each st around (18). Sl st to next st, fasten off leaving a 10" tail for sewing. Lightly stuff muzzle.',
+            stitchCount: '18 sc'
+          },
+          {
+            stepNumber: 5,
+            label: 'Curved Bear Ears (Make 2 - Color A)',
+            instruction: 'With Sand Beige (Color A), magic ring. Rnd 1: 6 sc in ring (6). Rnd 2: 2 sc in each st around (12). Rnd 3: *sc in next 2 sts, inc in next st; rep around (16). Rnds 4–5: Sc in each st around (16). Flatten ear without stuffing. Sl st across opening to close. Fasten off leaving tail for sewing.',
+            stitchCount: '2 cupped bear ears'
+          },
+          {
+            stepNumber: 6,
+            label: 'Facial Assembly & Embroidery',
+            instruction: 'Pin muzzle to lower center front of head between Rnds 9 and 14; whipstitch securely all around with tapestry needle. Using Black yarn (Color D), embroider a smooth triangular satin-stitch nose on upper half of muzzle, with a short straight vertical stitch down to mouth. Embroider two sweet round sleepy/dot eyes 2 stitches above muzzle, spaced 6 stitches apart. Pin ears symmetrically on top sides between Rnds 4 and 8; whipstitch firmly.',
+            stitchCount: 'Completed expressive bear face'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Teething Ring Wooden Sleeve',
+        notes: 'A tight crocheted sleeve wraps around the 70mm smooth beechwood teething ring.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Crocheted Ring Strip (Color A)',
+            instruction: 'With Sand Beige (Color A), ch 25 (approx. 3.5" [9 cm]). Row 1: Sc in 2nd ch from hook and in each ch across, turn (24 sc). Rows 2–9: Ch 1, sc in each st across, turn (24 sc). (Strip should wrap snugly around the wooden ring’s thickness). Fasten off leaving an 18" tail for seaming.',
+            stitchCount: '24 sc x 9 rows'
+          },
+          {
+            stepNumber: 8,
+            label: 'Attaching Sleeve to Wooden Ring',
+            instruction: 'Wrap the crocheted rectangle snugly around the 70 mm natural beechwood teething ring. Using tapestry needle and the long tail, whipstitch the top and bottom long edges together with neat mattress stitches around the wood, pulling firmly so the sleeve fits taut without slipping. Knot securely and hide tail inside sleeve.',
+            stitchCount: 'Tightly anchored wooden ring sleeve'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Ruffled Elizabethan Collar & Final Assembly',
+        notes: 'The ruffled collar frames the neck delightfully and hides the strong anchor joins.',
+        steps: [
+          {
+            stepNumber: 9,
+            label: 'Ruffled Collar (Color C - Cornflower Blue)',
+            instruction: 'Ch 26. Row 1: 2 hdc in 2nd ch from hook and 2 hdc in each ch across, turn (50 hdc). Row 2 (Dramatic Ruffle): Ch 3 (counts as dc), 2 dc in same first st, work 3 dc in every stitch across to end (150 dc). Fasten off leaving a 10" tail.',
+            stitchCount: '150 dc wavy ruffle'
+          },
+          {
+            stepNumber: 10,
+            label: 'Final Secure Mounting',
+            instruction: 'Wrap the ruffled collar around the base of the teddy bear’s neck and sew the short ends together. Place the stuffed bear head firmly centered on top of the crocheted wooden ring sleeve. Using long doubled yarn, sew through both the base of the bear head and the wooden ring sleeve multiple times with strong, tight stitches all around the neck base. Ensure the connection is rock-solid and baby-safe. Weave all tails securely inside.',
+            stitchCount: 'Completed heirloom baby rattle teether'
+          }
+        ]
+      }
+    ],
+    image: '/images/teddy_bear_baby_rattle_teether.jpg',
+    galleryImages: [
+      '/images/teddy_bear_baby_rattle_teether.jpg',
+      '/images/teddy_bear_baby_rattle_face_detail.jpg',
+      '/images/teddy_bear_baby_rattle_collar_ring_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 489,
+    pdfPageCount: 5,
+    pdfUrl: '/patterns/teddy_bear_baby_rattle_teether.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-school-of-fish-blanket',
     slug: 'red-heart-school-of-fish-ripple-blanket',
     title: 'School of Fish Interactive Ripple Blanket',
