@@ -2,6 +2,122 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-bernat-everyday-bib-booties',
+    slug: 'bernat-everyday-baby-bib-and-booties-set',
+    title: 'Everyday Pastel Baby Bib & Booties Set',
+    category: 'baby-crochet',
+    subcategory: 'Baby Clothes',
+    description: 'A charming 7-day rainbow set of absorbent pure-cotton bibs with picot trims and embroidered days of the week, plus matching folded-cuff ribbed baby booties.',
+    fullDescription: 'Treat baby to handcrafted daily luxury with the Everyday Bib & Booties Set (Bernat® Handicrafter Cotton BRC0238-006013M). Crocheted from ultra-soft, 100% natural breathable cotton, this classic set features curved contoured bibs trimmed in delicate picot scallops with button closures, paired with matching two-tone baby booties with stretchy folded-down ribbed cuffs. Create a complete 7-day rainbow wardrobe—from Sunday lavender to Saturday mint—with embroidered chain-stitch lettering for the ultimate heartfelt baby shower gift.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '4 - 6 hours per set',
+    hookSize: '4.0 mm (US G/6)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'Bernat® Handicrafter Cotton (50 g / 1.75 oz; 73 m / 80 yds): 2 balls Main Color (MC - Lavender, Pastel Pink, Mint, Sky Blue, Buttercup, Peach, etc.) and 1 ball Contrast A (White) per set',
+    gauge: '14 sc and 16 rows = 4 inches [10 cm] using 4.0 mm (US G/6) hook',
+    finishedSize: 'Bib: Approx. 8" x 10" [20.5 x 25.5 cm]; Booties: Fits 0–6 months (6¼" [16 cm] cuff circumference)',
+    materials: [
+      'Bernat® Handicrafter Cotton 100% Natural Cotton yarn:',
+      '  - Main Color (MC - Pastel hue of choice): 2 balls (50g / 80 yds each)',
+      '  - Contrast A (White): 1 ball (for trims, foot sole, and embroidery)',
+      'Size 4.0 mm (U.S. G/6) crochet hook or size needed to obtain gauge',
+      '1 small button (approx. ½" / 12mm) for back neck closure',
+      'Yarn tapestry needle for embroidery and seaming',
+      'Locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'sc2tog', name: 'Single Crochet 2 Together', meaning: '[Insert hook in next st, yo, pull up loop] twice, yo, draw through 3 loops (1 st decreased)' },
+      { abbr: 'picot', name: 'Picot Stitch', meaning: 'Ch 3, sl st in first ch of chain-3' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'BLO', name: 'Back Loop Only', meaning: 'Work into the back loop only of indicated stitch' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of work' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Contoured Everyday Bib',
+        notes: 'Bib is worked in pure absorbent cotton from the bottom up, then divided for neck opening and finished with a delicate picot scallop border.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Bib Body Foundation & Increases (Rows 1–9)',
+            instruction: 'With MC, ch 20. Row 1 (RS): 1 sc in 2nd ch from hook, 1 sc in each ch across, turn (19 sts). Row 2: Ch 1, 2 sc in first st, 1 sc in each st to last st, 2 sc in last st, turn (21 sts). Row 3: Sc in each st across, turn. Rows 4–9: Rep last 2 rows 3 times more (27 sts). Continue working even in sc until work measures 6½ inches [16.5 cm] from beg, ending with RS facing.',
+            stitchCount: '27 sc'
+          },
+          {
+            stepNumber: 2,
+            label: 'Neck Shaping (First Shoulder & Neckband)',
+            instruction: 'Row 1 (RS): Ch 1, 1 sc in each of first 6 sts, sc2tog over next 2 sts, turn; leave remaining sts unworked. Row 2: Ch 1, sc2tog over first 2 sts, 1 sc in each st to end, turn. Row 3: Ch 1, 1 sc in each st to last 2 sts, sc2tog, turn (5 sts). Work 10 rows even in sc. Next row (WS): Ch 1, 2 sc in first st, sc to last 2 sts, sc2tog, turn. Next row: Ch 1, sc2tog, 1 sc in each st to last st, 2 sc in last st, turn. Rep last 2 rows twice more. Fasten off.',
+            stitchCount: 'First neckband strap finished'
+          },
+          {
+            stepNumber: 3,
+            label: 'Neck Shaping (Second Shoulder & Neckband)',
+            instruction: 'With RS facing, skip next 11 center neck sts. Join MC with sl st to next st. Ch 1, sc2tog over this st and next st, 1 sc in each st to end, turn. Work to correspond to first side, reversing all shaping. Fasten off.',
+            stitchCount: 'Both neckband straps completed'
+          },
+          {
+            stepNumber: 4,
+            label: 'Picot Scallop Edging & Button Loop',
+            instruction: 'Join Contrast A (White) with sl st to top left corner of neck edge. Ch 1, work 1 row of sc evenly around all outer and inner edges; join with sl st to first sc. Next round (outer edge only): Ch 1, *1 sc in each of next 3 sts, ch 3, sl st in first ch (picot made); rep from * to opposite neck corner. Fasten off. With Contrast A, chain a button loop at back neck edge. Sew button on opposite tab.',
+            stitchCount: 'Picot scalloped perimeter'
+          },
+          {
+            stepNumber: 5,
+            label: 'Days of the Week Embroidery',
+            instruction: 'Split Contrast A yarn into 2 plies. Using a tapestry needle, embroider the day of the week ("Sunday", "Monday", "Tuesday", etc.) and optional heart onto the lower bib in delicate chain stitch.',
+            stitchCount: 'Custom hand-embroidered bib'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Two-Tone Folded-Cuff Baby Booties (Make 2)',
+        notes: 'Booties feature a flexible ribbed cuff in back loops, a sculpted instep, and a seamless gathered sole that stays comfortably on tiny feet.',
+        steps: [
+          {
+            stepNumber: 6,
+            label: 'Ribbed Fold-Down Cuff',
+            instruction: 'With MC, ch 16. Row 1 (RS): 1 sc in 2nd ch from hook, 1 sc in each ch to end, turn (15 sts). Row 2: Working into back loops only (BLO) for ribbing, ch 1, 1 sc in each st across, turn. Rep Row 2 until cuff measures 6¼ inches [16 cm] slightly stretched. Do not fasten off.',
+            stitchCount: 'Ribbed cuff completed'
+          },
+          {
+            stepNumber: 7,
+            label: 'Cuff Edging & Instep Flap',
+            instruction: 'Row 1 (RS): Ch 1, work 23 sc evenly across long edge of cuff. Join Contrast A, turn. Row 2: With A, ch 1, 1 sc in each st to end. Fasten off A. Instep: With RS facing, miss first 7 sts. Join A with sl st to next st. Ch 1, 1 sc in same sp, 1 sc in each of next 8 sts, turn (9 sts). Rows 2–4: Ch 1, 1 sc in each st to end, turn. Row 5: Ch 1, sc2tog, 1 sc in each of next 5 sts, sc2tog, turn (7 sts). Row 6: Ch 1, sc2tog, 1 sc in each of next 3 sts, sc2tog, turn (5 sts). Fasten off.',
+            stitchCount: 'Instep flap shaped'
+          },
+          {
+            stepNumber: 8,
+            label: 'Foot Perimeter Pickup & Rounds',
+            instruction: 'Sew center back seam of cuff. With RS facing, join A with sl st at center back. Ch 1, 1 sc in each of next 7 sts, work 5 sc down side of instep, 3 sc in corner, 3 sc across end of instep, 3 sc in next corner, 5 sc along other side of instep, 1 sc in each of next 7 sts; join with sl st (33 sts). Work 2 rounds even in sc. Join MC at end of 2nd round.',
+            stitchCount: '33 sts'
+          },
+          {
+            stepNumber: 9,
+            label: 'Sole Decreases & Assembly',
+            instruction: 'Next rnd: With MC, working in back loops only, 1 sc in each st around; join. Next rnd: Ch 1, sc2tog, sc in next 12 sts, sc2tog, sc in next st, sc2tog, sc in next 12 sts, sc2tog; join (29 sts). Next rnd: Ch 1, sc2tog, sc in next 10 sts, sc2tog, sc in next st, sc2tog, sc in next 10 sts, sc2tog; join (25 sts). Next rnd: Ch 1, sc2tog, sc in next 8 sts, sc2tog, sc in next st, sc2tog, sc in next 8 sts, sc2tog; join (21 sts). Fasten off leaving tail. Turn bootie inside out, whipstitch center foot seam, and fold down cuff.',
+            stitchCount: 'Pair of booties completed'
+          }
+        ]
+      }
+    ],
+    image: '/images/bernat_everyday_bib_booties_set.jpg',
+    galleryImages: [
+      '/images/bernat_everyday_bib_booties_set.jpg',
+      '/images/bernat_everyday_bib_booties_bib_detail.jpg',
+      '/images/bernat_everyday_bib_booties_booties_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 358,
+    pdfPageCount: 1,
+    pdfUrl: '/patterns/bernat_everyday_bib_and_booties_set.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-school-of-fish-blanket',
     slug: 'red-heart-school-of-fish-ripple-blanket',
     title: 'School of Fish Interactive Ripple Blanket',
