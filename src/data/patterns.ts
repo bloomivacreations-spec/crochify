@@ -2,6 +2,133 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-monpetitviolon-lavender-booties',
+    slug: 'lavender-petal-ribbon-crochet-baby-booties',
+    title: 'Lavender Petal Ribbon Baby Booties',
+    category: 'baby-crochet',
+    subcategory: 'Baby Booties',
+    description: 'Exquisite French-style baby booties featuring candy-striped lavender & pink V-stitch textured toes, eyelet ribbon ties, and flared petal cuffs.',
+    fullDescription: 'Give tiny toes a touch of Parisian elegance with the Lavender Petal Ribbon Baby Booties (designed by Vita Apala / Mon Petit Violon). Handcrafted in breathable 100% cotton, these heirloom booties showcase a rhythmic two-tone V-stitch texture in soft lavender and baby pink. An eyelet ribbon casing weaves around the ankle to secure a silky lilac satin bow that ensures booties stay gently on baby’s feet, crowned with dramatic (3 hdc, ch 3, 3 hdc) flared petal scallop cuffs. Sized for 0–6 months (approx. 10 cm [4 inches] sole length), this pattern is quick to work and creates a breathtaking baby shower or christening gift.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '2 - 3 hours',
+    hookSize: '3.25 mm (US D/3)',
+    yarnWeight: 'Sport (#2) or Light Worsted / DK (#3)',
+    yarnDetails: '100% Cotton Yarn (e.g., Phildar Détente or Drops Safran 50g / 175 yds): 20g Main Color (Lavender) and 10g Contrasting Color (Baby Pink)',
+    gauge: '4 sts = 2 cm (5 sts = 1 inch) using 3.25 mm (US D/3) hook',
+    finishedSize: '0–6 months (approx. 10 cm [4 inches] foot length)',
+    materials: [
+      '100% Breathable Cotton Yarn (Sport / DK weight):',
+      '  - Main Color (Lavender): approx. 20g (Cuff, heel & stripes)',
+      '  - Contrasting Color (Baby Pink): approx. 10g (Toe stripes)',
+      'Crochet Hook: 3.25 mm (US D/3) or size needed to obtain gauge',
+      'Two satin ribbons: 50 cm [20 inches] long each (approx. ⅜" / 10 mm wide in lavender or pink)',
+      'Yarn tapestry needle for weaving ends and joining heel'
+    ],
+    abbreviations: [
+      { abbr: 'V-st', name: 'V-Stitch', meaning: '(1 hdc, ch 1, 1 hdc) in indicated stitch or space' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yo, pull through all 3 loops' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sp(s)', name: 'Space(s)', meaning: 'Space formed by chains in previous round' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of work' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Toe & Foot Textured Rounds (Rounds 1–11)',
+        notes: 'Toe is worked in continuous rounds, alternating Lavender and Baby Pink without cutting threads.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Toe Cap Setup (Rounds 1–3)',
+            instruction: 'Begin with Main Color (Lavender). Ch 2, sl st in first ch to form ring. Round 1: Ch 1, 9 hdc in ring; join with sl st in ch-1 (10 hdc). Round 2: Ch 1, 2 hdc in each st around; join with sl st in ch-1 space (20 hdc). Change to Contrasting Color (Baby Pink) for striped version (carry yarn inside without cutting).',
+            stitchCount: '20 hdc'
+          },
+          {
+            stepNumber: 2,
+            label: 'V-Stitch Texture Setup (Round 4)',
+            instruction: 'With Pink, ch 1, *(skip next st, 1 hdc, ch 1, 1 hdc in same st)* 10 times; join with sl st in first ch-1 space (10 V-stitch clusters). Change to Lavender.',
+            stitchCount: '10 V-stitch clusters'
+          },
+          {
+            stepNumber: 3,
+            label: 'Striped Foot Rounds (Rounds 5–11)',
+            instruction: 'Ch 1, *(1 hdc, ch 1, 1 hdc) in each ch-1 space around*; join with sl st in first ch-1 space. Alternate Lavender and Pink on every round without cutting yarn for 7 rounds total.',
+            stitchCount: '10 V-stitch clusters'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Heel Rows & Heel Seam (Rows 1–6)',
+        notes: 'Work back and forth across 8 V-stitches using Main Color (Lavender) only, leaving the top 2 instep V-stitches open.',
+        steps: [
+          {
+            stepNumber: 4,
+            label: 'Heel Flap (Rows 1–6 in Main Color)',
+            instruction: 'Row 1: With Lavender only, ch 1, *(1 hdc, ch 1, 1 hdc) in ch-1 space*, rep from * 7 times more (8 V-stitch clusters across heel), turn. Rows 2–6: Ch 1, *(1 hdc, ch 1, 1 hdc) in each ch-1 space across*, turn. Repeat for 6 rows total.',
+            stitchCount: '8 V-stitches worked across 6 rows'
+          },
+          {
+            stepNumber: 5,
+            label: 'Seamless Heel Seam',
+            instruction: 'Turn bootie inside out. Align both sides of the heel flap. Using your hook, slip stitch through all 4 loops across the back seam to close the heel. Fasten off.',
+            stitchCount: 'Heel joined securely'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Ankle Ribbon Eyelet & Flared Scallop Cuff (Rounds 1–5)',
+        notes: 'Eyelet row creates clean threading holes for the satin ribbon, finished with dramatic flared petal scallops.',
+        steps: [
+          {
+            stepNumber: 6,
+            label: 'Ankle Opening & Ribbon Eyelets (Rounds 1 & 2)',
+            instruction: 'Turn right side out. Begin in the middle of the back heel seam with Lavender: Round 1: Ch 1, sc evenly around the ankle opening (approx. 28 sc); join with sl st in ch-1. Round 2: Ch 2, skip next st, 1 hdc, *(ch 1, skip next st, 1 hdc)* rep around the ankle; join with sl st in 2nd ch of beg ch-2. (Eyelet ribbon holes completed).',
+            stitchCount: '14 ribbon eyelet holes'
+          },
+          {
+            stepNumber: 7,
+            label: 'Scallop Base & Flared Petal Shells (Rounds 3–5)',
+            instruction: 'Round 3: Ch 1, sc in each st around; join with sl st in first st. Round 4: *(Ch 3, skip next st, sl st in next st)* repeat around entire circumference to form scallop foundation loops. Round 5: *(3 hdc, ch 3, 3 hdc) in each ch-3 loop, sl st in slip stitch of previous round* around the entire cuff. Join with sl st and fasten off.',
+            stitchCount: 'Flared petal scallop collar'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Ribbon Ties & Styling',
+        notes: 'Silky satin ribbons secure the booties comfortably onto active baby feet.',
+        steps: [
+          {
+            stepNumber: 8,
+            label: 'Threading Ribbon Bows',
+            instruction: 'Weave in all yarn tails on the inside of the bootie. Using a yarn needle or safety pin, thread a 50 cm silky lilac satin ribbon through the Round 2 eyelet holes of each bootie. Tie into a graceful bow at center front.',
+            stitchCount: 'Satin ribbon bow tied'
+          },
+          {
+            stepNumber: 9,
+            label: 'Second Bootie & Pair Finishing',
+            instruction: 'Repeat all steps to complete the second bootie. Block lightly if desired. The pair is ready for luxury newborn gifting!',
+            stitchCount: 'Pair of heirloom baby booties (0–6 mos)'
+          }
+        ]
+      }
+    ],
+    image: '/images/lavender_ribbon_baby_booties.jpg',
+    galleryImages: [
+      '/images/lavender_ribbon_baby_booties.jpg',
+      '/images/lavender_ribbon_baby_booties_cuff_detail.jpg',
+      '/images/lavender_ribbon_baby_booties_toe_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 421,
+    pdfPageCount: 2,
+    pdfUrl: '/patterns/lavender_baby_booties.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-red-heart-sweet-bunny-hat',
     slug: 'red-heart-sweet-bunny-earflap-baby-hat',
     title: 'Sweet Bunny Earflap Baby Beanie',
