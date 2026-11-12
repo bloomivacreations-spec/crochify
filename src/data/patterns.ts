@@ -133,7 +133,9 @@ export const PATTERNS: Pattern[] = [
     ],
     image: '/images/bernat_gingham_baby_blanket.jpg',
     galleryImages: [
-      '/images/bernat_gingham_baby_blanket.jpg'
+      '/images/bernat_gingham_baby_blanket.jpg',
+      '/images/bernat_gingham_baby_blanket_detail.jpg',
+      '/images/bernat_gingham_baby_blanket_bear.jpg'
     ],
     featured: true,
     trending: true,
@@ -279,7 +281,9 @@ export const PATTERNS: Pattern[] = [
     ],
     image: '/images/patons_polka_dot_blanket.jpg',
     galleryImages: [
-      '/images/patons_polka_dot_blanket.jpg'
+      '/images/patons_polka_dot_blanket.jpg',
+      '/images/patons_polka_dot_blanket_detail.jpg',
+      '/images/patons_polka_dot_blanket_bears.jpg'
     ],
     featured: true,
     trending: true,
