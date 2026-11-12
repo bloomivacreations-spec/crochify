@@ -75,6 +75,77 @@ export default function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
+  // Support deep-linking via URL hash (e.g. #pattern/slug or ?pattern=slug)
+  useEffect(() => {
+    const parseUrl = () => {
+      const hash = window.location.hash.replace(/^#/, '');
+      const searchParams = new URLSearchParams(window.location.search);
+      const patternParam = searchParams.get('pattern');
+      const categoryParam = searchParams.get('category');
+      const tutorialParam = searchParams.get('tutorial');
+
+      if (patternParam) {
+        const found = PATTERNS.find((p) => p.slug === patternParam || p.id === patternParam);
+        if (found) {
+          setSelectedPattern(found);
+          setCurrentView('pattern-detail');
+          return;
+        }
+      }
+
+      if (hash.startsWith('pattern/')) {
+        const slug = hash.replace('pattern/', '');
+        const found = PATTERNS.find((p) => p.slug === slug || p.id === slug);
+        if (found) {
+          setSelectedPattern(found);
+          setCurrentView('pattern-detail');
+          return;
+        }
+      }
+
+      if (hash.startsWith('category/') || categoryParam) {
+        const catId = (categoryParam || hash.replace('category/', '')) as CategoryId;
+        if (CATEGORIES.some((c) => c.id === catId)) {
+          setSelectedCategoryId(catId);
+          setCurrentView(`category-${catId}`);
+          return;
+        }
+      }
+
+      if (hash.startsWith('tutorial/') || tutorialParam) {
+        const slug = tutorialParam || hash.replace('tutorial/', '');
+        const found = TUTORIALS.find((t) => t.slug === slug || t.id === slug);
+        if (found) {
+          setSelectedTutorial(found);
+          setCurrentView('tutorial-detail');
+          return;
+        }
+      }
+
+      if (hash === 'free-patterns') {
+        setCurrentView('free-patterns');
+        return;
+      }
+
+      if (hash === 'tutorials') {
+        setCurrentView('tutorials');
+        return;
+      }
+
+      if (!hash && !patternParam && !categoryParam && !tutorialParam) {
+        // Default to home if on root
+      }
+    };
+
+    parseUrl();
+    window.addEventListener('hashchange', parseUrl);
+    window.addEventListener('popstate', parseUrl);
+    return () => {
+      window.removeEventListener('hashchange', parseUrl);
+      window.removeEventListener('popstate', parseUrl);
+    };
+  }, []);
+
   const handleToggleFavorite = (id: string, e: React.MouseEvent) => {
     e.stopPropagation();
     setFavorites((prev) =>
@@ -101,12 +172,14 @@ export default function App() {
   const handleSelectPattern = (pattern: Pattern) => {
     setSelectedPattern(pattern);
     setCurrentView('pattern-detail');
+    window.location.hash = `pattern/${pattern.slug}`;
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectTutorial = (tutorial: Tutorial) => {
     setSelectedTutorial(tutorial);
     setCurrentView('tutorial-detail');
+    window.location.hash = `tutorial/${tutorial.slug}`;
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -114,16 +187,21 @@ export default function App() {
     if (view === 'category' && id) {
       setSelectedCategoryId(id as CategoryId);
       setCurrentView(`category-${id}`);
+      window.location.hash = `category/${id}`;
     } else if (view === 'tutorials') {
       setCurrentView('tutorials');
+      window.location.hash = 'tutorials';
     } else if (view === 'free-patterns') {
       setCurrentView('free-patterns');
+      window.location.hash = 'free-patterns';
     } else if (view === 'home') {
       setCurrentView('home');
+      window.location.hash = '';
     } else if (['about', 'contact', 'privacy', 'terms'].includes(view)) {
       setInfoModalType(view as 'about' | 'contact' | 'privacy' | 'terms');
     } else {
       setCurrentView(view);
+      window.location.hash = view;
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
