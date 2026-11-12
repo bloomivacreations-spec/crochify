@@ -2,6 +2,143 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-caron-lite-n-bright-blanket',
+    slug: 'caron-lite-n-bright-kaleidoscope-baby-blanket',
+    title: 'Lite \'n Bright Kaleidoscope Baby Blanket',
+    category: 'baby-crochet',
+    subcategory: 'Baby Blankets',
+    description: 'An electrifying retro mandala baby blanket featuring 48 kaleidoscopic circle-to-square motifs in watermelon, limelight green, mint blue, and grape.',
+    fullDescription: 'Infuse joyful retro energy into the nursery with the Lite \'n Bright Baby Blanket (Caron Simply Soft, designed by Randy Cavaliere). Crocheted in four brilliant satin-sheen shades—Watermelon, Limelight, Blue Mint, and Grape—this blanket is built from 48 intricate mandala squares. Each square starts with a graphic spoke wheel center formed by drop front post treble crochets (dFPtr), surrounded by delicate lace arches and crisp square corners. Sized at 32 x 42 inches [81.5 x 106.5 cm], it is joined with raised inner-loop ridges and framed by a delicate picot scallop border.',
+    isPremium: false,
+    difficulty: 'Intermediate',
+    estimatedTime: '16 - 22 hours',
+    hookSize: '6.0 mm (US J-10) & 5.0 mm (US H-8)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'Caron® Simply Soft® (170g / 6 oz, 315 yds / 288m): 1 skein each of Contrast A Watermelon (9604), Contrast B Limelight (9607), Contrast C Blue Mint (9608), and Contrast D Grape (9610)',
+    gauge: 'One square = 5¾" x 5¾" [14.5 x 14.5 cm] with 6.0 mm hook (approx. 5¼" [13.5 cm] assembled with 5.0 mm hook)',
+    finishedSize: 'Approx. 32" x 42" [81.5 x 106.5 cm]',
+    materials: [
+      'Caron® Simply Soft® Worsted Medium #4 yarn (170g / 315 yds per skein):',
+      '  - Contrast A Watermelon (9604): 1 skein',
+      '  - Contrast B Limelight (9607): 1 skein (also used for assembly)',
+      '  - Contrast C Blue Mint (9608): 1 skein (also used for border)',
+      '  - Contrast D Grape (9610): 1 skein',
+      'Size U.S. J-10 [6.0 mm] crochet hook (or size needed to obtain square gauge)',
+      'Size U.S. H-8 [5.0 mm] crochet hook (for assembly and picot border)',
+      'Yarn tapestry needle for weaving ends',
+      'Locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'dFPtr', name: 'Drop Front Post Treble Crochet', meaning: '[Yarn over] twice, insert hook from front to back in indicated ch-1 sp then from back to front into center ring, yo and draw loop up through ch-1 sp (yarn runs between dc sts in ring), [yo, draw through 2] 3 times' },
+      { abbr: 'Picot', name: 'Picot Stitch', meaning: '(Sc, ch 2, sc in 2nd ch from hook) in indicated stitch' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sp(s)', name: 'Space(s)', meaning: 'Space formed by chains in previous round' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates the facing side of work' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Square Motif 1 (Make 24 Total)',
+        notes: 'Colorway Sequence: Round 1 (Watermelon A) → Round 2 (Limelight B) → Rounds 3 & 4 (Blue Mint C) → Rounds 5 & 6 (Grape D) → Round 7 (Watermelon A). Make 24 squares with 6.0 mm hook.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Foundation Ring & Round 1 (WS in Color A Watermelon)',
+            instruction: 'With A, ch 4; join with sl st in first ch to form a center ring. Round 1 (WS): Ch 4 (counts as dc, ch 1 here and throughout), [dc in ring, ch 1] 7 times; join with sl st in 3rd ch of beg ch and change to B, turn.',
+            stitchCount: '8 dc and 8 ch-sps'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 2 (Drop Front Post Trebles in Color B Limelight)',
+            instruction: 'With B, ch 4, dFPtr in next ch-1 sp, ch 1, [dc in next dc, ch 1, dFPtr in next ch-1 sp, ch 1] 7 times; join with sl st in 3rd ch of beg ch and change to C, turn.',
+            stitchCount: '8 dFPtr, 8 dc, 16 ch-sps (radial spoke hub)'
+          },
+          {
+            stepNumber: 3,
+            label: 'Rounds 3 & 4 (Lace Arches in Color C Blue Mint)',
+            instruction: 'Round 3: With C, ch 4, sk first ch-1 sp, [sl st in next st, ch 4, sk next ch-1 sp] 15 times; join with sl st in st at base of beg ch, DO NOT TURN (16 ch-sps). Round 4: Sl st into first ch-4 sp, [ch 3, sl st in next ch-4 sp] 16 times; join with sl st in first sl st, turn. Fasten off C.',
+            stitchCount: '16 ch-3 arches'
+          },
+          {
+            stepNumber: 4,
+            label: 'Rounds 5 & 6 (Dimensional Bands in Color D Grape)',
+            instruction: 'Round 5: From RS, join D with sc in any ch-3 sp, ch 1, dc in next ch-4 sp of Rnd 3, ch 1, [sc in next ch-3 sp, ch 1, dc in next ch-4 sp of Rnd 3, ch 1] 15 times; join with sl st in first sc, turn (16 dc, 16 sc, 32 ch-sps). Round 6: [Ch 3, sc in 2nd ch from hook, ch 1, sk next dc, sl st in next sc] 16 times, turn (16 sc). Fasten off D.',
+            stitchCount: '16 sc with picot scallop points'
+          },
+          {
+            stepNumber: 5,
+            label: 'Round 7 (Squaring the Corners in Color A Watermelon)',
+            instruction: 'From RS, working in sc sts and skipping all sl sts, join A with sc in any sc, sc in same sc, ch 2, [2 sc in next sc, ch 2] twice, (dc, [ch 1, dc] 3 times) in next sc, ch 2, *[2 sc in next sc, ch 2] 3 times, (dc, [ch 1, dc] 3 times) in next sc, ch 2; rep from * around; join with sl st in first sc. Fasten off A.',
+            stitchCount: 'Square 1 completed (5¾" x 5¾")'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Square Motif 2 (Make 24 Total)',
+        notes: 'Inverted Colorway Sequence: Round 1 (Grape D) → Round 2 (Watermelon A) → Rounds 3 & 4 (Limelight B) → Rounds 5 & 6 (Blue Mint C) → Round 7 (Grape D). Make 24 squares with 6.0 mm hook.',
+        steps: [
+          {
+            stepNumber: 6,
+            label: 'Inverted Colorway Square 2 (Rounds 1–7)',
+            instruction: 'Work exactly as Square 1, substituting the designated colors: Rnd 1 with Color D (Grape); Rnd 2 with Color A (Watermelon); Rnds 3 & 4 with Color B (Limelight); Rnds 5 & 6 with Color C (Blue Mint); and Rnd 7 with Color D (Grape). Fasten off.',
+            stitchCount: 'Square 2 completed (24 squares made)'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Checkerboard Assembly (6 Rows x 8 Squares)',
+        notes: 'Arrange 48 squares in a 6-row by 8-column grid, alternating Square 1 and Square 2 in every row and column. Use the smaller 5.0 mm (US H-8) hook and Limelight B for crisp join seams.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Alternating Grid Arrangement',
+            instruction: 'Lay out the 48 squares into 6 rows of 8 squares each. Row 1: Sq 1, Sq 2, Sq 1, Sq 2, Sq 1, Sq 2, Sq 1, Sq 2. Row 2: Sq 2, Sq 1, Sq 2, Sq 1, Sq 2, Sq 1, Sq 2, Sq 1. Continue alternating for all 6 rows.',
+            stitchCount: '48 squares positioned'
+          },
+          {
+            stepNumber: 8,
+            label: 'Raised SC Seam Assembly (with 5.0 mm hook & Color B)',
+            instruction: 'Hold neighboring squares with wrong sides (WS) facing together. Using smaller hook (5.0 mm / H-8) and Limelight B, working through inner loops only, work single crochet across side edges to join squares into horizontal strips. Join vertical seams of strips together in the same manner for neat raised framing ridges.',
+            stitchCount: 'Blanket body joined'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Perimeter Picot Shell Border',
+        notes: 'Work around outer edge with the smaller 5.0 mm (US H-8) hook and Contrast C (Blue Mint).',
+        steps: [
+          {
+            stepNumber: 9,
+            label: 'Perimeter Picot Rounds (Color C Blue Mint)',
+            instruction: 'From RS with smaller hook, join C with sc in any center ch of any corner, ch 2, sc in 2nd ch from hook (picot made), *[sk 1 dc, sk next ch, picot in next dc, sk 2 ch, sc in next sc, (picot in next sc, sk 2 ch, sc in next sc) twice, picot in next sc, sk 2 ch, picot in next dc, sk 1 ch, sk next dc, picot in next ch at corner of current square**, sk join between squares, picot in center ch of corner of next square; rep from * across edge, ending at ** at the end of each edge] 4 times; join with sl st in first sc. Fasten off C.',
+            stitchCount: 'Delicate picot scalloped edge completed'
+          },
+          {
+            stepNumber: 10,
+            label: 'Finishing & Light Blocking',
+            instruction: 'Weave in all remaining yarn tails on the wrong side with your yarn tapestry needle. Lightly steam block or spray mist to 32 x 42 inches [81.5 x 106.5 cm] to relax the stitches and set the picot points.',
+            stitchCount: 'Finished heirloom blanket: 32" x 42"'
+          }
+        ]
+      }
+    ],
+    image: '/images/caron_lite_n_bright_baby_blanket.jpg',
+    galleryImages: [
+      '/images/caron_lite_n_bright_baby_blanket.jpg',
+      '/images/caron_lite_n_bright_baby_blanket_detail.jpg',
+      '/images/caron_lite_n_bright_baby_blanket_chair.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.98,
+    reviewCount: 315,
+    pdfPageCount: 2,
+    pdfUrl: '/patterns/caron_lite_n_bright_baby_blanket.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-flower-garden-throw',
     slug: 'red-heart-flower-garden-hexagon-throw',
     title: 'Flower Garden 3D Hexagon Heirloom Throw',
