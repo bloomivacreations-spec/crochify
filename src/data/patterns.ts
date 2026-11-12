@@ -944,6 +944,134 @@ export const PATTERNS: Pattern[] = [
     dateAdded: '2026-11-12'
   },
   {
+    id: 'pat-lovable-loops-fairy-dress',
+    slug: 'lovable-loops-rainbow-fairy-dress',
+    title: 'Lovable Loops Rainbow Twirl Fairy Dress',
+    category: 'baby-crochet',
+    subcategory: 'Baby Clothes',
+    description: 'A magical fairy-tale sundress for baby & toddler featuring a fitted turquoise bodice, fluttery yellow ruffle sleeves, and a full-twirl rainbow striped skirt with scalloped hem.',
+    fullDescription: 'Bring storybook magic to life with the Lovable Loops Rainbow Twirl Fairy Dress (designed by Melissa Hassler). Worked seamlessly from the top down, this vibrant dress features an easy double-crochet scoop-neck bodice in bright ocean turquoise, trimmed with sunshine yellow flutter ruffles at the armholes and neckline. The high-spin circle skirt expands into playful undulating waves with joyful carnival stripes in sunshine yellow, bubblegum pink, sweet lavender, and turquoise, finished with delicate lavender scallop shells along the hemline. Perfect for birthday parties, fairy dress-up, summer garden outings, and milestone portraits. Sized across 5 infant and toddler sizes: 0–3 months, 3–6 months, 6–12 months, 12–18 months, and 18–24 months / 2T.',
+    isPremium: false,
+    difficulty: 'Intermediate',
+    estimatedTime: '6 - 9 hours',
+    hookSize: '5.5 mm (US I-9) or size needed to obtain gauge',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'Worsted weight #4 acrylic or cotton-blend yarn (e.g. Red Heart Super Saver, Caron Simply Soft, or Lion Brand Basic Stitch): 1 skein Ocean Teal (Color A), 1 skein Sunshine Yellow (Color B), 1 skein Hot Pink (Color C), and 1 skein Lavender / Lilac (Color D)',
+    gauge: '15 dc and 11 rows = 4" x 4" [10 x 10 cm] using 5.5 mm (US I-9) hook',
+    finishedSize: 'Chest: 0–3 mos (16" [40.5 cm]), 3–6 mos (17" [43 cm]), 6–12 mos (18" [45.5 cm]), 12–18 mos (19.5" [49.5 cm]), 18–24 mos (21" [53 cm]). Total Length: 12" to 17.5" [30.5 to 44.5 cm]',
+    materials: [
+      'Worsted weight #4 yarn in 4 joyful shades:',
+      '  - Ocean Teal (Color A): approx. 140–220 yards (Bodice & skirt stripes)',
+      '  - Sunshine Yellow (Color B): approx. 70–100 yards (Neckline, sleeve ruffles & skirt stripes)',
+      '  - Bubblegum / Hot Pink (Color C): approx. 50–80 yards (Skirt stripes)',
+      '  - Lavender Lilac (Color D): approx. 60–90 yards (Skirt stripes & scalloped shell hem)',
+      'Crochet Hook: 5.5 mm [US I-9] or size needed to obtain gauge',
+      'Yarn tapestry needle for weaving ends',
+      'Tape measure and locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, yo, draw through all 3 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, [yo, pull through 2 loops] twice' },
+      { abbr: 'V-st', name: 'V-Stitch', meaning: 'Work (dc, ch 1, dc) into the same designated stitch or space' },
+      { abbr: 'shell', name: 'Scallop Shell', meaning: '5 dc worked into the same stitch to create a rounded scallop shell' },
+      { abbr: 'st / sts', name: 'Stitch / Stitches', meaning: 'Standard stitch count units' },
+      { abbr: 'Rnd / Rnds', name: 'Round / Rounds', meaning: 'Joined rounds worked in circles' },
+      { abbr: 'sk', name: 'Skip', meaning: 'Skip indicated stitch or chain' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of fabric' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Top-Down Bodice & Armhole Division (Color A - Teal)',
+        notes: 'The bodice is worked in joined rounds from the neckline downwards. Ch 2 at start of round counts as first double crochet.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Rounds 1–4: Neckline Foundation & Yoke',
+            instruction: 'With Ocean Teal (Color A), ch 48 (52, 56, 60, 64), join with sl st to first ch to form a loop. Rnd 1: Ch 2, dc in each ch around; join with sl st to top of beg ch-2 (48 [52, 56, 60, 64] dc). Rnds 2–4: Ch 2, dc in each st around, working 4 evenly spaced increases per round to expand the shoulder yoke smoothly; join (60 [64, 72, 76, 80] dc).',
+            stitchCount: '60 (64, 72, 76, 80) dc'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 5: Armhole Division',
+            instruction: 'Ch 2, dc across 18 (19, 21, 22, 23) front chest sts, skip 12 (13, 15, 16, 17) armhole sts, ch 2 for underarm bridge, dc across 18 (19, 21, 22, 23) back sts, skip 12 (13, 15, 16, 17) armhole sts, ch 2 for underarm bridge; join with sl st to first dc.',
+            stitchCount: 'Sleeves separated, chest cylinder created'
+          },
+          {
+            stepNumber: 3,
+            label: 'Rounds 6–10: Bodice Waist Extension',
+            instruction: 'Rnds 6–10 (12, 14, 16, 18): Ch 2, dc in each dc and in each underarm chain around (40 [42, 46, 48, 50] dc). Work straight and even until the solid teal bodice reaches the natural waistline. Fasten off Color A.',
+            stitchCount: '40 (42, 46, 48, 50) dc'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Twirly Flared Rainbow Circle Skirt',
+        notes: 'The skirt expands rapidly into a high-spin flared circle skirt with colorful 2-round stripes.',
+        steps: [
+          {
+            stepNumber: 4,
+            label: 'Skirt Flare Setup (Color B - Sunshine Yellow)',
+            instruction: 'Join Sunshine Yellow (Color B) in any waist stitch. Rnd 1 (Double Increase Flare): Ch 2, work 2 dc in each stitch around; join with sl st to first dc (80 [84, 92, 96, 100] dc). The doubled count forms instant ruffled pleats.',
+            stitchCount: '80 (84, 92, 96, 100) dc'
+          },
+          {
+            stepNumber: 5,
+            label: 'V-Stitch Expansion (Color B)',
+            instruction: 'Rnd 2: Ch 3, dc in same st (counts as first V-st), *skip 1 st, V-st (dc, ch 1, dc) in next st; rep from * around; join with sl st to 2nd ch of beg ch-3. Fasten off Color B.',
+            stitchCount: 'Flared V-stitch foundation'
+          },
+          {
+            stepNumber: 6,
+            label: 'Rainbow Striping Sequence (Colors C, D, A, B)',
+            instruction: 'Work in alternating 2-round stripes: Rnds 3–4: Hot Pink (Color C) - V-st in each ch-1 space around. Rnds 5–6: Lavender (Color D) - V-st in each space around. Rnds 7–8: Ocean Teal (Color A) - V-st in each space around. Rnds 9–10: Sunshine Yellow (Color B). Continue alternating sequence for 12 (14, 16, 18, 20) rounds total until skirt hangs comfortably just above baby’s knees.',
+            stitchCount: 'Joyful horizontal rainbow stripes'
+          },
+          {
+            stepNumber: 7,
+            label: 'Scalloped Shell Hemline (Color D - Lavender)',
+            instruction: 'Join Lavender (Color D) in any space along the bottom hemline. Round 1: Ch 1, *sc in first st, skip 1 st, 5 dc in next st (shell), skip 1 st, sl st in next st; rep from * around the wide circle perimeter. Join with sl st to first sc. Fasten off and weave in all stripe ends on WS.',
+            stitchCount: 'Delicate wavy scallop hem'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Ruffled Flutter Sleeves & Neckline Trim (Color B)',
+        notes: 'Fairy-wing armhole ruffles and a delicate scoop collar complete the look.',
+        steps: [
+          {
+            stepNumber: 8,
+            label: 'Flutter Sleeve Ruffles (Both Armholes)',
+            instruction: 'Join Sunshine Yellow (Color B) at the bottom underarm of either sleeve. Round 1: Ch 1, work sc evenly around armhole edge; join. Round 2 (Ruffle Shells): *Sc in next st, skip 1 st, 4 dc in next st, skip 1 st; rep from * around entire armhole to create whimsical fairy ruffles. Join with sl st, fasten off. Repeat for the other armhole.',
+            stitchCount: '2 flutter wing sleeve ruffles'
+          },
+          {
+            stepNumber: 9,
+            label: 'Scoop Neckline Scallop Edging',
+            instruction: 'Join Sunshine Yellow (Color B) at the back neckline seam. Work 1 round of *sc, ch 2, sc in same st, skip 1 st; rep from * around for a delicate picot scoop collar. Fasten off and weave in all yarn ends neatly with a tapestry needle.',
+            stitchCount: 'Finished fairy sundress'
+          }
+        ]
+      }
+    ],
+    image: '/images/lovable_loops_fairy_dress.jpg',
+    galleryImages: [
+      '/images/lovable_loops_fairy_dress.jpg',
+      '/images/lovable_loops_fairy_dress_bodice_detail.jpg',
+      '/images/lovable_loops_fairy_dress_skirt_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    seasonal: 'summer',
+    rating: 4.99,
+    reviewCount: 526,
+    pdfPageCount: 7,
+    pdfUrl: '/patterns/lovable_loops_fairy_dress.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-bernat-saturn-baby-pullover',
     slug: 'bernat-crochet-saturn-baby-pullover',
     title: 'Saturn Space Baby Raglan Pullover',
