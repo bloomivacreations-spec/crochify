@@ -129,6 +129,153 @@ export const PATTERNS: Pattern[] = [
     dateAdded: '2026-11-12'
   },
   {
+    id: 'pat-maisie-ruth-sunny-stitches-hat',
+    slug: 'sunny-stitches-sunburst-crochet-bucket-hat',
+    title: 'Sunny Stitches Sunburst Bucket Hat',
+    category: 'baby-crochet',
+    subcategory: 'Baby Hats & Bonnets',
+    description: 'A cheerful retro sunburst granny square bucket hat featuring five vibrant floral squares, a granny cluster crown, and a structured sun-flare brim with delicate scallop edging.',
+    fullDescription: 'The Sunny Stitches Sunburst Bucket Hat (designed by Amanda at Maisie and Ruth) brings vintage charm and sunshine vibes to your little one’s wardrobe! Crocheted with lightweight DK cotton-blend yarn in bright joyful shades (sunshine yellow, sky blue, lilac purple, bubblegum pink, and crisp white), this hat combines five classic sunburst granny squares (worked with puff stitches and 4-dc cluster petals) joined into a headband cylinder, an easy decreasing granny cluster crown, and a softly flared bucket brim finished with an eye-catching white scallop trim. Sized across 6 head circumferences: 0–3 months (15" / 38 cm), 3–6 months (16" / 41 cm), 6–12 months (17.5" / 44.5 cm), 1–3 years / Toddler (19" / 48 cm), 3–10 years / Child (20" / 51 cm), and Teen / Adult (22" / 56 cm).',
+    isPremium: false,
+    difficulty: 'Intermediate',
+    estimatedTime: '4 - 6 hours',
+    hookSize: '3.5 mm (US E-4), 4.0 mm (US G-6), 4.5 mm (US 7), or 5.0 mm (US H-8) according to size gauge',
+    yarnWeight: 'DK / Light Worsted (#3)',
+    yarnDetails: 'Sirdar Stories DK or Paintbox Yarns Cotton DK (60% Cotton, 40% Acrylic; 50g / 140m / 153 yds per ball): 1 ball Sunshine Yellow (Color A), 1 ball Sky Blue (Color B), 1 ball Bubblegum Pink (Color C), 1 ball Lilac Purple (Color D), and 1 ball Bright White (Color E)',
+    gauge: 'Each 4-round Sunburst Granny Square measures: 0–3 mos: 3.25" [8.25 cm]; 3–6 mos: 3.5" [9 cm]; 6–12 mos: 3.75" [9.5 cm]; 1–3 yrs: 4" [10 cm]; 3–10 yrs: 4.25" [11 cm]; Teen/Adult: 4.5" [11.5 cm]',
+    finishedSize: 'Circumference: 0–3 mos: 15" [38 cm]; 3–6 mos: 16" [41 cm]; 6–12 mos: 17.5" [44.5 cm]; 1–3 yrs: 19" [48 cm]; 3–10 yrs: 20" [51 cm]; Teen/Adult: 22" [56 cm]. Total hat height: 6" to 8.5" [15 to 21.5 cm]',
+    materials: [
+      'DK / Light Worsted #3 cotton-blend yarn (50g / 140m per ball):',
+      '  - Sunshine Yellow (Color A): 1 ball (Flower center ring)',
+      '  - Sky Blue (Color B): 1 ball (Round 2 puff stitches)',
+      '  - Bubblegum Pink (Color C): 1 ball (Round 3 cluster petals)',
+      '  - Lilac Purple (Color D): 1 ball (Round 4 granny squaring, crown rounds & brim)',
+      '  - Bright White (Color E): 1 ball (Granny frame edging & scalloped brim trim)',
+      'Crochet Hook: 3.5 mm (0–3 mos), 4.0 mm (3–6 mos), 4.5 mm (6–12 mos / 1–3 yrs), or 5.0 mm (3–10 yrs / Adult)',
+      'Yarn tapestry needle for seaming and weaving ends',
+      'Measuring tape and stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'mr / adj-ring', name: 'Magic Ring', meaning: 'Adjustable foundation loop worked seamlessly in the round' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, yo, draw through all 3 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, [yo, pull through 2 loops] twice' },
+      { abbr: 'tr', name: 'Treble Crochet', meaning: 'Yarn over twice, insert hook, pull up loop, [yo, pull through 2 loops] 3 times' },
+      { abbr: 'puff', name: 'Puff Stitch', meaning: '[yo, insert hook in st, yo, pull up loop to height of dc] 3 times (7 loops on hook), yo, draw through all 7 loops, ch 1 to lock' },
+      { abbr: '4-dc-cl', name: '4-dc Cluster Petal', meaning: '[yo, insert hook in ch-sp, yo, pull up loop, yo, pull through 2 loops] 4 times (5 loops on hook), yo, draw through all 5 loops' },
+      { abbr: 'sp / sps', name: 'Space / Spaces', meaning: 'Chain space between stitch clusters' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of fabric' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Sunburst Granny Squares (Make 5)',
+        notes: 'Make 5 identical sunburst squares for the hat cylinder band. Change hook size according to your chosen hat size to achieve the target square dimensions.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Round 1: Flower Center (Color A)',
+            instruction: 'With Sunshine Yellow (Color A), create a magic ring, ch 3 (counts as 1st dc), work 15 dc into ring; join with sl st to top of beg ch-3. Gently pull tail to close center hole. Fasten off Color A. (16 dc total).',
+            stitchCount: '16 dc'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 2: Puff Stitch Ring (Color B)',
+            instruction: 'Join Sky Blue (Color B) with a sl st in any stitch between dc posts. Ch 1, *work puff stitch in st, ch 1; rep from * in each stitch around (16 puff stitches, 16 ch-1 spaces). Join with sl st to top of first puff stitch. Fasten off Color B.',
+            stitchCount: '16 puff stitches, 16 ch-1 sps'
+          },
+          {
+            stepNumber: 3,
+            label: 'Round 3: 4-dc Cluster Petals (Color C)',
+            instruction: 'Join Bubblegum Pink (Color C) in any ch-1 space. Ch 2, work 4-dc cluster in same sp, ch 2, *4-dc cluster in next ch-1 sp, ch 2; rep from * in every ch-1 space around. Join with sl st to top of first cluster. Fasten off Color C.',
+            stitchCount: '16 cluster petals, 16 ch-2 sps'
+          },
+          {
+            stepNumber: 4,
+            label: 'Round 4: Squaring the Circle (Color D or E)',
+            instruction: 'Join framing yarn (Lilac Purple or White) in any ch-2 space. Corner: ch 4 (counts as tr), 1 tr, ch 2, 2 tr in same space. *Along side: [3 dc in next ch-2 sp, 3 hdc in next ch-2 sp, 3 dc in next ch-2 sp]. Next Corner: (2 tr, ch 2, 2 tr) in next sp; rep from * 2 more times, then work side stitches along 4th edge; join with sl st to 4th ch of beg ch-4. Fasten off and wet block squares to shape.',
+            stitchCount: '4 corners (2 tr, ch 2, 2 tr) + 12 side 3-st groups'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Joining Squares into Hat Cylinder Band',
+        notes: 'The 5 squares form the circumference band of the bucket hat.',
+        steps: [
+          {
+            stepNumber: 5,
+            label: 'Cylinder Seaming',
+            instruction: 'Lay the 5 finished sunburst squares side-by-side with Right Sides facing up. Align the corner spaces and matching stitches. Using a tapestry needle with Color D (or a crochet hook working a flat slip-stitch seam through back loops only), join Square 1 to Square 2 along adjacent edges. Continue joining Squares 3, 4, and 5 into a horizontal strip. Finally, join Square 5 to Square 1 to create a continuous 5-square cylinder ring.',
+            stitchCount: 'Continuous 5-square cylinder'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Crown Shaping (Top of Hat)',
+        notes: 'Worked directly into the upper perimeter of the 5-square cylinder in continuous joined rounds, gradually decreasing to close the top dome.',
+        steps: [
+          {
+            stepNumber: 6,
+            label: 'Crown Round 1: Foundation Granny Clusters',
+            instruction: 'With RS facing, join Color D (or chosen crown color) in any upper ch-2 corner space. Ch 3 (counts as dc), 2 dc in same space. Work 3 dc in each space across the top edge of each square and 1 dc in each square-joining seam around (yielding 7 cluster groups per square = 35 granny clusters total around). Join with sl st to top of beg ch-3.',
+            stitchCount: '35 granny clusters (105 dc)'
+          },
+          {
+            stepNumber: 7,
+            label: 'Crown Rounds 2–3: Straight & Even Rounds',
+            instruction: 'Round 2: Sl st into first space between clusters, ch 3, 2 dc in same sp. Work 3 dc in each space between clusters around (35 clusters); join with sl st to beg ch-3. (For larger sizes 3–10 yrs and Adult, repeat for 1 additional even round before decreasing).',
+            stitchCount: '35 clusters'
+          },
+          {
+            stepNumber: 8,
+            label: 'Crown Rounds 4–6: Decrease Dome & Top Closure',
+            instruction: 'Round 4: *Work 3 dc in next 5 spaces, 2 dc in next space; rep from * around (decreases to 30 clusters). Round 5: *Work 2 dc in each space between clusters around (decreases to 60 dc). Round 6: Work dc2tog around (30 sts). Round 7: Work dc2tog around (15 sts). Fasten off leaving a 10" yarn tail. Thread tail onto tapestry needle, weave through front loops of remaining stitches, pull firmly to cinch the crown opening closed, and knot securely on WS.',
+            stitchCount: 'Smooth closed dome'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Sunburst Flared Brim & Picot Scallop Border',
+        notes: 'Worked into the bottom edge of the 5-square cylinder, expanding gracefully outward into a structured summer bucket brim.',
+        steps: [
+          {
+            stepNumber: 9,
+            label: 'Brim Round 1: Foundation Clusters',
+            instruction: 'Flip hat upside down to work into the opposite bottom edge of the 5-square cylinder. Join Color D (or matching brim yarn) in any space. Ch 3, 2 dc in same sp. Work 3 dc into each space between clusters along bottom of squares (35 clusters). Join with sl st to top of beg ch-3.',
+            stitchCount: '35 clusters'
+          },
+          {
+            stepNumber: 10,
+            label: 'Brim Rounds 2–3: Increasing Flare',
+            instruction: 'Round 2: Sl st into first sp, ch 3, 2 dc in same sp, ch 1, *3 dc in next sp, ch 1; rep from * around (35 clusters, 35 ch-1 sps). Round 3: Sl st into first ch-1 sp, ch 3, 2 dc in same sp, *3 dc in next ch-1 sp; rep from * around. For Child/Adult sizes: work [3 dc, ch 1, 3 dc] in every 5th space to give extra sun shade flare.',
+            stitchCount: 'Flared bucket brim'
+          },
+          {
+            stepNumber: 11,
+            label: 'Round 4: Final Brim Shaping & Contrast Scallop Edge',
+            instruction: 'Round 4: Work 1 round of dc in each st around, join and fasten off Color D. Round 5 (Scalloped Edging): Join Color E (Bright White) in any st. *Sc in st, ch 2, 2 dc in same st, skip 2 sts, sl st in next st; rep from * all the way around the brim perimeter. Join with sl st to first sc. Fasten off and weave in all yarn tails neatly with a tapestry needle.',
+            stitchCount: 'Decorative scalloped picot edge'
+          }
+        ]
+      }
+    ],
+    image: '/images/sunny_stitches_sunburst_bucket_hat.jpg',
+    galleryImages: [
+      '/images/sunny_stitches_sunburst_bucket_hat.jpg',
+      '/images/sunny_stitches_sunburst_bucket_hat_square_detail.jpg',
+      '/images/sunny_stitches_sunburst_bucket_hat_brim_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    seasonal: 'summer',
+    rating: 4.98,
+    reviewCount: 387,
+    pdfPageCount: 6,
+    pdfUrl: '/patterns/sunny_stitches_bucket_hat.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-red-heart-sweet-bunny-hat',
     slug: 'red-heart-sweet-bunny-earflap-baby-hat',
     title: 'Sweet Bunny Earflap Baby Beanie',
