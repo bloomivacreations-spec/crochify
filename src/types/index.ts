@@ -39,6 +39,7 @@ export interface Pattern {
   rating: number;
   reviewCount: number;
   pdfPageCount: number;
+  pdfUrl?: string;
   dateAdded: string;
 }
 

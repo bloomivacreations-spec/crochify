@@ -22,7 +22,16 @@ export const PatternPrintModal: React.FC<PatternPrintModalProps> = ({ pattern, o
   const handleDirectPdfDownload = () => {
     try {
       setIsGenerating(true);
-      generatePatternPdf(pattern);
+      if (pattern.pdfUrl) {
+        const link = document.createElement('a');
+        link.href = pattern.pdfUrl;
+        link.download = `${pattern.slug}.pdf`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      } else {
+        generatePatternPdf(pattern);
+      }
       setDownloadSuccess(true);
       setTimeout(() => setDownloadSuccess(false), 3500);
     } catch (err) {

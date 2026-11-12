@@ -2,6 +2,158 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-baby-checks-blanket',
+    slug: 'red-heart-baby-checks-crochet-blanket',
+    title: 'Baby Checks Pastel Block Heirloom Blanket',
+    category: 'baby-crochet',
+    subcategory: 'Baby Blankets',
+    description: 'A cheerful heirloom baby blanket featuring 72 modular check blocks in seafoam, pale rose, and sky blue with crisp white borders and picot trim.',
+    fullDescription: 'Wrap little ones in handmade warmth with the Baby Checks Blanket (Red Heart LW1831). Composed of 72 dimensional modular blocks arranged 8 wide by 9 long, each square highlights a vibrant pastel cross motif enclosed within clean white frames and accented with playful long single crochet stitches. Finished with a multi-tonal border and delicate shell picot edging, this 38 x 42 inch [96.5 x 106.5 cm] blanket is durable, machine-washable, and ideal for cribs, nurseries, and cherished baby showers.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '16 - 20 hours',
+    hookSize: '5.5 mm (US I-9)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'RED HEART® Classic™ (3.5 oz / 190 yds): 3 skeins 1 White (A), 1 skein each 683 Lt Seafoam (B), 755 Pale Rose (C), 818 Blue Jewel (D). Or RED HEART® Super Saver®: 2 skeins 311 White (A), 1 skein each 668 Honeydew (B), 724 Baby Pink (C), 381 Lt Blue (D)',
+    gauge: 'Each Block = 4" [10 cm] square using 5.5 mm (US I-9) hook',
+    finishedSize: 'Approx. 38" x 42" [96.5 cm x 106.5 cm]',
+    materials: [
+      'RED HEART® Classic™ or Super Saver® Medium #4 yarn:',
+      '  - Color A (White): 3 skeins Classic (or 2 skeins Super Saver)',
+      '  - Color B (Lt Seafoam / Honeydew): 1 skein',
+      '  - Color C (Pale Rose / Baby Pink): 1 skein',
+      '  - Color D (Blue Jewel / Lt Blue): 1 skein',
+      'Crochet Hook: 5.5 mm (US I-9) or size needed to obtain gauge',
+      'Yarn needle for whipstitching blocks and weaving ends'
+    ],
+    abbreviations: [
+      { abbr: 'A', name: 'Color A', meaning: 'White yarn used for block framing and border' },
+      { abbr: 'B', name: 'Color B', meaning: 'Lt Seafoam / Honeydew contrasting color' },
+      { abbr: 'C', name: 'Color C', meaning: 'Pale Rose / Baby Pink contrasting color' },
+      { abbr: 'D', name: 'Color D', meaning: 'Blue Jewel / Lt Blue contrasting color' },
+      { abbr: 'CC', name: 'Contrasting Color', meaning: 'Color B, C, or D used for block center and outer frame' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'tr', name: 'Treble (Triple) Crochet', meaning: 'Yarn over twice, insert hook, [yo, pull 2] 3 times' },
+      { abbr: 'long sc', name: 'Long Single Crochet', meaning: 'Insert hook in indicated lower space or ring, yarn over, pull loop to height of current round, yo and draw through both loops' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'picot', name: 'Picot Stitch', meaning: 'Ch 3, slip st in first ch of chain-3' },
+      { abbr: 'ch-sp', name: 'Chain Space', meaning: 'Space formed by chains in previous round' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Baby Block Motif (Make 72 Blocks Total)',
+        notes: 'Make 24 blocks with Color B (Lt Seafoam), 24 blocks with Color C (Pale Rose), and 24 blocks with Color D (Blue Jewel). Each block measures 4" x 4" square.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Foundation Ring',
+            instruction: 'With CC (B, C, or D), ch 4; slip st to first ch to form a ring.',
+            stitchCount: 'Ring made'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 1 (Treble Cross Center)',
+            instruction: 'Ch 4 (counts as tr), 2 tr in ring, ch 3, [3 tr in ring, ch 3] 3 times, slip st to top of beginning ch. Fasten off CC.',
+            stitchCount: '4 treble clusters (12 tr total) and 4 corner ch-3 spaces'
+          },
+          {
+            stepNumber: 3,
+            label: 'Round 2 (White Frame & Spike SC)',
+            instruction: 'Join A (White) in any ch-3 space, ch 2 (counts as sc), *sc in same ch-3 space, insert hook in center ring, yo and pull up a loop, yo and pull loop through both loops on hook – long sc made, 2 sc in same ch-3 space, ch 3, sc in next ch-3 space; repeat from * around, slip st to top of beginning ch.',
+            stitchCount: '4 sc and 1 long sc each side (4 corner ch-3 spaces)'
+          },
+          {
+            stepNumber: 4,
+            label: 'Round 3 (Double Crochet Expansion)',
+            instruction: 'Ch 3 (counts as dc), *dc in each sc and long sc, dc in ch-3 space, ch 3, dc in same ch-3 space; repeat from * around, slip st to top of beginning ch.',
+            stitchCount: '7 dc each side, 4 corner ch-3 spaces'
+          },
+          {
+            stepNumber: 5,
+            label: 'Round 4 (Crisp Single Crochet Edge)',
+            instruction: 'Ch 1 (counts as sc), *sc in each dc to ch-3 space, 5 sc in ch-3 space; repeat from * around, sc in 2 dc, slip st to top of beginning ch. Fasten off A.',
+            stitchCount: '7 sc each side and 5 sc in each corner'
+          },
+          {
+            stepNumber: 6,
+            label: 'Round 5 (Contrasting Color Border & Spike)',
+            instruction: 'Join CC in any sc, ch 1 (counts as sc), *sc in each sc to 3rd sc of the 5-sc corner, skip 3rd sc, work long sc into ch-3 space of Round 3; repeat from * around, sc to first ch-1, slip st to top of beginning ch. Fasten off CC leaving a tail for joining.',
+            stitchCount: '11 sc between each corner long sc (4" square completed)'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Blanket Assembly (8 Blocks Wide x 9 Blocks Long)',
+        notes: 'Arrange the 72 blocks into an 8-column by 9-row grid following the classic checkerboard color layout so no adjacent blocks have the same color.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Grid Arrangement',
+            instruction: 'Follow the color repeat across all 9 rows: Row 1: B, D, C, B, D, C, B, D | Row 2: C, B, D, C, B, D, C, B | Row 3: D, C, B, D, C, B, D, C | Row 4: B, D, C, B, D, C, B, D | Row 5: C, B, D, C, B, D, C, B | Row 6: D, C, B, D, C, B, D, C | Row 7: B, D, C, B, D, C, B, D | Row 8: C, B, D, C, B, D, C, B | Row 9: D, C, B, D, C, B, D, C.',
+            stitchCount: '72 blocks positioned'
+          },
+          {
+            stepNumber: 8,
+            label: 'Whipstitching Blocks',
+            instruction: 'With right sides facing and using yarn needle with matching yarn, whipstitch blocks together. Join all horizontal rows into strips first, then whipstitch vertical seams together for flat, seamless joins.',
+            stitchCount: 'Blanket body fully joined'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Multi-Tone Perimeter Edging & Picot Trim',
+        notes: 'Four distinct framing rounds accentuate the checkerboard patchwork with White, Blue Jewel, Seafoam, and a delicate Pale Rose picot scallop.',
+        steps: [
+          {
+            stepNumber: 9,
+            label: 'Edging Round 1 (Color A - White)',
+            instruction: 'Join A in any st along the outer perimeter and ch 1. Sc in each st around the entire blanket, working 3 sc in each corner. Slip st in beginning ch. Fasten off A.',
+            stitchCount: 'Perimeter foundation round'
+          },
+          {
+            stepNumber: 10,
+            label: 'Edging Round 2 (Color D - Blue Jewel)',
+            instruction: 'Join D in any st and ch 1. Repeat Round 1 (sc in each st around, 3 sc in each corner). Slip st in beginning ch. Fasten off D.',
+            stitchCount: 'Accent color round 2'
+          },
+          {
+            stepNumber: 11,
+            label: 'Edging Round 3 (Color B - Lt Seafoam)',
+            instruction: 'Join B in any st and ch 1. Repeat Round 1 (sc in each st around, 3 sc in each corner). Slip st in beginning ch. Fasten off B.',
+            stitchCount: 'Accent color round 3'
+          },
+          {
+            stepNumber: 12,
+            label: 'Picot Round 4 (Color C - Pale Rose Scallop Finish)',
+            instruction: 'Join C in any st and ch 1. *Sc in next 2 sc, ch 3, slip st in first ch (picot made), sc in next st; repeat from * around the entire blanket. Slip st in beginning ch. Fasten off C.',
+            stitchCount: 'Finished picot scalloped edge'
+          },
+          {
+            stepNumber: 13,
+            label: 'Finishing & Weaving Ends',
+            instruction: 'Using a yarn needle, securely weave in all loose ends on the wrong side of the blanket. Gently steam block or hand wash and lay flat to dry to open up the picots and keep all 72 squares neat and flat.',
+            stitchCount: 'Finished heirloom blanket: 38" x 42"'
+          }
+        ]
+      }
+    ],
+    image: '/images/red_heart_baby_checks_blanket.jpg',
+    galleryImages: [
+      '/images/red_heart_baby_checks_blanket.jpg',
+      '/images/red_heart_baby_checks_blanket_detail.jpg',
+      '/images/red_heart_baby_checks_blanket_bunny.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.97,
+    reviewCount: 289,
+    pdfPageCount: 2,
+    pdfUrl: '/patterns/red_heart_baby_checks_blanket.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-bernat-gingham-blanket',
     slug: 'bernat-gingham-crochet-baby-blanket',
     title: 'Bernat Gingham Check Heirloom Baby Blanket',
@@ -142,6 +294,7 @@ export const PATTERNS: Pattern[] = [
     rating: 4.98,
     reviewCount: 342,
     pdfPageCount: 6,
+    pdfUrl: '/patterns/bernat_gingham_baby_blanket.pdf',
     dateAdded: '2026-11-11'
   },
   {
@@ -290,6 +443,7 @@ export const PATTERNS: Pattern[] = [
     rating: 4.97,
     reviewCount: 268,
     pdfPageCount: 6,
+    pdfUrl: '/patterns/patons_carousel_baby_blanket.pdf',
     dateAdded: '2026-11-11'
   },
   {
