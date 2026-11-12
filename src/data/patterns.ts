@@ -2,6 +2,161 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-lion-brand-granny-afghan',
+    slug: 'lion-brand-granny-square-baby-afghan',
+    title: 'Granny Square Pastel Baby Afghan',
+    category: 'baby-crochet',
+    subcategory: 'Baby Blankets',
+    description: 'A kaleidoscopic pastel baby afghan featuring 30 circular lace & shell motifs worked in self-striping Chamomile yarn with a scalloped border.',
+    fullDescription: 'Bring whimsical heirloom charm into the nursery with the Granny Square Baby Afghan (Lion Brand M22118 BL, designed in collaboration with Missy Marshall). Crocheted in self-striping Lion Brand Bundle of Love in #209 Chamomile, this design transforms 30 circle-in-a-square motifs into an enchanting patchwork using a seamless join-as-you-go technique. Measuring approx. 32 x 38 inches [81.5 x 96.5 cm], it combines playful lace, spike stitches, and lush 5-dc shells framed by a double scalloped border.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '14 - 18 hours',
+    hookSize: '6.0 mm (US J-10)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'LION BRAND® BUNDLE OF LOVE (Art. #149, 100% Acrylic, 11 oz/312g, 688 yd/629m): 2 balls #209 Chamomile',
+    gauge: 'Rnds 1-3 = about 2 1/2 in. (6.5 cm). 1 Granny Square = about 6 1/4 in. (16 cm) square with 6.0 mm hook',
+    finishedSize: 'About 32 x 38 in. (81.5 x 96.5 cm)',
+    materials: [
+      'LION BRAND® BUNDLE OF LOVE (Art. #149): 2 balls #209 Chamomile',
+      'LION BRAND® crochet hook size J-10 (6.0 mm) or size needed to obtain gauge',
+      'LION BRAND® large-eyed blunt tapestry needle',
+      'Locking stitch markers',
+      'Scissors'
+    ],
+    abbreviations: [
+      { abbr: 'Corner-fan', name: 'Corner Fan', meaning: 'Work (2 dc, tr, ch 2, tr, 2 dc) in indicated stitch' },
+      { abbr: 'Shell', name: 'Shell Stitch', meaning: 'Work 5 dc in indicated stitch or space' },
+      { abbr: 'Spike-dc', name: 'Spike Double Crochet', meaning: 'Yarn over, insert hook in next st in indicated round below and draw up a loop to height of current row, [yo, draw through 2] twice. Skip ch-1 space covered by spike st' },
+      { abbr: 'sc2tog-over-sps', name: 'SC 2 Together Over 2 Ch Spaces', meaning: 'Insert hook in first ch-sp, draw up loop, insert hook in next ch-sp, draw up loop, yo and draw through all 3 loops on hook (1 st decreased)' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yo, pull through all 3 loops' },
+      { abbr: 'tr', name: 'Treble (Triple) Crochet', meaning: 'Yarn over twice, insert hook, [yo, pull 2] 3 times' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates the facing side of work' },
+      { abbr: 'ch-sp', name: 'Chain Space', meaning: 'Space formed by chains in previous round' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Center Circle & Lace Shell Motifs (Make 30)',
+        notes: 'Each motif begins with a circular floral center, expands with spike stitches and 5-dc shells, and is squared off with corner fans. Make 30 squares total.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Foundation Ring & Round 1 (RS)',
+            instruction: 'Ch 4; join with sl st in first ch to form a center ring. Rnd 1 (RS): Ch 1, 8 sc in ring; join with sl st in first sc.',
+            stitchCount: '8 sc'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 2 (Spoke Expansion)',
+            instruction: 'Ch 1, sc in first st, *ch 1, sc in next st; rep from * around, ch 1; join with sl st in first sc.',
+            stitchCount: '8 sc and 8 ch-1 sps'
+          },
+          {
+            stepNumber: 3,
+            label: 'Round 3 (Center Florets)',
+            instruction: 'Ch 1, (sc, ch 2, sc) in first st, *ch 1, (sc, ch 2, sc) in next st; rep from * around, ch 1; join with sl st in first sc. Fasten off.',
+            stitchCount: '16 sc, 8 ch-1 sps, and 8 ch-2 sps'
+          },
+          {
+            stepNumber: 4,
+            label: 'Round 4 (WS - Spike DC Stitches)',
+            instruction: 'From WS, draw up a loop in any ch-2 sp, ch 1, sc in same ch-2 sp, ch 2, sk next sc, Spike-dc in next ch-1 sp 2 rnds below, *ch 2, sk next sc, sc in next ch-2 sp, ch 2, sk next sc, Spike-dc in next ch-1 sp 2 rnds below; rep from * to last sc, ch 2, sk last sc; join with sl st in first sc.',
+            stitchCount: '8 Spike-dc, 8 sc, and 16 ch-2 sps'
+          },
+          {
+            stepNumber: 5,
+            label: 'Round 5 (RS - 5-DC Shells)',
+            instruction: 'Ch 1, TURN, *sc in next ch-2 sp, sk next st, Shell (5 dc) in next ch-2 sp, sk next st; rep from * around; join with sl st in first sc.',
+            stitchCount: '8 Shells and 8 sc'
+          },
+          {
+            stepNumber: 6,
+            label: 'Round 6 (Alternating Shell Florets)',
+            instruction: 'Sl st in next 2 dc, (sl st, ch 1, sc) in center dc of first Shell, sk next 2 dc, Shell in next sc, *sk next 2 dc, sc in center dc of next Shell, sk next 2 dc, Shell in next sc; rep from * around; join with sl st in first sc.',
+            stitchCount: '8 Shells and 8 sc'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Squaring the Circle (Rounds 7 & 8)',
+        notes: 'Stitches of graduated heights (sc, hdc, Corner-fans) shape the circular lace into a crisp 6¼" square.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Round 7 (Corner Fans & Shaping)',
+            instruction: 'Sl st in next 2 dc, (sl st, ch 1, sc) in next st, ch 2, sk next 2 dc, hdc in next sc, ch 2, sk next 2 dc, sc in center dc of next Shell, ch 2, sk next 2 dc, Corner-fan (2 dc, tr, ch 2, tr, 2 dc) in next sc, *ch 2, sk next 2 dc, sc in center dc of next Shell, ch 2, sk next 2 dc, hdc in next sc, ch 2, sk next 2 dc, sc in center dc of next Shell, ch 2, sk next 2 dc, Corner-fan in next sc; rep from * to last 2 dc, ch 2, sk last 2 dc; join with sl st in first sc.',
+            stitchCount: '4 Corner-fans, 4 hdc, 8 sc, 16 ch-2 sps'
+          },
+          {
+            stepNumber: 8,
+            label: 'Round 8 (WS - Framing Border)',
+            instruction: 'Ch 1, TURN, 2 sc in first ch-2 sp, ch 1, sk next dc, sc in next dc, ch 1, sk next tr, (sc, ch 2, sc) in corner ch-2 sp, *ch 1, sk next tr, sc in next dc, (ch 1, sk next st, 2 sc in next ch-2 sp) 4 times, ch 1, sk next dc, sc in next dc, ch 1, sk next tr, (sc, ch 2, sc) in corner ch-2 sp; rep from * 2 more times, ch 1, sk next tr, sc in next dc, (ch 1, sk next st, 2 sc in next ch-2 sp) to last sc, ch 1, sk last sc; join with sl st in first sc. Fasten off.',
+            stitchCount: '48 sc, 28 ch-1 sps, 4 corner ch-2 sps (6¼" square)'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Join-As-You-Go Assembly (6 Rows x 5 Squares)',
+        notes: 'Squares are joined seamlessly during Round 9 using a join-as-you-go technique across ch-2 and corner ch-4 spaces.',
+        steps: [
+          {
+            stepNumber: 9,
+            label: 'Layout & First Square (Round 9)',
+            instruction: 'Arrange all 30 Squares into 6 rows of 5 Squares each. Work Round 9 on the top-left square without joining: From RS, draw up loop in any corner ch-2 sp, ch 1, *(sc, ch 4, sc) in corner ch-2 sp, (sc, ch 2, sc) in next ch-1 sp, [ch 1, (sc, ch 2, sc) in next ch-1 sp] 6 times; rep from * 3 more times; join with sl st in first sc. Fasten off.',
+            stitchCount: 'First square completed'
+          },
+          {
+            stepNumber: 10,
+            label: 'Joining Remaining Squares (Join-As-You-Go)',
+            instruction: 'Work Rnd 9 around each remaining Square from left to right, row by row. To join ch-2 sps: ch 1, drop loop from hook, insert hook front-to-back through neighboring ch-2 sp, draw loop through, ch 1. To join corner ch-4 sps: ch 2, drop loop, insert hook through neighboring ch-4 sp, draw loop through, ch 2. At 4-corner intersections, join diagonally as indicated in pattern notes.',
+            stitchCount: 'All 30 squares joined'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Double Scallop Outer Border',
+        notes: 'A two-round shell border frames the perimeter of the assembled afghan for a romantic nursery finish.',
+        steps: [
+          {
+            stepNumber: 11,
+            label: 'Border Round 1 (RS - Shell Fans)',
+            instruction: 'From RS, draw up a loop in any corner ch-4 sp. Ch 1, *(sc, Shell, sc) in corner ch-4 sp, Shell in next ch-2 sp, [sk next ch-1 sp, sc in next ch-2 sp, sk next ch-1 sp, Shell in next ch-2 sp] 3 times, **sc2tog-over-sps, Shell in next ch-2 sp, [sk next ch-1 sp, sc in next ch-2 sp, sk next ch-1 sp, Shell in next ch-2 sp] 3 times; rep from ** to next corner ch-4 sp; rep from * 3 more times; join with sl st in first sc.',
+            stitchCount: 'Scalloped shell perimeter'
+          },
+          {
+            stepNumber: 12,
+            label: 'Border Round 2 (Lace Shell Framing)',
+            instruction: 'Ch 1, sc in same sc as joining sl st, ch 2, sk next 2 dc, (sc, ch 2, sc) in next dc (center dc of Shell), *ch 2, sk next 2 dc, sc in next sc, ch 2, sk next 2 dc, (sc, ch 2, sc) in next dc; rep from * to last 2 dc, ch 2, sk last 2 dc; join with sl st in first sc. Fasten off.',
+            stitchCount: 'Finished delicate border'
+          },
+          {
+            stepNumber: 13,
+            label: 'Finishing & Blocking',
+            instruction: 'Weave in all remaining yarn ends securely on the wrong side using your tapestry needle. Wet block or steam lightly to 32 x 38 in. (81.5 x 96.5 cm) to open the lace and define every shell scallop.',
+            stitchCount: 'Finished afghan: 32" x 38"'
+          }
+        ]
+      }
+    ],
+    image: '/images/lion_brand_granny_square_baby_afghan.jpg',
+    galleryImages: [
+      '/images/lion_brand_granny_square_baby_afghan.jpg',
+      '/images/lion_brand_granny_square_baby_afghan_detail.jpg',
+      '/images/lion_brand_granny_square_baby_afghan_nursery.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.96,
+    reviewCount: 194,
+    pdfPageCount: 5,
+    pdfUrl: '/patterns/lion_brand_granny_square_baby_afghan.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-baby-checks-blanket',
     slug: 'red-heart-baby-checks-crochet-blanket',
     title: 'Baby Checks Pastel Block Heirloom Blanket',
