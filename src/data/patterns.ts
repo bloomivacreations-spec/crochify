@@ -537,6 +537,154 @@ export const PATTERNS: Pattern[] = [
     dateAdded: '2026-11-12'
   },
   {
+    id: 'pat-maisie-ruth-delightful-days-dress',
+    slug: 'delightful-days-sunburst-crochet-dress',
+    title: 'Delightful Days Sunburst Crochet Dress',
+    category: 'baby-crochet',
+    subcategory: 'Baby Clothes',
+    description: 'A breezy retro sunburst granny square sundress featuring vibrant floral motifs along the empire bodice, an A-line granny cluster flared skirt with contrast hemline, and sweet shoulder bow ties.',
+    fullDescription: 'Light, joyful, and effortlessly stylish, the Delightful Days Dress (designed by Amanda at Maisie and Ruth) is the ultimate vintage-inspired summer sundress for babies, toddlers, and little girls. Constructed with breathable lightweight #3 / DK cotton yarn, the dress begins with a striking empire-waist bodice made of vibrant sunburst granny squares (with puff stitch rings and 4-dc cluster floral petals). The airy flared skirt is crocheted in continuous rounds of classic granny clusters, highlighted by a crisp white accent row and finished with a delicate scalloped hem. Comfortable crocheted shoulder tie straps adjust with graceful bows for a tailored fit that grows with your child. Written across 7 comprehensive sizes from newborn up to 10 years (0–6m, 6–12m, 1–2y, 3–4y, 5–6y, 7–8y, and 9–10y).',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '6 - 10 hours',
+    hookSize: '3.5 mm (US E-4) and 4.0 mm (US G-6) or size needed to obtain gauge',
+    yarnWeight: 'DK / Light Worsted (#3)',
+    yarnDetails: 'Sirdar Stories DK or Paintbox Yarns Cotton DK (60% Cotton, 40% Acrylic, or 100% Cotton; 50g / 140m / 153 yds): 3 (4, 5, 6, 7, 8, 9) balls Main Color (Lilac Purple or Bubblegum Pink), plus 1 ball each of Sunshine Yellow (Color A), Sky Blue (Color B), Secondary Contrast (Color C), and Bright White (Color D) for sunburst motifs and accent hem',
+    gauge: '4-round Sunburst Granny Square = 3.5" x 3.5" [9 x 9 cm] with 4.0 mm hook (or 3.25" [8.25 cm] with 3.5 mm hook for smaller sizes); Skirt stitch gauge: 5 granny clusters and 9 rounds = 4" [10 cm] in cluster pattern',
+    finishedSize: 'Chest: 0–6m (18" [46 cm]), 6–12m (19.5" [49.5 cm]), 1–2y (21" [53 cm]), 3–4y (23" [58.5 cm]), 5–6y (25" [63.5 cm]), 7–8y (27.5" [70 cm]), 9–10y (30" [76 cm]). Length (excluding ties): 14" to 26.5" [35.5 to 67 cm]',
+    materials: [
+      'DK / Light Worsted #3 cotton or cotton-blend yarn (50g / 140m per ball):',
+      '  - Main Color (Lilac Purple or Bubblegum Pink): 3 (4, 5, 6, 7, 8, 9) balls (Empire bodice frame, skirt body & shoulder ties)',
+      '  - Sunshine Yellow (Color A): 1 ball (Flower center eyes)',
+      '  - Sky Blue (Color B): 1 ball (Round 2 puff stitches)',
+      '  - Contrast Accent Pink/Lilac (Color C): 1 ball (Round 3 cluster petals)',
+      '  - Bright White (Color D): 1 ball (Granny square frames, lower accent stripe & hem scallops)',
+      'Crochet Hooks: 3.5 mm (US E-4) and 4.0 mm (US G-6) or size needed to meet gauge',
+      'Yarn tapestry needle for joining squares and weaving ends',
+      'Measuring tape and locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'mr / adj-ring', name: 'Magic Ring', meaning: 'Adjustable foundation ring worked seamlessly in the round' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, yo, draw through all 3 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, [yo, pull through 2 loops] twice' },
+      { abbr: 'tr', name: 'Treble Crochet', meaning: 'Yarn over twice, insert hook, pull up loop, [yo, pull through 2 loops] 3 times' },
+      { abbr: 'puff', name: 'Puff Stitch', meaning: '[yo, insert hook in st, yo, pull up loop to height of dc] 3 times (7 loops on hook), yo, draw through all 7 loops, ch 1 to lock' },
+      { abbr: '4-dc-cl', name: '4-dc Cluster Petal', meaning: '[yo, insert hook in ch-sp, yo, pull up loop, yo, pull through 2 loops] 4 times (5 loops on hook), yo, draw through all 5 loops' },
+      { abbr: 'granny-cl', name: 'Granny Cluster', meaning: '3 double crochet stitches worked into the same chain space' },
+      { abbr: 'ch-sp', name: 'Chain Space', meaning: 'Space formed by chains between stitch groups' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of garment' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Sunburst Granny Square Bodice Motifs',
+        notes: 'Make 6 (6, 6, 8, 8, 8, 10) sunburst granny squares according to size. Use 3.5 mm hook for 0–6m and 4.0 mm hook for all larger sizes.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Round 1: Floral Center (Color A)',
+            instruction: 'With Sunshine Yellow (Color A), create a magic ring, ch 3 (counts as 1st dc), work 15 dc into ring; join with sl st to top of beg ch-3. Gently pull yarn tail to close ring tightly. Fasten off Color A. (16 dc total).',
+            stitchCount: '16 dc'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 2: Puff Stitch Ring (Color B)',
+            instruction: 'Join Sky Blue (Color B) in any stitch between dc posts. Ch 1, *work puff stitch in st, ch 1; rep from * in each stitch around (16 puff stitches, 16 ch-1 spaces). Join with sl st to top of first puff. Fasten off Color B.',
+            stitchCount: '16 puff stitches, 16 ch-1 sps'
+          },
+          {
+            stepNumber: 3,
+            label: 'Round 3: 4-dc Cluster Petals (Color C)',
+            instruction: 'Join Contrast Pink/Lilac (Color C) in any ch-1 space. Ch 2, work 4-dc cluster in same sp, ch 2, *4-dc cluster in next ch-1 sp, ch 2; rep from * in each ch-1 space around. Join with sl st to top of first cluster. Fasten off Color C.',
+            stitchCount: '16 cluster petals, 16 ch-2 sps'
+          },
+          {
+            stepNumber: 4,
+            label: 'Round 4: Squaring the Circle (Color D or Main Color)',
+            instruction: 'Join Bright White (or Main Color) in any ch-2 space. Corner: ch 4 (counts as tr), 1 tr, ch 2, 2 tr in same space. *Along side: [3 dc in next ch-2 sp, 3 hdc in next ch-2 sp, 3 dc in next ch-2 sp]. Next Corner: (2 tr, ch 2, 2 tr) in next sp; rep from * 2 more times, then work side stitches along 4th edge; join with sl st to 4th ch of beg ch-4. Fasten off and wet block squares flat.',
+            stitchCount: '4 corners (2 tr, ch 2, 2 tr) + 12 side 3-st groups'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Bodice Band Assembly & Neckline Edging',
+        notes: 'The squares form the empire-waist bodice band around the child’s chest.',
+        steps: [
+          {
+            stepNumber: 5,
+            label: 'Assembling the Bodice Ring',
+            instruction: 'Lay the completed sunburst squares in a horizontal line with Right Sides facing up (3 front, 3 back for smaller sizes; 4 front, 4 back for mid sizes). Align corner spaces and matching stitches. Using a tapestry needle with Main Color (or a crochet hook working flat slip stitches through back loops only), join adjacent squares together into a continuous strip. Finally, join the two outer ends together to form a circular bodice ring.',
+            stitchCount: 'Circular 6 (6, 6, 8, 8, 8, 10)-square bodice ring'
+          },
+          {
+            stepNumber: 6,
+            label: 'Top Bodice & Armhole Edging',
+            instruction: 'With RS facing, join Main Color at a side seam along the top edge of the bodice band. Round 1: Ch 1, work 1 sc in each stitch and 1 sc in each joined corner seam around the entire upper perimeter. Join with sl st to first sc. Round 2: Ch 1, sc in each st around; join with sl st. Fasten off.',
+            stitchCount: 'Neat, non-curling top neckline edge'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'A-Line Granny Cluster Flared Skirt',
+        notes: 'Worked directly into the bottom edge of the bodice ring in continuous rounds, widening gently into an A-line sundress skirt.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Skirt Foundation Round 1',
+            instruction: 'Turn bodice upside down with RS facing out. Join Main Color with sl st in any space between squares along the lower edge. Ch 3 (counts as dc), 2 dc in same space (first granny cluster), ch 1. *Work 3 dc in next space, ch 1; rep from * across bottom edge of all squares, working [3 dc, ch 1, 3 dc] in every corner space to initiate the A-line flare. Join with sl st to top of beg ch-3.',
+            stitchCount: 'Granny cluster skirt base'
+          },
+          {
+            stepNumber: 8,
+            label: 'Skirt Body Rounds (Main Color)',
+            instruction: 'Sl st into first ch-1 space, ch 3, 2 dc in same sp, ch 1, *3 dc in next ch-1 sp, ch 1; rep from * around; join with sl st to top of beg ch-3. Repeat for 12 (14, 18, 22, 26, 30, 34) rounds total in Main Color until skirt reaches approx. 1.5" [4 cm] above desired hemline. (To customize length or add flare, work increase clusters [3 dc, ch 1, 3 dc] every 5th round along side edges).',
+            stitchCount: 'Continuous flowing granny clusters'
+          },
+          {
+            stepNumber: 9,
+            label: 'Contrast Accent Stripe (Color D - White)',
+            instruction: 'Fasten off Main Color. Join Bright White in any ch-1 space. Ch 3, 2 dc in same sp, ch 1, *3 dc in next ch-1 sp, ch 1; rep from * around; join with sl st to top of beg ch-3. Fasten off Bright White.',
+            stitchCount: '1 crisp white contrast cluster row'
+          },
+          {
+            stepNumber: 10,
+            label: 'Lower Hemline & Scalloped Shell Trim',
+            instruction: 'Rejoin Main Color in any ch-1 space. Round 1: Ch 3, 2 dc in same sp, ch 1, *3 dc in next ch-1 sp, ch 1; rep around; join with sl st to top of beg ch-3. Round 2 (Scallop Shell Edge): Ch 1, *sc in first st, skip 1 st, 5 dc in next st (shell), skip 1 st, sl st in next st; rep from * around the entire lower hem. Join with sl st to first sc, fasten off, and weave in ends.',
+            stitchCount: 'Delicate wavy scallop hem'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Adjustable Bow Tie Shoulder Straps',
+        notes: 'Four tie cords (two front, two back) allow customizable fit and tie into dainty bows at each shoulder.',
+        steps: [
+          {
+            stepNumber: 11,
+            label: 'Crocheting the Shoulder Ties (Make 4)',
+            instruction: 'Lay dress flat. Mark the inner and outer seam points of the center front square (and corresponding points on back square) for strap placement. Join Main Color with sl st at marked front position along top edge. Ch 45 (50, 55, 60, 65, 70, 75) for a sturdy tie cord (approx. 9"–12" [23–30 cm] long). Sl st in 2nd ch from hook and in each chain back to bodice edge, sl st into bodice to anchor securely. Fasten off. Repeat for the remaining 3 strap locations (1 front, 2 back). Tie front and back cords together into sweet shoulder bows.',
+            stitchCount: '4 secure shoulder tie straps'
+          }
+        ]
+      }
+    ],
+    image: '/images/delightful_days_sunburst_dress.jpg',
+    galleryImages: [
+      '/images/delightful_days_sunburst_dress.jpg',
+      '/images/delightful_days_sunburst_dress_bodice_detail.jpg',
+      '/images/delightful_days_sunburst_dress_skirt_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    seasonal: 'summer',
+    rating: 4.99,
+    reviewCount: 462,
+    pdfPageCount: 8,
+    pdfUrl: '/patterns/delightful_days_sunburst_dress.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-bernat-saturn-baby-pullover',
     slug: 'bernat-crochet-saturn-baby-pullover',
     title: 'Saturn Space Baby Raglan Pullover',
