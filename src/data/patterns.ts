@@ -276,6 +276,130 @@ export const PATTERNS: Pattern[] = [
     dateAdded: '2026-11-12'
   },
   {
+    id: 'pat-maisie-ruth-willow-ridge-beanie',
+    slug: 'willow-ridge-easy-crochet-baby-beanie',
+    title: 'Willow Ridge Easy Textured Baby Beanie',
+    category: 'baby-crochet',
+    subcategory: 'Baby Hats & Bonnets',
+    description: 'A cozy modern baby beanie featuring the textured piqué ridge stitch worked top-down, a neat stretchy brim, and a plush faux-fur pom-pom on top.',
+    fullDescription: 'The Willow Ridge Beanie (designed by Amanda at Maisie and Ruth) is a delightful, modern top-down baby hat celebrated for its rich tactile ridges and quick beginner-friendly construction. Worked in the round starting with standard flat double crochet crown increases, the body seamlessly transitions into the signature piqué stitch—created with an intuitive "Special Cluster" (SPcl: 1 dc and 1 hdc worked into the same stitch)—forming dense, insulating diagonal textured ribs. Finished with a clean single crochet / slip stitch brim and crowned with a luxurious detachable faux-fur pom-pom. Written across 8 comprehensive sizes from Newborn up to Adult Large, making it a beloved choice for matching parent-and-baby gifts, hospital take-home sets, and cozy autumn/winter wardrobes.',
+    isPremium: false,
+    difficulty: 'Beginner',
+    estimatedTime: '2 - 4 hours',
+    hookSize: '4.0 mm (US G-6), 4.5 mm (US 7), 5.0 mm (US H-8), or 5.5 mm (US I-9) according to size',
+    yarnWeight: 'DK / Light (#3) for Newborn to 3–6 mos; Worsted / Aran (#4) for 6–12 mos to Adult',
+    yarnDetails: 'Stylecraft Bambino DK (100% Premium Acrylic; 100g / 293 yds / 268m) or Caron Simply Soft / Paintbox Yarns Simply Aran (100% Acrylic; 170g / 315 yds / 288m): 1 ball (approx. 70 to 140 yds) in Mustard Yellow, Camel Beige, Mint Seafoam, or Dusty Rose',
+    gauge: 'Crown circle diameter after round 3/4 matches size gauge: Newborn: 3.5" [9 cm] after Rnd 3 (4.0 mm hook); 0–3 mos: 4" [10 cm] after Rnd 3 (4.5 mm hook); 3–6 mos: 4.5" [11.5 cm] after Rnd 4 (5.0 mm hook); 6–12 mos / 1–2y: 4.75" [12 cm] after Rnd 4 (5.0 mm hook). Texture gauge: 4 SPcl groups = 3" [7.5 cm]',
+    finishedSize: 'Circumference: Newborn (12.5" [32 cm]), 0–3 mos (14" [35.5 cm]), 3–6 mos (15" [38 cm]), 6–12 mos (16.5" [42 cm]), 1–2 yrs (18" [45.5 cm]), 3–10 yrs (19.5" [49.5 cm]), Adult M (21" [53 cm]), Adult L (22.5" [57 cm]). Height (excluding pom-pom): 5" to 8.5" [12.5 to 21.5 cm]',
+    materials: [
+      'Yarn (approx. 70–140 yards): Stylecraft Bambino DK for baby sizes or Caron Simply Soft / Paintbox Aran for older baby & toddler sizes in chosen solid shade (Mustard, Camel, Mint, or Rose)',
+      'Crochet Hook: 4.0 mm (Newborn), 4.5 mm (0–3 mos), 5.0 mm (3–6 mos & 6–12 mos / 1–2y), or 5.5 mm (Child / Adult)',
+      'Fluffy faux-fur pom-pom (approx. 8–10 cm diameter) with snap button or attachment tie',
+      'Yarn tapestry needle for weaving ends and sewing button/pom-pom',
+      'Measuring tape and locking stitch marker'
+    ],
+    abbreviations: [
+      { abbr: 'mr / adj-ring', name: 'Magic Ring', meaning: 'Adjustable foundation loop worked seamlessly in the round' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yo, pull through all 3 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, [yo, pull through 2 loops] twice' },
+      { abbr: 'SPcl', name: 'Special Cluster', meaning: 'Work 1 dc and 1 hdc into the same designated stitch' },
+      { abbr: 'sk', name: 'Skip', meaning: 'Skip indicated stitch or chain' },
+      { abbr: 'st / sts', name: 'Stitch / Stitches', meaning: 'Standard stitch count units' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of fabric' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Crown Increases (Top-Down Foundation)',
+        notes: 'Hat is worked seamlessly in the round from the crown apex downwards. Ch 2 at start of round does not count as a stitch.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Round 1: Foundation Ring',
+            instruction: 'Make a magic ring, ch 2, work 11 (11, 12, 12, 12, 12, 12, 12) dc into ring. Pull tail gently to close center hole completely. Join with sl st to first dc.',
+            stitchCount: '11 or 12 dc'
+          },
+          {
+            stepNumber: 2,
+            label: 'Round 2: Double Increase',
+            instruction: 'Ch 2, work 2 dc in each stitch around. Join with sl st to first dc.',
+            stitchCount: '22 or 24 dc'
+          },
+          {
+            stepNumber: 3,
+            label: 'Round 3: Expanding Crown',
+            instruction: 'Ch 2, *2 dc in first st, 1 dc in next st; rep from * around. Join with sl st to first dc. (Measures approx. 3.5" [9 cm] for Newborn; 4" [10 cm] for 0–3 mos).',
+            stitchCount: '33 or 36 dc'
+          },
+          {
+            stepNumber: 4,
+            label: 'Round 4: Final Crown Increase (3–6 mos and up)',
+            instruction: 'For 3–6 mos through Adult sizes: Ch 2, *2 dc in first st, 1 dc in next 2 sts; rep from * around. Join with sl st to first dc (44 or 48 dc). For Child/Adult sizes: work 1 additional increase round [2 dc, dc in next 3 sts] if needed to meet target crown diameter (approx. 5"–6").',
+            stitchCount: '44 to 48 dc'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Textured Piqué Ridge Body (Special Clusters)',
+        notes: 'Transition into the signature piqué stitch. Each SPcl (1 dc and 1 hdc in the same st) creates a soft diagonal textured rib.',
+        steps: [
+          {
+            stepNumber: 5,
+            label: 'Piqué Body Round 1: Cluster Setup',
+            instruction: 'Ch 1 (does not count as st), work SPcl (1 dc, 1 hdc) into the very first st at base of ch-1, skip next st, *SPcl in next st, skip next st; rep from * around. Join with sl st to first dc of beg SPcl.',
+            stitchCount: 'Alternating SPcl groups'
+          },
+          {
+            stepNumber: 6,
+            label: 'Piqué Body Rounds: Textured Ribs',
+            instruction: 'Ch 1, *SPcl into the space between the dc and hdc of the previous round cluster, skip next st; rep from * around in continuous pattern. Join with sl st to top of first SPcl. Repeat for 6 (7, 8, 10, 11, 13, 15, 17) rounds total until beanie reaches approx. 1" [2.5 cm] shorter than desired total height.',
+            stitchCount: 'Even, textured diagonal ridges'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Fitted Brim & Faux Fur Pom-Pom Topper',
+        notes: 'Finished with a clean non-stretching single crochet/slip stitch brim and topped with a fluffy pom-pom.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Brim Rounds 1–2: Single Crochet Edge',
+            instruction: 'Ch 1, sc in each stitch around; join with sl st to first sc. Repeat for a second round of sc (working in back loops only for subtle ribbed elasticity).',
+            stitchCount: 'Fitted brim base'
+          },
+          {
+            stepNumber: 8,
+            label: 'Brim Round 3: Slip Stitch Finishing',
+            instruction: 'Ch 1, loosely work 1 sl st in each sc around the brim edge for a clean, stable border. Fasten off and weave in all yarn tails securely on WS with a tapestry needle.',
+            stitchCount: 'Clean elastic brim finish'
+          },
+          {
+            stepNumber: 9,
+            label: 'Attaching Faux Fur Pom-Pom',
+            instruction: 'Sew the metal snap button (or tie cords) securely to the inside center of the crown apex. Snap on the fluffy faux fur pom-pom. Gently fluff with your fingers or a cool hairdryer for full plush volume.',
+            stitchCount: 'Finished luxury pom-pom beanie'
+          }
+        ]
+      }
+    ],
+    image: '/images/willow_ridge_baby_beanie.jpg',
+    galleryImages: [
+      '/images/willow_ridge_baby_beanie.jpg',
+      '/images/willow_ridge_baby_beanie_stitch_detail.jpg',
+      '/images/willow_ridge_baby_beanie_pompom_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    seasonal: 'winter',
+    rating: 4.99,
+    reviewCount: 512,
+    pdfPageCount: 5,
+    pdfUrl: '/patterns/willow_ridge_baby_beanie.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-red-heart-sweet-bunny-hat',
     slug: 'red-heart-sweet-bunny-earflap-baby-hat',
     title: 'Sweet Bunny Earflap Baby Beanie',
