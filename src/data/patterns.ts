@@ -2,6 +2,133 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-bernat-saturn-baby-pullover',
+    slug: 'bernat-crochet-saturn-baby-pullover',
+    title: 'Saturn Space Baby Raglan Pullover',
+    category: 'baby-crochet',
+    subcategory: 'Baby Clothes',
+    description: 'An out-of-this-world seamless top-down raglan sweater in teal with retro striped cuffs and a 3D yellow Saturn appliqué with embroidered rings and stars.',
+    fullDescription: 'Launch baby’s style into the cosmos with the Crochet Saturn Baby Pullover (Bernat® Bundle Up™ BRC0229-030513M). Worked top-down in one seamless piece from the neckband down, this raglan pullover features an easy-to-slip-on striped neckline, raglan yoke V-stitch increases, and a relaxed cozy fit in velvety-soft Brook teal. Color-blocked retro athletic stripes accent the cuffs and hem, while a bright yellow Saturn planet appliqué with embroidered multi-tone orbital rings and twinkle stars brings whimsical wonder to the chest. Sized for 6, 12, 18, and 24 months.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '8 - 12 hours',
+    hookSize: '5.0 mm (US H/8) & 6.0 mm (US J/10)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'Bernat® Bundle Up™ (4.9 oz/140 g; 267 yds/244 m): 2 (2, 3, 3) balls Main Color (MC) Brook (74012), 1 ball each of Contrast A Cloud White (74028), Contrast B Dove (74022), Contrast C Duckling (74019), and Contrast D Posy (74023)',
+    gauge: '16 sc and 17 rows = 4" [10 cm] using 5.0 mm (US H/8) hook',
+    finishedSize: 'Chest: 6 mos (19½" [49.5 cm]), 12 mos (21½" [54.5 cm]), 18 mos (23½" [59.5 cm]), 24 mos (25½" [65 cm])',
+    materials: [
+      'Bernat® Bundle Up™ Worsted Medium #4 yarn:',
+      '  - Main Color (MC) Brook (74012): 2 (2, 3, 3) balls',
+      '  - Contrast A Cloud White (74028): 1 ball (Stripes & planet rings)',
+      '  - Contrast B Dove Grey (74022): 1 ball (Stripes & planet rings)',
+      '  - Contrast C Duckling Yellow (74019): 1 ball (Saturn planet, stripes & stars)',
+      '  - Contrast D Posy Coral/Pink (74023): 1 ball (Stripes & outer ring)',
+      'Size U.S. H/8 [5.0 mm] crochet hook (main body, sleeves & ribbing)',
+      'Size U.S. J/10 [6.0 mm] crochet hook (foundation neck chain only)',
+      'Yarn tapestry needle for embroidery and weaving ends',
+      'Locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'V-st', name: 'V-Stitch', meaning: '(1 dc, ch 1, 1 dc) in indicated stitch or space' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yo, pull through all 3 loops' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'BLO', name: 'Back Loop Only', meaning: 'Work into the back loop only of indicated stitch' },
+      { abbr: 'sp(s)', name: 'Space(s)', meaning: 'Space formed by chains in previous round' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of work' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Striped Neckband & Top-Down Raglan Yoke',
+        notes: 'Sweater is worked top-down in one seamless piece. Foundation chain uses larger 6.0 mm hook so neckline easily slips over baby’s head without stretching.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Striped Neck Opening (Rounds 1–4)',
+            instruction: 'With larger hook (6.0 mm / J-10) and Color A (Cloud White), ch 56 (60-64-68) loosely; join with sl st to first ch, taking care not to twist. Switch to smaller hook (5.0 mm / H-8). Rnd 1: Ch 1, 1 sc in each ch around; join B with sl st. Rnd 2: With B, working in back loops only (BLO), 1 sc in each sc around; join C. Rnd 3: With C, in BLO, 1 sc in each sc around; join D. Rnd 4: With D, in BLO, 1 sc in each sc around; join MC (Brook) and break contrast yarns.',
+            stitchCount: '56 (60-64-68) sc in striped collar'
+          },
+          {
+            stepNumber: 2,
+            label: 'Raglan Yoke Increases (MC Brook)',
+            instruction: 'Rnd 1: With MC, ch 3 (counts as dc), 1 dc in each of next 7 (8-9-10) sts, V-st (1 dc, ch 1, 1 dc) in next st, 1 dc in each of next 10 sts (sleeve), V-st in next st, 1 dc in each of next 16 (18-20-22) sts (front), V-st in next st, 1 dc in each of next 10 sts (sleeve), V-st in next st, 1 dc in each of last 8 (9-10-11) sts (back); join with sl st to top of ch 3. Rnd 2: Ch 3, *1 dc in each dc to ch-1 sp of next V-st, V-st in ch-1 sp; rep from * 3 times more, dc in each st to end; join. Repeat Rnd 2 for 7 (8-9-10) times more.',
+            stitchCount: '124 (136-148-160) dc and 4 ch-1 sps'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Dividing Sleeves & Working Sweater Body',
+        notes: 'Underarm chains are added to create a comfortable, roomy fit through the chest and torso.',
+        steps: [
+          {
+            stepNumber: 3,
+            label: 'Sleeve Division Round',
+            instruction: 'Ch 2, 1 hdc in each of first 17 (19-21-23) dc, 1 hdc in ch-1 sp of V-st, ch 3 for underarm, skip next 28 (30-32-34) dc for sleeve, 1 hdc in ch-1 sp of next V-st, 1 hdc in each of next 34 (38-42-46) dc, 1 hdc in ch-1 sp of next V-st, ch 3 for underarm, skip next 28 (30-32-34) dc for sleeve, 1 hdc in ch-1 sp of next V-st, 1 hdc in each of last 17 (19-21-23) hdc; join with sl st in first hdc.',
+            stitchCount: '78 (86-94-102) hdc'
+          },
+          {
+            stepNumber: 4,
+            label: 'Body Rounds & Striped Hem Ribbing',
+            instruction: 'Ch 2, 1 hdc in each hdc or ch around; join. Continue working even in hdc rounds until work from underarm measures 6½ (7½-8-8½)" [16.5 (19-20.5-21.5) cm]. Join Color A. Break MC. Ribbing: Rnd 1: With A, ch 1, in BLO, 1 sc in each hdc around; join B. Rnd 2: With B, in BLO, 1 sc in each sc around; join C. Rnd 3: With C, in BLO, 1 sc in each sc around; join D. Rnd 4: With D, in BLO, 1 sc in each sc around. Fasten off.',
+            stitchCount: 'Sweater body & striped hem complete'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Seamless Striped Sleeves (Make 2)',
+        notes: 'Sleeves are picked up seamlessly from underarm and worked down in the round with retro athletic color-blocked stripes.',
+        steps: [
+          {
+            stepNumber: 5,
+            label: 'Sleeve Rounds (MC Brook)',
+            instruction: 'From RS, join MC with sl st to center of underarm ch. Ch 2, 1 hdc in each ch and dc around; join with sl st to first hdc (31 [33-35-37] hdc). Work even in hdc rounds until sleeve measures 2½ (3-3-4)" [6.5 (7.5-7.5-10) cm] from dividing round.',
+            stitchCount: '31 (33-35-37) hdc'
+          },
+          {
+            stepNumber: 6,
+            label: 'Retro Stripe Sequence & Cuffs',
+            instruction: 'Work in back loops only: Rnds 1 & 2 in Color A (Cloud White); Rnds 3 & 4 in Color B (Dove Grey); Rnds 5 & 6 in Color C (Duckling Yellow); Rnds 7 & 8 in Color D (Posy Coral). Join MC. Work 2 rounds even in MC (1 hdc in each sc in BLO). Continue even until sleeve measures 6½ (7½-8-8½)" from underarm. Cuffs: With MC, work 3 rounds of sc in BLO around wrist. Fasten off. Repeat for second sleeve.',
+            stitchCount: 'Both sleeves completed'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Saturn Planet Applique & Celestial Embroidery',
+        notes: 'A bright yellow circular planet adorned with 4-color chain stitch rings and embroidered stars.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Saturn Planet Applique',
+            instruction: 'With C (Duckling Yellow) and smaller hook, ch 2. Rnd 1: 8 sc in 2nd ch from hook; join. Rnd 2: Ch 1, 2 sc in each sc around; join (16 sc). Rnd 3: Ch 1, (1 sc in next st, 2 sc in next st) 8 times; join (24 sc). Rnd 4: Ch 1, (sc in next 2 sts, 2 sc in next st) 8 times; join (32 sc). Rnd 5: Ch 1, (sc in next 3 sts, 2 sc in next st) 8 times; join (40 sc). Rnd 6: Ch 1, (sc in next 2, 2 sc in next, sc in next 2) 8 times; join (48 sc). Rnd 7: Ch 1, (sc in next 5 sts, 2 sc in next st) 8 times; join (56 sc). Fasten off leaving long tail. Sew centered onto chest.',
+            stitchCount: '56 sc (sculpted planet circle)'
+          },
+          {
+            stepNumber: 8,
+            label: 'Embroidering Planetary Rings & Twinkle Stars',
+            instruction: 'Using 2 strands of yarn and chain stitch, embroider Saturn’s rings across the planet in sequence: Cloud White (A), Dove Grey (B), Brook Teal (MC), and Posy Coral (D). With single strand of Duckling Yellow (C), embroider 4-point twinkle stars randomly across the chest using straight stitches. Weave in all ends.',
+            stitchCount: 'Hand-embroidered cosmic detailing'
+          }
+        ]
+      }
+    ],
+    image: '/images/bernat_crochet_saturn_baby_pullover.jpg',
+    galleryImages: [
+      '/images/bernat_crochet_saturn_baby_pullover.jpg',
+      '/images/bernat_crochet_saturn_baby_pullover_planet_detail.jpg',
+      '/images/bernat_crochet_saturn_baby_pullover_cuff_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 382,
+    pdfPageCount: 3,
+    pdfUrl: '/patterns/bernat_crochet_saturn_baby_pullover.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-bernat-everyday-bib-booties',
     slug: 'bernat-everyday-baby-bib-and-booties-set',
     title: 'Everyday Pastel Baby Bib & Booties Set',
