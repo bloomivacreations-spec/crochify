@@ -2,6 +2,133 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-red-heart-sweet-bunny-hat',
+    slug: 'red-heart-sweet-bunny-earflap-baby-hat',
+    title: 'Sweet Bunny Earflap Baby Beanie',
+    category: 'baby-crochet',
+    subcategory: 'Baby Hats & Bonnets',
+    description: 'An adorable heirloom bunny hat in soft off-white with rose blush pink-lined floppy ears, a 12-petal blossom accent, earflaps, and braided tassel ties.',
+    fullDescription: 'Make every milestone photo irresistible with the Sweet Bunny Hat (Red Heart RHC0216-019039M / LW4393, designed by Salena Baca). Crocheted in velvety-soft Red Heart Soft yarn in gentle Off White and Rose Blush pink, this whimsical baby beanie features cozy tapered earflaps, long floppy two-tone bunny ears, a dimensional 12-petal flower appliqué, and two-tone braided earflap ties with fluffy tassels. Sized across 4 circumferences: Small (14"), Medium (16"), Large (18"), and X-Large (20") to comfortably fit preemies, newborns, infants, and toddlers from 0 to 24 months.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '3 - 5 hours',
+    hookSize: '5.5 mm (US I-9)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'RED HEART® Soft® (solid 5 oz/141g; 256 yd/234m): 1 ball 4601 Off White (Color A) and 1 ball 9770 Rose Blush (Color B)',
+    gauge: '14 sts and 6 rows = 4" x 3¼" [10 x 8.5 cm] in double crochet using 5.5 mm (US I-9) hook',
+    finishedSize: 'Circumference at brim: Small 14" [35.5 cm] (newborn), Medium 16" [40.5 cm] (0–6 mos), Large 18" [45.5 cm] (6–12 mos), X-Large 20" [51 cm] (12–24 mos)',
+    materials: [
+      'RED HEART® Soft® Worsted Medium #4 yarn:',
+      '  - 4601 Off White (Color A): 1 ball (Main beanie crown, body & outer ears)',
+      '  - 9770 Rose Blush (Color B): 1 ball (Inner ears, 12-petal flower, brim edging & braids)',
+      'Susan Bates® Crochet Hook: 5.5 mm [US I-9] or size needed to obtain gauge',
+      'Yarn tapestry needle for joining ears and weaving ends',
+      'Locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'adj-ring', name: 'Adjustable Ring', meaning: 'Magic loop technique for working seamlessly in the round' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yo, pull through all 3 loops' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of work' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Crown & Main Hat Body',
+        notes: 'Hat is worked in joined rounds from the crown top down in Color A (Off White). Sized for Small (14" [35.5 cm]), Medium (16" [40.5 cm]), Large (18" [45.5 cm]), and X-Large (20" [51 cm]). Instructions for larger sizes are in parentheses.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Crown Foundation & Increases (Rounds 1–4)',
+            instruction: 'With A (Off White), make an adjustable ring, ch 1. Round 1 (RS): Work 12 dc in ring; join with sl st in first dc (12 dc). Pull tail gently to close ring. Round 2: Ch 1, 2 dc in each st around; join with sl st (24 dc). Round 3: Ch 1, dc in first st, 2 dc in next st, *dc in next st, 2 dc in next st; rep from * around; join (36 dc). Round 4: Ch 1, dc in first 2 sts, 2 dc in next st, *dc in next 2 sts, 2 dc in next st; rep from * around; join (48 dc).',
+            stitchCount: '48 dc (flat crown)'
+          },
+          {
+            stepNumber: 2,
+            label: 'Size Circumference Expansion & Body Rounds',
+            instruction: 'Size Small: Rounds 5–11: Ch 1, dc in each st around; join (48 dc). Size Medium: Round 5: (dc in next 5 sts, 2 dc in next) around; join (56 dc). Rounds 6–12: dc in each st around; join. Size Large: Round 5: (dc in next 3 sts, 2 dc in next) around; join (60 dc). Round 6: (dc in next 14 sts, 2 dc in next) around; join (64 dc). Rounds 7–12: dc in each st around. Size X-Large: Round 5: (dc in next 3 sts, 2 dc in next) around (60 dc). Round 6: (dc in next 4 sts, 2 dc in next) around; join (72 dc). Rounds 7–13: dc in each st around. Do not fasten off.',
+            stitchCount: '48 (56, 64, 72) dc'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Right & Left Earflaps and Pink Brim Edging',
+        notes: 'Earflaps are worked in tapered double crochet rows, followed by a continuous Rose Blush single crochet perimeter edging.',
+        steps: [
+          {
+            stepNumber: 3,
+            label: 'Right Earflap (All Sizes)',
+            instruction: 'Row 1: Ch 2 (counts as first dc here and throughout), skip next st, dc in next 5 sts, skip next st, dc in next st; leave remaining sts unworked, turn (7 dc). Row 2: Ch 2, skip next st, dc in next 3 sts, skip next st, dc in last st, turn (5 dc). Row 3: Ch 2, skip next st, dc in next st, skip next st, dc in last st (3 dc). Fasten off.',
+            stitchCount: '3 dc (tapered point)'
+          },
+          {
+            stepNumber: 4,
+            label: 'Left Earflap & Rose Blush Edging',
+            instruction: 'With RS facing and back seam to the right, count to the left from right earflap and place marker on 21st (25th, 29th, 33rd) st. Join A with sl st in marked st and work Rows 1–3 same as right earflap. Edging: Join B (Rose Blush) with sc in center st at back of hat between earflaps, ch 1, sc in each st around working 3 sc in end of each row of earflap; join with sl st in first sc. Fasten off.',
+            stitchCount: 'Rose blush perimeter trim'
+          }
+        ]
+      },
+      {
+        sectionTitle: '3D Floppy Bunny Ears & Rose Blossom',
+        notes: 'Each ear is made with two layers (Off White outer, Rose Blush inner) crocheted together for natural floppy body.',
+        steps: [
+          {
+            stepNumber: 5,
+            label: 'Floppy Bunny Ears (Make 2)',
+            instruction: 'Outer Ear (Off White A): Leaving a 6" [15 cm] tail, ch 17. Row 1: Dc in 4th ch from hook and next 12 ch, 6 dc in last ch; working on opposite side of foundation ch, skip first ch, dc in next 13 ch, ch 2 (counts as dc), sl st in last ch (34 dc). Fasten off leaving 6" tail. Inner Ear (Rose Blush B): Work same as outer ear. Joining: Hold wrong sides together; working through both thicknesses with Color A, sc in first dc, sc evenly around ear perimeter, working last sc in top of last ch-2. Fasten off leaving 6" tail.',
+            stitchCount: '2 finished floppy two-tone bunny ears'
+          },
+          {
+            stepNumber: 6,
+            label: '12-Petal Flower Blossom',
+            instruction: 'With B (Rose Blush), make adjustable ring, ch 1. Round 1 (RS): Work 12 hdc in loop; join with sl st in first hdc (12 hdc). Round 2: [Sl st, ch 2, dc, ch 2, sl st] in every st around (petal made); join with sl st in first st (12 petals). Fasten off leaving sewing tail.',
+            stitchCount: '12-petal dimensional blossom'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Assembly & Braided Ties',
+        notes: 'Two-tone braided ties and ear attachment complete the cozy keepsake.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Attaching Floppy Ears & Flower',
+            instruction: 'Flatten hat and place stitch markers on each side edge at Round 3. Using Color A tails, pull through Rounds 3 and 4 to the wrong side and knot together to create a gently cupped ear base. Pull Color B tails to wrong side 3 stitches behind and knot securely. Repeat for second ear. Sew the 12-petal flower beside the ear as shown in photo.',
+            stitchCount: 'Ears & flower securely attached'
+          },
+          {
+            stepNumber: 8,
+            label: 'Two-Tone Braided Earflap Ties',
+            instruction: 'Cut 6 strands of Color A (Off White) and 3 strands of Color B (Rose Blush), each 28" [71 cm] long. Group into 3 hanks of 3 strands each. Thread through the bottom row of the earflap and fold over so strands are doubled (6 strands per hank). Braid the doubled hanks until 4" [10 cm] remain, tie an overhand knot tightly, and trim tassel ends evenly.',
+            stitchCount: '2 braided tassel ties'
+          },
+          {
+            stepNumber: 9,
+            label: 'Final Finishing',
+            instruction: 'Weave in all remaining yarn tails on the wrong side of the hat using a tapestry needle. Hat is ready for nursery wear or milestone baby photography!',
+            stitchCount: 'Finished heirloom bunny hat'
+          }
+        ]
+      }
+    ],
+    image: '/images/red_heart_sweet_bunny_baby_hat.jpg',
+    galleryImages: [
+      '/images/red_heart_sweet_bunny_baby_hat.jpg',
+      '/images/red_heart_sweet_bunny_baby_hat_ear_detail.jpg',
+      '/images/red_heart_sweet_bunny_baby_hat_baby_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 348,
+    pdfPageCount: 2,
+    pdfUrl: '/patterns/red_heart_sweet_bunny_baby_hat.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-red-heart-panda-baby-hat',
     slug: 'red-heart-panda-earflap-baby-hat',
     title: 'Panda Earflap Baby Beanie',
