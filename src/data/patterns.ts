@@ -2878,6 +2878,131 @@ export const PATTERNS: Pattern[] = [
     dateAdded: '2026-09-01'
   },
   {
+    id: 'pat-lovable-loops-baby-santa-hat',
+    slug: 'lovable-loops-classic-baby-santa-hat',
+    title: 'Lovable Loops Classic Baby Santa Hat',
+    category: 'christmas-crochet',
+    subcategory: 'Santa Claus',
+    description: 'An iconic holiday stocking hat for baby featuring a tapered Christmas-red cone, stretchy white ribbed brim, and a fluffy snow-white pom-pom.',
+    fullDescription: 'Celebrate baby’s first holiday season with the Lovable Loops Baby Santa Hat (designed by Melissa Hassler). Worked from the pointed apex down in joined rounds of double crochet, this festive hat gently flares into a relaxed, gently slouched stocking cap. The brim is finished in contrasting crisp white using textured front-post and back-post double crochet ribbing for a snug, gentle fit on tiny heads, and topped off with a giant fluffy faux-fur pom-pom. Perfect for Christmas card photos, family holiday gatherings, and newborn milestone portraits. Sized across 3 infant stages: 0–3 months, 3–6 months, and 6–12 months.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '2 - 3 hours',
+    hookSize: '5.0 mm (US H/8)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'Worsted weight #4 acrylic or wool-blend yarn (e.g., Red Heart Super Saver or Caron Simply Soft): approx. 80–120 yds Cherry Red (Color A) and 30–45 yds Bright White (Color B)',
+    gauge: '16 dc and 10 rows = 4" x 4" [10 x 10 cm] using 5.0 mm (US H/8) hook',
+    finishedSize: 'Circumference: 0–3 mos (13"–14" [33–35.5 cm]), 3–6 mos (14"–15" [35.5–38 cm]), 6–12 mos (15"–17" [38–43 cm]). Hat height (excluding pom-pom): approx. 8" to 10" [20 to 25.5 cm]',
+    materials: [
+      'Worsted weight #4 yarn in Christmas Red (Color A): approx. 80–120 yards',
+      'Worsted weight #4 yarn in Crisp White (Color B): approx. 30–45 yards',
+      'Crochet Hook: 5.0 mm [US H/8] or size needed to obtain gauge',
+      'Fluffy white faux-fur pom-pom (approx. 8–10 cm) or 3" yarn pom-pom',
+      'Yarn tapestry needle for weaving in tails and securing pom-pom',
+      'Tape measure and locking stitch marker'
+    ],
+    abbreviations: [
+      { abbr: 'mr / adj-ring', name: 'Magic Ring', meaning: 'Adjustable foundation loop worked in the round' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull up loop, [yo, pull through 2 loops] twice' },
+      { abbr: 'FPdc', name: 'Front Post Double Crochet', meaning: 'Insert hook from front to back to front around post of stitch below, yo, pull up loop, work dc as normal' },
+      { abbr: 'BPdc', name: 'Back Post Double Crochet', meaning: 'Insert hook from back to front to back around post of stitch below, yo, pull up loop, work dc as normal' },
+      { abbr: 'st / sts', name: 'Stitch / Stitches', meaning: 'Standard stitch count units' },
+      { abbr: 'Rnd / Rnds', name: 'Round / Rounds', meaning: 'Joined rounds worked in circles' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of hat' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Pointed Apex & Tapered Cone (Color A - Red)',
+        notes: 'Hat is worked in joined rounds from the cone tip downwards. Ch 2 at start of round does not count as a stitch.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Rounds 1–3: Starting the Cone Tip',
+            instruction: 'With Christmas Red (Color A), make a magic ring, ch 2. Rnd 1: Work 6 dc into ring; join with sl st to first dc (6 dc). Pull tail to close tip. Rnd 2: Ch 2, 2 dc in each st around; join with sl st to first dc (12 dc). Rnd 3: Ch 2, dc in each st around; join with sl st (12 dc).',
+            stitchCount: '12 dc (tapered point)'
+          },
+          {
+            stepNumber: 2,
+            label: 'Rounds 4–7: Gradual Conical Increases',
+            instruction: 'Rnd 4: Ch 2, *2 dc in first st, dc in next st; rep from * around; join (18 dc). Rnd 5: Ch 2, dc in each st around; join (18 dc). Rnd 6: Ch 2, *2 dc in first st, dc in next 2 sts; rep from * around; join (24 dc). Rnd 7: Ch 2, dc in each st around; join (24 dc).',
+            stitchCount: '24 dc'
+          },
+          {
+            stepNumber: 3,
+            label: 'Rounds 8–11: Mid-Cone Expansion',
+            instruction: 'Rnd 8: Ch 2, *2 dc in first st, dc in next 3 sts; rep from * around; join (30 dc). Rnd 9: Ch 2, dc in each st around; join (30 dc). Rnd 10: Ch 2, *2 dc in first st, dc in next 4 sts; rep from * around; join (36 dc). Rnd 11: Ch 2, dc in each st around; join (36 dc).',
+            stitchCount: '36 dc'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Hat Circumference Sizing Rounds (Color A)',
+        notes: 'Follow instructions for your desired infant size: 0–3 months, 3–6 months, or 6–12 months.',
+        steps: [
+          {
+            stepNumber: 4,
+            label: 'Size 0–3 Months (Final Red Rounds)',
+            instruction: 'Rnd 12: Ch 2, *2 dc in first st, dc in next 5 sts; rep from * around; join (42 dc). Rnds 13–15: Ch 2, dc in each st around; join (42 dc). Fasten off Color A (Red).',
+            stitchCount: '42 dc (circumference approx. 13"–14")'
+          },
+          {
+            stepNumber: 5,
+            label: 'Size 3–6 Months (Final Red Rounds)',
+            instruction: 'Rnd 12: Ch 2, *2 dc in first st, dc in next 5 sts; rep from * around; join (42 dc). Rnd 13: Ch 2, dc in each st around; join (42 dc). Rnd 14: Ch 2, *2 dc in first st, dc in next 6 sts; rep from * around; join (48 dc). Rnds 15–17: Ch 2, dc in each st around; join (48 dc). Fasten off Color A (Red).',
+            stitchCount: '48 dc (circumference approx. 14"–15")'
+          },
+          {
+            stepNumber: 6,
+            label: 'Size 6–12 Months (Final Red Rounds)',
+            instruction: 'Rnd 12: Ch 2, *2 dc in first st, dc in next 5 sts; rep from * around; join (42 dc). Rnd 13: Ch 2, dc in each st around; join (42 dc). Rnd 14: Ch 2, *2 dc in first st, dc in next 6 sts; rep from * around; join (48 dc). Rnd 15: Ch 2, *2 dc in first st, dc in next 7 sts; rep from * around; join (54 dc). Rnds 16–18: Ch 2, dc in each st around; join (54 dc). Fasten off Color A (Red).',
+            stitchCount: '54 dc (circumference approx. 15"–17")'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'White Ribbed Brim (Color B) & Pom-Pom Topper',
+        notes: 'Post-stitch ribbing ensures elasticity so the Santa hat stays securely on baby’s head.',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Brim Round 1: Foundation Round',
+            instruction: 'Join Crisp White (Color B) with sl st in any st along the bottom edge of hat. Ch 2, dc in each st around; join with sl st to first dc (42 [48, 54] dc).',
+            stitchCount: '42 (48, 54) dc'
+          },
+          {
+            stepNumber: 8,
+            label: 'Brim Rounds 2–4: Stretchy Post Stitch Ribbing',
+            instruction: 'Ch 2, *FPdc around first st, BPdc around next st; rep from * alternating front and back post stitches around. Join with sl st to first FPdc. Repeat for 2 to 3 rounds until white cuff measures approx. 1.25" to 1.5" [3 to 4 cm] wide. Fasten off and weave in all yarn ends neatly on WS.',
+            stitchCount: 'Plush ribbed elastic brim'
+          },
+          {
+            stepNumber: 9,
+            label: 'Attaching White Pom-Pom',
+            instruction: 'Sew the fluffy white faux-fur pom-pom (or 3" yarn pom-pom) securely to the tip of the pointed red cone. Tie inside knots firmly to withstand handling. Fluff the pom-pom gently, fold the tip slightly to the side, and get camera ready for holiday smiles!',
+            stitchCount: 'Finished festive baby Santa hat'
+          }
+        ]
+      }
+    ],
+    image: '/images/lovable_loops_baby_santa_hat.jpg',
+    galleryImages: [
+      '/images/lovable_loops_baby_santa_hat.jpg',
+      '/images/lovable_loops_baby_santa_hat_hat_detail.jpg',
+      '/images/lovable_loops_baby_santa_hat_brim_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    seasonal: 'christmas',
+    rating: 4.99,
+    reviewCount: 478,
+    pdfPageCount: 3,
+    pdfUrl: '/patterns/lovable_loops_baby_santa_hat.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-4',
     slug: 'nostalgic-frosted-snowflake-baubles',
     title: 'Nostalgic Frosted Snowflake Baubles',
