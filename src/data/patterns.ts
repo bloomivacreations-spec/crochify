@@ -2,6 +2,155 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-flower-garden-throw',
+    slug: 'red-heart-flower-garden-hexagon-throw',
+    title: 'Flower Garden 3D Hexagon Heirloom Throw',
+    category: 'baby-crochet',
+    subcategory: 'Baby Blankets',
+    description: 'A breathtaking heirloom floral afghan featuring 37 dimensional 3D flower hexagons in daffodils, roses, and violets, encircled by rippling rainbow shell borders.',
+    fullDescription: 'Bring an enchanting blooming meadow into any nursery or child’s room with the Flower Garden Throw (Red Heart RHC0502-018474M, designed by Nanette M. Seale). This masterwork is constructed from 37 dimensional hexagon motifs, each blooming with layered 3D flowers—cheerful sunny daffodils, layered purple violets, sky-blue blossoms, and ruffled bubblegum and hot pink tea roses. Once whipstitched into a honeycomb layout, the entire garden is framed in 10 rounds of rippling rainbow shell stitches in lettuce green, daffodil, lilac, violet, and pinks. Measuring 55 inches [139.5 cm] across, it is an unforgettable heirloom keepsake.',
+    isPremium: false,
+    difficulty: 'Intermediate',
+    estimatedTime: '25 - 35 hours',
+    hookSize: '5.5 mm (US I-9)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'RED HEART® With Love® (Art. E400, 7 oz/198g, 370 yd/338m): 3 skeins 1601 Lettuce (B); 1 skein each 1201 Daffodil (A), 1001 White (C), 1530 Violet (D), 1538 Lilac (E), 1805 Bluebell (F), 1704 Bubble Gum (G), and 1701 Hot Pink (H)',
+    gauge: '5 pattern repeats = 4” [10 cm] (one repeat = 2 dc); 1 hexagon motif = 5½” [14 cm] across; 4 rows = 4” [10 cm] in border pattern',
+    finishedSize: 'Approx. 55" [139.5 cm] across widest section including border',
+    materials: [
+      'RED HEART® With Love® Worsted Medium #4 yarn:',
+      '  - 1601 Lettuce (Color B): 3 skeins (Main foliage base & outer border)',
+      '  - 1201 Daffodil (Color A): 1 skein (Center hubs & sunny petals)',
+      '  - 1001 White (Color C): 1 skein (Daffodil petals & flower accents)',
+      '  - 1530 Violet (Color D): 1 skein (Deep purple blossoms)',
+      '  - 1538 Lilac (Color E): 1 skein (Soft purple blossoms)',
+      '  - 1805 Bluebell (Color F): 1 skein (Sky blue blossoms)',
+      '  - 1704 Bubble Gum (Color G): 1 skein (Pink ruffled roses)',
+      '  - 1701 Hot Pink (Color H): 1 skein (Deep pink ruffled roses)',
+      'Crochet Hook: 5.5 mm [US I-9] (Susan Bates) or size needed to obtain gauge',
+      'Yarn needle & locking stitch marker'
+    ],
+    abbreviations: [
+      { abbr: 'beg lg shell', name: 'Beginning Large Shell', meaning: '(Ch 3, 2 dc, ch 3, 3 dc) in indicated stitch' },
+      { abbr: 'lg shell', name: 'Large Shell', meaning: '(3 dc, ch 3, 3 dc) in indicated stitch' },
+      { abbr: 'beg sm shell', name: 'Beginning Small Shell', meaning: '(Ch 3, dc, ch 2, 2 dc) in indicated stitch' },
+      { abbr: 'sm shell', name: 'Small Shell', meaning: '(2 dc, ch 2, 2 dc) in indicated stitch' },
+      { abbr: 'dc2tog', name: 'Double Crochet 2 Together', meaning: '[Yarn over, insert hook in next st, yo, pull up loop, yo, draw through 2] twice, yo, draw through 3 loops' },
+      { abbr: 'sc2tog', name: 'Single Crochet 2 Together', meaning: '[Insert hook in next st, yo, pull up loop] twice, yo, draw through 3 loops' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yo, pull through all 3 loops' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'BLO / FLO', name: 'Back / Front Loop Only', meaning: 'Work into the back or front loop only of indicated stitch' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Hexagon Base Motifs (Make 37 Total)',
+        notes: 'Each hexagon is worked with Daffodil (A) for the center hub and Lettuce (B) for the outer foliage shells. Front loops of Rounds 1 & 3 are left free for the 3D flower petals.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Center Hub (Rounds 1–3 in Color A)',
+            instruction: 'With A, form an adjustable ring. Round 1 (RS): Ch 1, 6 sc in ring (6 sc). Do not turn. Move marker each rnd. Round 2: Working in back loops only, 2 sc in each st around (12 sc). Round 3: Working in back loops only, *sc in next st, 2 sc in next st; rep from * around; join in back loop of first sc (18 sc). Fasten off A.',
+            stitchCount: '18 sc in BLO (front loops free)'
+          },
+          {
+            stepNumber: 2,
+            label: 'Foliage Hexagon Rounds (Rounds 4–6 in Color B)',
+            instruction: 'Round 4 (RS): Working in back loops only, join B with sl st in any st, beg lg shell in same st, *sk next 2 sts, lg shell (3 dc, ch 3, 3 dc) in next st; rep from * around; join with sl st in top of beg ch, turn (6 lg shells). Round 5: Sl st in sp between shells, ch 3, 2 dc in same sp, *lg shell in ch-3 sp of next shell, 3 dc in next sp between shells; rep from * around; join, turn (6 lg shells, 18 dc). Round 6: Ch 1, sc in each st around, working 3 sc in each ch-3 corner; join with sl st (72 sc: 54 sc and six 3-sc corners). Fasten off B.',
+            stitchCount: 'Hexagon base completed (5½" across)'
+          }
+        ]
+      },
+      {
+        sectionTitle: '3D Sculpted Floral Blooms (37 Flowers)',
+        notes: 'Work dimensional flower petals directly into the unworked front loops of Rounds 1 & 3 of the base hexagons. Refer to diagram for color placement.',
+        steps: [
+          {
+            stepNumber: 3,
+            label: 'Daffodils #1 & #2 (Make 5 of each = 10 total)',
+            instruction: 'Cup: In FLO of Round 1, join A with sc, sc in same st, 2 sc in each st around (12 sc). Rnd 2: Sc in each st. Rnd 3: Sc in next st, (ch 1, sc) in each st around, ch 1; join (12 sc, 12 ch-1 sps). Fasten off. Petals #1–#6: In skipped sts of Rnd 4, work Row 1: join A (for Daffodil #1) or C White (for Daffodil #2), ch 3, 2 dc in same st, 3 dc in next st (6 dc), turn. Row 2: Ch 2, dc in next st, [dc2tog] twice (3 dc), turn. Row 3: Ch 2, sk first st, dc2tog, ch 2, sl st down ends of rows to base.',
+            stitchCount: '10 finished 3D Daffodils'
+          },
+          {
+            stepNumber: 4,
+            label: 'Purple Layered Flowers #1 & #2 (Make 5 of #1, 4 of #2 = 9 total)',
+            instruction: 'Purple #1: Outer Petals: In FLO of Rnd 3, join D Violet, *(ch 1, hdc, 2 dc) in same st, (2 dc, hdc, sl st) in next st, sl st in next st; rep from * around (6 petals). Inner Petals: In FLO of Rnd 1, join E Lilac, (ch 1, hdc, 2 dc, hdc, sl st) in each st around (6 inner petals). Purple #2: Work outer petals with E Lilac and inner petals with D Violet.',
+            stitchCount: '9 finished 3D Violets'
+          },
+          {
+            stepNumber: 5,
+            label: 'Blue Layered Flowers #1 & #2 (Make 5 of #1, 5 of #2 = 10 total)',
+            instruction: 'Outer Petals: In FLO of Rnd 3, join F Bluebell, work 6 sculpted petals (Row 1: 6 dc; Row 2: [sc2tog] 3 times; Row 3: sc across, sl st down row ends). Inner Petals: In FLO of Rnd 1, join C White (for Blue #1) or E Lilac (for Blue #2), *(ch 3, 2 dc, ch 3, sl st) in st; rep around (6 inner petals).',
+            stitchCount: '10 finished 3D Bluebell Flowers'
+          },
+          {
+            stepNumber: 6,
+            label: 'Pink Layered Ruffled Roses #1 & #2 (Make 4 of each = 8 total)',
+            instruction: 'Pink #1: Outer Petal Round: In FLO of Rnd 3, join G Bubble Gum, ch 3, 4 dc in same st, 5 dc in each st around; join (90 dc ruffled petal ring). Inner Petal Round: In FLO of Rnd 1, join H Hot Pink, ch 3, 4 dc in same st, 5 dc in each st around; join (30 dc ruffled center). Pink #2: Work outer petals with H Hot Pink and inner petals with G Bubble Gum.',
+            stitchCount: '8 finished 3D Ruffled Roses'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Honeycomb Assembly & Joining',
+        notes: 'Arrange 37 hexagons according to the Honeycomb Garden Path Assembly Diagram (Purple #2 at top, Daffodil #1 at bottom).',
+        steps: [
+          {
+            stepNumber: 7,
+            label: 'Whipstitching Hexagons',
+            instruction: 'Holding right sides together and working through inner loops only (top loop of lower piece and bottom loop of upper piece), whipstitch hexagons together with Lettuce B. Follow the honeycomb grid so all 37 floral motifs interlock cleanly.',
+            stitchCount: '37 hexagons assembled'
+          }
+        ]
+      },
+      {
+        sectionTitle: '10-Round Rippling Rainbow Shell Border',
+        notes: 'A spectacular rippling frame of rainbow hues creates a gentle wave of small shells and 2-dc groups around the entire outer perimeter.',
+        steps: [
+          {
+            stepNumber: 8,
+            label: 'Border Round 1 (Lettuce B Perimeter Base)',
+            instruction: 'With RS facing and working in back loops only, join B with sc in center st of 3-sc group at first outer corner, 2 sc in same st, sc in each st around working 3 sc in center st of each outer corner; join with sl st (570 sc). Fasten off B.',
+            stitchCount: '570 sc'
+          },
+          {
+            stepNumber: 9,
+            label: 'Border Rounds 2–8 (Rippling Rainbow Bands)',
+            instruction: 'Work small shells (2 dc, ch 2, 2 dc) and 2-dc groups in sequential rainbow stripes: Round 2 in Lettuce B (24 sm shells, 186 two-dc groups). Round 3 in Daffodil A (24 sm shells, 192 two-dc groups). Round 4 in Bubble Gum G (24 sm shells, 198 two-dc groups). Round 5 in Hot Pink H (24 sm shells, 204 two-dc groups). Round 6 in Bluebell F (24 sm shells, 210 two-dc groups). Round 7 in Lilac E (24 sm shells, 216 two-dc groups). Round 8 in Violet D (24 sm shells, 222 two-dc groups).',
+            stitchCount: '7 rainbow rippling rounds'
+          },
+          {
+            stepNumber: 10,
+            label: 'Border Rounds 9 & 10 (Foliage Waves & Scallop Shell Finale)',
+            instruction: 'Round 9: Join B in ch-2 sp, work sm shell, 2 dc between groups around (24 sm shells, 228 two-dc groups). Round 10: Sl st in next dc, sl st in ch-2 sp, (ch 3, 4 dc, sc) in same sp, 3 dc between sm shell and 2-dc group, *sc between 2-dc groups, 3 dc between next two 2-dc groups*; rep around working (5 dc, sc) in each sm shell; join (24 5-dc/sc groups and 126 3-dc groups). Fasten off.',
+            stitchCount: 'Rippling scalloped perimeter complete'
+          },
+          {
+            stepNumber: 11,
+            label: 'Finishing & Gentle Blocking',
+            instruction: 'Weave in all remaining ends on the wrong side using a yarn needle. Lightly steam block the back of the throw or gently finger-shape the 3D petals and scalloped border to full 55" (139.5 cm) width.',
+            stitchCount: 'Finished heirloom throw: 55" across'
+          }
+        ]
+      }
+    ],
+    image: '/images/flower_garden_throw_lifestyle.jpg',
+    galleryImages: [
+      '/images/flower_garden_throw_lifestyle.jpg',
+      '/images/flower_garden_throw_flatlay.jpg',
+      '/images/flower_garden_throw_detail.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 418,
+    pdfPageCount: 5,
+    pdfUrl: '/patterns/red_heart_flower_garden_throw.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-lion-brand-granny-afghan',
     slug: 'lion-brand-granny-square-baby-afghan',
     title: 'Granny Square Pastel Baby Afghan',
