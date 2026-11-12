@@ -2,6 +2,141 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-school-of-fish-blanket',
+    slug: 'red-heart-school-of-fish-ripple-blanket',
+    title: 'School of Fish Interactive Ripple Blanket',
+    category: 'baby-crochet',
+    subcategory: 'Baby Blankets',
+    description: 'A playful interactive nursery blanket featuring ocean ripple waves in Aruba Sea turquoise, framed with a rainbow border and 15 colorful swimming fish.',
+    fullDescription: 'Make tummy time an ocean adventure with the School of Fish Blanket (Red Heart LW4142, designed by Jessie Rayot). Worked in 54 rows of rhythmic chevron ripple waves in cooling Aruba Sea turquoise, the blanket mimics the movement of gentle ocean currents. A multi-color rainbow border in turquoise, pink, spring green, orange, and sunshine yellow frames the perimeter, which is then adorned with 15 dimensional crocheted fish appliqués with embroidered smiling faces. Sized at 36 x 36 inches [91.5 x 91.5 cm], it is a delightful sensory blanket for counting, color learning, and cozy crib cuddles.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '12 - 16 hours',
+    hookSize: '5.5 mm (US I-9)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'RED HEART® Super Saver® (7 oz/198g, 364 yds/333m): 3 skeins 505 Aruba Sea (Color A); 1 skein each 512 Turqua (Color B), 706 Perfect Pink (Color C), 672 Spring Green (Color D), 254 Pumpkin (Color E), 324 Bright Yellow (Color F), and small amount of 312 Black (Color G for embroidery)',
+    gauge: '1 ripple repeat (measured from peak to peak) = 5" [12.5 cm]; 5 rows = 3" [10 cm] using 5.5 mm hook',
+    finishedSize: 'Approx. 36" x 36" [91.5 x 91.5 cm]',
+    materials: [
+      'RED HEART® Super Saver® Worsted Medium #4 yarn:',
+      '  - 505 Aruba Sea (Color A): 3 skeins (Ripple ocean background)',
+      '  - 512 Turqua (Color B): 1 skein (Border round 1 & 3 fish)',
+      '  - 706 Perfect Pink (Color C): 1 skein (Border round 2 & 3 fish)',
+      '  - 672 Spring Green (Color D): 1 skein (Border round 3 & 3 fish)',
+      '  - 254 Pumpkin (Color E): 1 skein (Border round 4 & 3 fish)',
+      '  - 324 Bright Yellow (Color F): 1 skein (Border round 5 picots & 3 fish)',
+      '  - 312 Black (Color G): Small amount for embroidered eyes and smiles',
+      'Susan Bates® Crochet Hook: 5.5 mm [US I-9] or size needed to obtain gauge',
+      'Yarn tapestry needle for embroidery and assembly',
+      'Locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'dc2tog', name: 'Double Crochet 2 Together', meaning: '[Yarn over, insert hook in next st, yo, pull up loop, yo, draw through 2] twice, yo, draw through 3 loops' },
+      { abbr: 'picot', name: 'Picot Stitch', meaning: '(sc, ch 2, sc) in indicated stitch' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yo, pull through all 3 loops' },
+      { abbr: 'tr', name: 'Treble (Triple) Crochet', meaning: 'Yarn over twice, insert hook, [yo, pull 2] 3 times' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'adj-ring', name: 'Adjustable Ring', meaning: 'Magic adjustable loop for working in the round' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of work' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Ocean Ripple Waves (Rows 1–54)',
+        notes: 'The ocean waves are formed by alternating 2-dc peaks and 2-dc2tog valleys across 112 stitches. 54 rows total in Aruba Sea (Color A).',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Foundation Chain & Row 1 (RS)',
+            instruction: 'With A, ch 115 loosely. Working in back bump, dc in 4th ch from hook (counts as first 2 dc), dc in next ch, *dc in next 5 ch, [dc2tog] twice, dc in next 5 ch, 2 dc in next 2 ch; rep from * 5 times, dc in next 5 ch, [dc2tog] twice, dc in next 5 ch, 2 dc in last ch, turn.',
+            stitchCount: '112 sts (7 peaks and 7 valleys)'
+          },
+          {
+            stepNumber: 2,
+            label: 'Ripple Chevron Sequence (Rows 2–54)',
+            instruction: 'Ch 3 (counts as first dc), dc in first st, *dc in next 5 sts, [dc2tog] twice, dc in next 5 sts, 2 dc in next 2 sts; rep from * 5 times, dc in next 5 sts, [dc2tog] twice, dc in next 5 sts, 2 dc in top of beginning ch, turn. Repeat Row 2 for 54 rows total. Change to Color B (Turqua) in the last stitch of Row 54.',
+            stitchCount: '54 ripple rows completed'
+          }
+        ]
+      },
+      {
+        sectionTitle: '5-Round Rainbow Wave Perimeter Border',
+        notes: 'Each round frames the perimeter in a different vibrant shade with neat corner increases and picot waves.',
+        steps: [
+          {
+            stepNumber: 3,
+            label: 'Border Round 1 (Color B Turqua Foundation)',
+            instruction: 'Ch 1, (sc, ch 2, sc) in first st, sc in next 7 sts, [sk next st, sc in next 7 sts, 2 sc in next st, sc in next 7 sts] 6 times, sk next st, sc in next 6 sts, (sc, ch 2, sc) in last st; work 2 sc in end of each row down side; across opposite side of foundation ch, work in matching symmetry, 2 sc in end of each row up other side; join with sl st to first sc and change to C.',
+            stitchCount: '442 sc and 4 corner ch-2 spaces'
+          },
+          {
+            stepNumber: 4,
+            label: 'Border Rounds 2–4 (Pink, Green, and Orange Accent Bands)',
+            instruction: 'Round 2 (Color C Perfect Pink): Work sc across sides and ripple curves, (sc, ch 2, sc) in each corner ch-2 space; join and change to D (448 sts). Round 3 (Color D Spring Green): Repeat perimeter sc sequence; join and change to E (454 sts). Round 4 (Color E Pumpkin): Repeat perimeter sc sequence; join and fasten off E (460 sts).',
+            stitchCount: '460 sts and 4 corner ch-2 spaces'
+          },
+          {
+            stepNumber: 5,
+            label: 'Border Round 5 (Color F Bright Yellow Picots)',
+            instruction: 'With top edge and RS facing, join F with sl st in first ch-2 corner sp, ch 1, (sc, [ch 2, sc] twice) in corner sp, *[sk next st, picot in next st]; rep from * to next corner sp, (sc, [ch 2, sc] twice) in corner sp; rep around all 4 sides; join with sl st to first sc. Fasten off F.',
+            stitchCount: 'Bright yellow scalloped picot border'
+          }
+        ]
+      },
+      {
+        sectionTitle: '15 Colorful Fish Appliques (3 Each in 5 Colors)',
+        notes: 'Crochet 15 fish: 3 each in Turqua (B), Perfect Pink (C), Spring Green (D), Pumpkin (E), and Bright Yellow (F).',
+        steps: [
+          {
+            stepNumber: 6,
+            label: 'Fish Body (Rounds 1–3)',
+            instruction: 'Make an adjustable ring. Round 1 (RS): Ch 3 (counts as dc), work 13 dc into ring; join with sl st in top of beg ch (14 dc). Pull tail to close ring. Round 2: Ch 4 (counts as tr), 3 tr in same st, *2 dc in next st, 2 hdc in next st, 2 sc in next 2 sts, 2 hdc in next st, 2 dc in next st,* 4 tr in next st; rep from * to * once; join with sl st (32 sts). Round 3: Ch 1, sc in same st, 2 sc in next st, sc in next 15 sts, 2 sc in next st, sc in next 14 sts; join (34 sts).',
+            stitchCount: '34 sts (oval fish body)'
+          },
+          {
+            stepNumber: 7,
+            label: 'Sculpted Flared Tail & Facial Embroidery',
+            instruction: 'Tail Row: Ch 4, (4 tr, dc, hdc) in first st, sl st in next 2 sts, (hdc, dc, 4 tr, ch 4, sl st) in next st. Fasten off leaving a long tail for sewing. With Black yarn (G) and tapestry needle, stitch an "x" for an eye and a curved smile on the right side of each fish.',
+            stitchCount: '15 finished embroidered fish'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Layout & Assembly',
+        notes: 'Scatter the 15 fish swimming across the turquoise current ripples in schools or playful pairs.',
+        steps: [
+          {
+            stepNumber: 8,
+            label: 'Sewing Fish Appliques',
+            instruction: 'Position the 15 colorful fish in organic swimming directions along the ripples as shown in the lifestyle photo. Using yarn tails and tapestry needle, sew each fish firmly onto the blanket surface.',
+            stitchCount: '15 fish securely attached'
+          },
+          {
+            stepNumber: 9,
+            label: 'Final Finishing & Blocking',
+            instruction: 'Weave in all remaining yarn tails on the wrong side. Gently steam block or lay flat to dry to relax the chevron ripples and display the swimming fish.',
+            stitchCount: 'Finished heirloom blanket: 36" x 36"'
+          }
+        ]
+      }
+    ],
+    image: '/images/red_heart_school_of_fish_blanket.jpg',
+    galleryImages: [
+      '/images/red_heart_school_of_fish_blanket.jpg',
+      '/images/red_heart_school_of_fish_blanket_detail.jpg',
+      '/images/red_heart_school_of_fish_blanket_baby.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.98,
+    reviewCount: 276,
+    pdfPageCount: 2,
+    pdfUrl: '/patterns/red_heart_school_of_fish_blanket.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-caron-lite-n-bright-blanket',
     slug: 'caron-lite-n-bright-kaleidoscope-baby-blanket',
     title: 'Lite \'n Bright Kaleidoscope Baby Blanket',
