@@ -2,6 +2,140 @@ import { Pattern } from '../types';
 
 export const PATTERNS: Pattern[] = [
   {
+    id: 'pat-red-heart-panda-baby-hat',
+    slug: 'red-heart-panda-earflap-baby-hat',
+    title: 'Panda Earflap Baby Beanie',
+    category: 'baby-crochet',
+    subcategory: 'Baby Hats & Bonnets',
+    description: 'An irresistibly cute black-and-white panda hat featuring cozy earflaps, braided pom-pom ties, 3D curved ears, button eyes, and embroidered details.',
+    fullDescription: 'Keep tiny ears toasty and sweet with the Panda Baby Hat (Red Heart LW4404, designed by Salena Baca). Crocheted in classic Soft White and Black with washable, durable Red Heart Super Saver, this beanie features cozy earflaps with braided tassel ties, 3D curved ears, and an expressive appliquéd panda face complete with glossy white button pupils and a button nose. Sized for Small (16"), Medium (18"), and Large (20") to fit infants and toddlers from 0 to 24 months.',
+    isPremium: false,
+    difficulty: 'Easy',
+    estimatedTime: '3 - 5 hours',
+    hookSize: '5.5 mm (US I-9)',
+    yarnWeight: 'Worsted / Medium (#4)',
+    yarnDetails: 'RED HEART® Super Saver® (7 oz/198g, 364 yds/333m): 1 skein 316 Soft White (Color A) and 1 skein 312 Black (Color B)',
+    gauge: '13 sts and 7½ rounds = 4" [10 cm] in double crochet using 5.5 mm (US I-9) hook',
+    finishedSize: 'Circumference at brim: Small 16" [40.5 cm] (0–6 mos), Medium 18" [45.5 cm] (6–12 mos), Large 20" [51 cm] (12–24 mos)',
+    materials: [
+      'RED HEART® Super Saver® Worsted Medium #4 yarn:',
+      '  - 316 Soft White (Color A): 1 skein (Main crown & face)',
+      '  - 312 Black (Color B): 1 skein (Brim, earflaps, 3D ears, eyes & braids)',
+      'Susan Bates® Crochet Hook: 5.5 mm [US I-9] or size needed to obtain gauge',
+      'Two ¾" [19 mm] white buttons for eyes',
+      'Yarn tapestry needle for seaming and facial embroidery',
+      '4 locking stitch markers'
+    ],
+    abbreviations: [
+      { abbr: 'adj-ring', name: 'Adjustable Ring', meaning: 'Magic loop technique for working seamlessly in the round' },
+      { abbr: 'ch', name: 'Chain', meaning: 'Standard chain stitch' },
+      { abbr: 'sc', name: 'Single Crochet', meaning: 'Insert hook, yarn over, pull up loop, yarn over, pull through 2 loops' },
+      { abbr: 'dc', name: 'Double Crochet', meaning: 'Yarn over, insert hook, pull loop, [yo, pull 2] twice' },
+      { abbr: 'hdc', name: 'Half Double Crochet', meaning: 'Yarn over, insert hook, draw up loop, yo, pull through all 3 loops' },
+      { abbr: 'sl st', name: 'Slip Stitch', meaning: 'Insert hook, yarn over, pull through stitch and loop on hook' },
+      { abbr: 'RS / WS', name: 'Right Side / Wrong Side', meaning: 'Designates facing side of work' }
+    ],
+    instructions: [
+      {
+        sectionTitle: 'Crown & Main Hat Body',
+        notes: 'Hat is worked in joined rounds from the crown down. Sized for Small (16" [40.5 cm]), Medium (18" [45.5 cm]), and Large (20" [51 cm]). Instructions for larger sizes are in parentheses.',
+        steps: [
+          {
+            stepNumber: 1,
+            label: 'Crown Foundation & Increases (Rounds 1–4)',
+            instruction: 'With A (Soft White), make an adjustable ring, ch 1. Round 1 (RS): Work 12 hdc in ring; join with sl st in first st (12 hdc). Pull tail to close ring. Round 2: Ch 1, 2 hdc in each st around; join with sl st (24 hdc). Round 3: Ch 1, dc in first st, 2 dc in next st, [dc in next st, 2 dc in next st] 11 times; join with sl st (36 dc). Round 4: Ch 1, dc in first 2 sts, 2 dc in next st, [dc in next 2 sts, 2 dc in next st] 11 times; join with sl st (48 dc).',
+            stitchCount: '48 dc (flat crown)'
+          },
+          {
+            stepNumber: 2,
+            label: 'Size Circumference Expansion (Round 5)',
+            instruction: 'Round 5: Ch 1, dc in first 7 (3, 3) sts, 2 dc in next st, [dc in next 7 (3, 3) sts, 2 dc in next st] 5 (11, 11) times; join with sl st in first st—54 (60, 60) dc. (Size Large only: Work Round 6: Ch 1, dc in first 9 sts, 2 dc in next st, [dc in next 9 sts, 2 dc in next st] 5 times; join—66 dc).',
+            stitchCount: '54 (60, 66) dc'
+          },
+          {
+            stepNumber: 3,
+            label: 'Hat Body & Contrasting Black Brim',
+            instruction: 'Sizes Small & Medium: Rounds 6–10 (11): Ch 1, dc in each st around; change to Color B (Black); join. Rounds 11 (12) and 12 (13): Ch 1, dc in each st around; join. (Size Large: Rounds 7–12 in Color A; Rounds 13–14 in Color B). Do not fasten off.',
+            stitchCount: 'Hat body completed with black brim'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Right & Left Earflaps',
+        notes: 'Earflaps are worked directly from the brim edge in back-and-forth tapered double crochet rows.',
+        steps: [
+          {
+            stepNumber: 4,
+            label: 'Right Earflap (Rows 1–3)',
+            instruction: 'Row 1: Ch 2 (counts as first dc here and throughout), skip next st, dc in next 5 sts, skip next st, dc in next st; leave remaining sts unworked, turn (7 dc). Row 2: Ch 2, skip next st, dc in next 3 sts, skip next st, dc in last st, turn (5 dc). Row 3: Ch 2, skip next st, dc in next st, skip next st, dc in last st, turn (3 dc). Fasten off.',
+            stitchCount: '3 dc (tapered point)'
+          },
+          {
+            stepNumber: 5,
+            label: 'Left Earflap & Perimeter Edging',
+            instruction: 'With RS of right earflap facing and back seam to the right, count to the left from earflap and place marker on 25th (29th, 33rd) st. Join B with sl st in marked st and work Rows 1–3 same as right earflap. Edging: With RS facing, join B with sc at center back between earflaps, sc in each st around entire brim and work 3 sc in the end of each earflap row; join with sl st in first sc. Fasten off.',
+            stitchCount: 'Neat perimeter sc finish'
+          }
+        ]
+      },
+      {
+        sectionTitle: '3D Curved Ears, Eyes & Nose Appliques',
+        notes: 'Panda facial features are crocheted separately and sewn firmly onto the white front section.',
+        steps: [
+          {
+            stepNumber: 6,
+            label: '3D Curved Ears (Make 2)',
+            instruction: 'With B, make adjustable ring, ch 1. Round 1 (RS): Work 10 hdc in ring; join (10 hdc). Round 2: Ch 1, hdc in first st, 2 hdc in next st, [hdc in next st, 2 hdc in next st] 4 times; join (15 hdc). Round 3: Ch 1, hdc in each st around; join. Round 4: Ch 1, sc in each st around; join (15 sc). Fasten off leaving a long sewing tail. Flatten each ear and sew between Rounds 2 and 4 on each side of hat.',
+            stitchCount: 'Pair of 3D curved panda ears'
+          },
+          {
+            stepNumber: 7,
+            label: 'Panda Nose',
+            instruction: 'With B, make adjustable ring, ch 1. Round 1: Work 10 hdc in ring; join with sl st in first st (10 hdc). Pull tail to tighten ring. Fasten off leaving a long tail. Center nose neatly between eyes in the white section and sew in place.',
+            stitchCount: 'Sculpted nose circle'
+          },
+          {
+            stepNumber: 8,
+            label: 'Oval Eye Patches & Button Pupils (Make 2)',
+            instruction: 'With B, ch 7. Round 1: Sc in 2nd ch from hook and in next 4 ch, 5 hdc in last ch; working on opposite side of foundation ch, sc in first 5 ch, 2 sc in last ch; join with sl st in first st (17 sts). Round 2: Ch 1, 2 sc in first st, sc in next 4 sts, 2 hdc in next 5 sts, sc in next 5 sts, 2 sc in last 2 sts; join (25 sts). Fasten off leaving tail. Sew eye patches angled outward on either side of nose. Sew ¾" white buttons to eye patches with Black yarn.',
+            stitchCount: '2 button-eyed panda eye patches'
+          }
+        ]
+      },
+      {
+        sectionTitle: 'Braided Ties & Finishing',
+        notes: 'Chunky braided ties with fluffy tassel knots keep the hat snug and comfortable.',
+        steps: [
+          {
+            stepNumber: 9,
+            label: 'Braided Earflap Ties (Make 2)',
+            instruction: 'Cut nine 28" [71 cm] strands of Black B. Separate into 3 hanks of 3 strands each. Thread each hank through the last row of the earflap and fold over so strands are doubled (6 strands per hank). Braid the doubled hanks until 4" [10 cm] of strands remain, tie an overhand knot tightly, and trim tassel ends evenly.',
+            stitchCount: '2 braided pom-pom tassel ties'
+          },
+          {
+            stepNumber: 10,
+            label: 'Finishing & Weaving Ends',
+            instruction: 'Weave in all remaining yarn tails on the wrong side of the hat using a tapestry needle. The hat is ready for nursery adventures or baby shower gifting!',
+            stitchCount: 'Finished heirloom panda hat'
+          }
+        ]
+      }
+    ],
+    image: '/images/red_heart_panda_baby_hat.jpg',
+    galleryImages: [
+      '/images/red_heart_panda_baby_hat.jpg',
+      '/images/red_heart_panda_baby_hat_face_detail.jpg',
+      '/images/red_heart_panda_baby_hat_lifestyle.jpg'
+    ],
+    featured: true,
+    trending: true,
+    rating: 4.99,
+    reviewCount: 294,
+    pdfPageCount: 2,
+    pdfUrl: '/patterns/red_heart_panda_baby_hat.pdf',
+    dateAdded: '2026-11-12'
+  },
+  {
     id: 'pat-bernat-saturn-baby-pullover',
     slug: 'bernat-crochet-saturn-baby-pullover',
     title: 'Saturn Space Baby Raglan Pullover',
